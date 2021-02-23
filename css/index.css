@@ -28,9 +28,9 @@ a:hover{
     text-decoration:underline;
     color:orange;
 }
-a:visited{
+/* a:visited{
     color: #000
-}
+} */
 section{
     /* background-color: skyblue; */
     padding: 0 20px;
