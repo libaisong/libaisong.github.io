@@ -9,6 +9,11 @@ body{
     margin: 0 auto;
     width: 100%;
     max-width: 620px;
+    /* background-color: skyblue; */
+}
+section{
+    /* background-color: purple; */
+    padding: 0 10px;
 }
 
 h1,
@@ -17,4 +22,5 @@ h3,
 h4,
 h5{
     font-weight: 200;
+    /* background: pink; */
 }
