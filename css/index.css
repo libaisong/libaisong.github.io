@@ -25,7 +25,7 @@ a{
     /* color: skyblue; */
 }
 a:hover{
-    text-decoration:underline;
+    /* text-decoration:underline; */
     color:orange;
 }
 /* a:visited{
@@ -65,12 +65,37 @@ h5{
     transform: translate(-50px,-50px);
 }
 
+.logoimg:hover{
+    width: 120px;
+    z-index: 1;
+    transform: translate(-60px,-60px);
+}
+
 .subtitle{
     margin-top: 30px;
-}
-.sub{
-    display: block;
-    float: left;
-    width: 33.33%;
     text-align: center;
+}
+
+.sub{
+    display: inline-block;
+    margin: 0 20px;
+    /* float: left; */
+    /* width: 33.33%; */
+    text-align: center;
+    border-bottom: 3px solid black;
+}
+
+.recent{
+    height: 100px;
+    background-color: pink;
+}
+
+.project{
+    height: 100px;
+    background-color: skyblue;
+}
+
+.other{
+    height: 100px;
+    background-color: purple;
 }
