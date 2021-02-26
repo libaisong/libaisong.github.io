@@ -95,17 +95,52 @@ h5{
 }
 
 .recent{
+    margin-top: 10px;
     height: 100px;
     background-color: pink;
 }
 
 .project{
+    margin-top: 10px;
     height: 100px;
     background-color: skyblue;
 }
 
 .other{
+    margin-top: 10px;
     height: 100px;
     background-color: purple;
 }
 
+.project_item{
+    margin-bottom: 20px;
+}
+
+.item_title{
+    margin-bottom: 5px;
+}
+
+.item_intro{
+    text-indent: 2em;
+}
+
+.item_continue{
+    /* margin: 0 auto; */
+    text-align: right;
+}
+
+.item_continue>a{
+    display: inline-block;
+    margin-left: 20px;
+    padding: 0 5px;
+    color: white;
+    height: 2em;
+    line-height: 2em;
+    background-color: orange;
+    /* border: 1px solid red; */
+    border-radius: 5px;
+}
+
+.item_continue>a:hover{
+    background-color: rgb(255, 193, 78);
+}
