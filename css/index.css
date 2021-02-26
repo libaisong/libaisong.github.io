@@ -24,13 +24,15 @@ a{
     font-weight: normal;
     /* color: skyblue; */
 }
+a:visited{
+    color: #333;
+    /* font-weight: 100; */
+}
 a:hover{
     /* text-decoration:underline; */
     color:orange;
 }
-/* a:visited{
-    color: #000
-} */
+
 section{
     /* background-color: skyblue; */
     padding: 0 20px;
@@ -43,6 +45,10 @@ h4,
 h5{
     font-weight: 200;
     /* background: pink; */
+}
+
+p{
+    margin: 10px auto;
 }
 
 .logo{
@@ -94,7 +100,7 @@ h5{
     /* border-bottom: 3px solid black; */
 }
 
-.recent{
+/* .recent{
     margin-top: 10px;
     height: 100px;
     background-color: pink;
@@ -110,10 +116,10 @@ h5{
     margin-top: 10px;
     height: 100px;
     background-color: purple;
-}
+} */
 
-.project_item{
-    margin-bottom: 20px;
+.sub_item{
+    margin-top: 50px;
 }
 
 .item_title{
@@ -125,7 +131,7 @@ h5{
 }
 
 .item_continue{
-    /* margin: 0 auto; */
+    margin-top: 20px;
     text-align: right;
 }
 
