@@ -54,9 +54,9 @@ p{
 }
 
 .logo{
-    margin-top: 30px;
-    margin-left: 30px;
-    margin-bottom: 30px;
+    margin-top: 2em;
+    margin-left: 2em;
+    margin-bottom: 1.33em;
     width: 100px;
     height: 100px;
     box-sizing: border-box;
