@@ -124,11 +124,15 @@ p{
 } */
 
 .sub_item{
-    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .item_title{
     margin-bottom: 5px;
+}
+
+.item_title:nth-child(1){
+    margin-top: 5px;
 }
 
 .item_time{
