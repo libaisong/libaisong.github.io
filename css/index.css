@@ -131,6 +131,12 @@ p{
     margin-bottom: 5px;
 }
 
+.item_time{
+    margin: 0.5em 0 1em;
+    color: #888;
+    font-size: 0.7em;
+}
+
 .item_intro{
     margin-top: 0em;
 }
@@ -171,6 +177,6 @@ p{
 .footer{
     margin: 5em 0 2em;
     text-align: center;
-    color: #666;
+    color: #888;
     font-size: 0.7em;
 }
