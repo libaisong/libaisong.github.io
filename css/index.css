@@ -48,6 +48,7 @@ h5{
 }
 
 p{
+    text-indent: 2em;
     margin: 10px auto;
 }
 
@@ -127,7 +128,7 @@ p{
 }
 
 .item_intro{
-    text-indent: 2em;
+    margin-top: 0em;
 }
 
 .item_continue{
@@ -137,8 +138,8 @@ p{
 
 .item_continue>a{
     display: inline-block;
-    margin-left: 20px;
-    padding: 0 5px;
+    margin-left: 1em;
+    padding: 0 1em;
     color: white;
     height: 2em;
     line-height: 2em;
@@ -149,4 +150,23 @@ p{
 
 .item_continue>a:hover{
     background-color: rgb(255, 193, 78);
+}
+
+.item_img
+{
+    margin: 1em 0;
+    text-align: center;
+}
+
+.item_img>img{
+    /* align-content: center; */
+    width: 70%;
+    /* min-width: 100px; */
+}
+
+.footer{
+    margin: 5em 0 2em;
+    text-align: center;
+    color: #666;
+    font-size: 0.7em;
 }
