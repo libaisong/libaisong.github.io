@@ -16,6 +16,7 @@ body{
     max-width: 620px;
     font-weight: 200;
     /* background-color: skyblue; */
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 ul{
     list-style: none;
@@ -24,6 +25,8 @@ a{
     text-decoration: none;
     font-weight: normal;
     color: #333;
+    outline: none;
+    outline-style: none;
 }
 a:visited{
     color: #333;
