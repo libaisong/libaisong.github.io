@@ -127,7 +127,8 @@ p{
 } */
 
 .sub_item{
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
+    padding-top: 20px;
 }
 
 .item_title{
