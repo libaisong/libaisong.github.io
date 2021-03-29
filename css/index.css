@@ -181,6 +181,16 @@ p{
     width: 70%;
     /* min-width: 100px; */
 }
+.item_img>.img10p{
+    /* align-content: center; */
+    width: 10%;
+    /* min-width: 100px; */
+}
+.item_img>.img20p{
+    /* align-content: center; */
+    width: 20%;
+    /* min-width: 100px; */
+}
 .item_img>.img30p{
     /* align-content: center; */
     width: 30%;
