@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <title>李柏松个人主页</title>
+</head>
+<body>
+    <section>
+        <div>
+            <a href="../index.html">
+                <div class="logo">
+                    <img class="logoimg" src="../images/logo.png" alt="">
+                </div>
+            </a>
+
+        </div>
+
+        <div class="sub_item">
+            <a href="#"><h1 class="item_title">死区补偿算法</h1></a>
+            <div class="item_time">
+                创建于2021-3-29<br>
+                该项目完成于2016-7
+            </div>
+            <div class="item_intro">
+                <p>电压型逆变器是电力电子技术中常用的功率变换器，在电机控制领域发挥着重要作用。电压型逆变器一般为桥式结构，通常采用脉宽调制（Pluse Width Modulation， PWM）技术控制各桥臂开关管交替开通或关断，以得到期望的电压和电流。开关管的开通和关断都需要一定的时间，为了防止同一桥臂的上下两只开关管同时导通引起电源短路，通常设置有死区时间，以保证一只开关管完全关断之后，同一桥臂的另一只开关管才会开通。死区时间的存在使得电压型逆变器能够可靠工作，但同时又使逆变器输出电压与期望值并不完全相等，并且还引入了电压谐波，最终导致输出的电流中也含有谐波，从而引起转矩脉动、电机噪声等相关问题。为了解决死区效应带来的问题，提高电机的控制性能，需要对死区效应进行补偿。</p>
+                <p>根据电压型逆变器的工作状态计算出死区效应引起的电压畸变，对电压畸变进行补偿，就实现了死区补偿。常用的死区补偿方法是根据电流的极性来计算死区补偿电压的大小，电流极性不同,补偿的电压也是不同的，如下图所示。由于电流极性在过零点处会发生突变，导致补偿的电压也会发生突变，从而导致电流畸变，这种现象在低速时尤为明显。</p>
+
+                
+
+                <div class="item_img">
+                    <img class="img50p" src="../images/DeadTimeComp1.svg" alt="">
+                </div>
+
+                <p>为改善死区补偿效果，设计了一种新的死区补偿方法，该方法先检测出死区补偿电压与逆变器输出电流的关系（如下图所示），然后根据死区补偿电压和输出电流的关系对死区效应进行补偿。为了消除电流采样延时的影响，根据预测的电流值进行死区补偿。另外，这种方法无需提前获知逆变器以及电机的相关参数，如寄生电容值、电机电阻电感值等，更加简单易行。</p>
+                <div class="item_img">
+                    <img class="img50p" src="../images/DeadTimeComp1.svg" alt="">
+                </div>
+
+                <p class="quote">申请专利一项：一种变频器死区补偿电压自学习方法，已授权，ZL201510203530.0</p>
+                <p class="quote">发表论文一篇：<a href="https://ieeexplore.ieee.org/document/8921871">A Dead-Time Compensation Method for Voltage Source Inverters</a></p>
+            </div>
+            <div class="item_continue">
+                <!-- <a href="">了解更多</a> -->
+                <a href="../project.html">返回</a>
+            </div>
+        </div>
+
+        <div class="footer">
+            李柏松制作，2021
+        </div>
+    </section>
+</body>
+</html>

@@ -33,7 +33,7 @@
         </div>
 
         <div class="sub_item">
-            <a href="item_20210327_SSCS.html"><h1 class="item_title">高精度单电阻电流采样</h1></a>
+            <a href="items/item_20210327_SSCS.html"><h1 class="item_title">高精度单电阻电流采样</h1></a>
             <div class="item_time">
                 创建于2021-3-27
             </div>
@@ -41,13 +41,13 @@
                 <p>单电阻电流采样采集的是母线电流，然后通过重构得到三相电流。这种方法的硬件成本较低，但实现较为复杂。现有的一些采样方法在载波频率较低时，会有较大的采样误差...</p>
             </div>
             <div class="item_continue">
-                <a href="item_20210327_SSCS.html">继续阅读</a>
+                <a href="items/item_20210327_SSCS.html">继续阅读</a>
                 <a href="#">回到顶部</a>
             </div>
         </div>
         
         <div class="sub_item">
-            <a href="item_20210227_GVF.html"><h1 class="item_title">通用型VF控制算法</h1></a>
+            <a href="items/item_20210227_GVF.html"><h1 class="item_title">通用型VF控制算法</h1></a>
             <div class="item_time">
                 创建于2021-2-27
             </div>
@@ -55,13 +55,28 @@
                 <p>VF控制一般只支持异步电机，并不支持永磁同步电机和同步磁阻电机。永磁同步电机应用广泛，同步磁阻电机近些年也在飞速发展，如果VF控制能够支持这两款电机的控制，就可以大大提高调试便捷性，提高用户体验，同时避免使用电感参数等，提高控制可靠性...</p>
             </div>
             <div class="item_continue">
-                <a href="item_20210227_GVF.html">继续阅读</a>
+                <a href="items/item_20210227_GVF.html">继续阅读</a>
                 <a href="#">回到顶部</a>
             </div>
         </div>
 
         <div class="sub_item">
-            <a href="item_20210329_activepower.html"><h1 class="item_title">电压重构以及有功功率计算</h1></a>
+            <a href="items/item_20210329_deadtimecomp.html"><h1 class="item_title">死区补偿算法</h1></a>
+            <div class="item_time">
+                创建于2021-3-29<br>
+                该项目完成于2016-7
+            </div>
+            <div class="item_intro">
+                <p>死区时间的存在使得电压型逆变器能够可靠工作，但同时又使逆变器输出电压与期望值并不完全相等，并且还引入了电压谐波，最终导致输出的电流中也含有谐波，从而引起转矩脉动、电机噪声等相关问题。为了解决死区效应带来的问题，提高电机的控制性能，需要对死区效应进行补偿...</p>
+            </div>
+            <div class="item_continue">
+                <a href="items/item_20210329_deadtimecomp.html">继续阅读</a>
+                <a href="#">回到顶部</a>
+            </div>
+        </div>
+
+        <div class="sub_item">
+            <a href="items/item_20210329_activepower.html"><h1 class="item_title">电压重构以及有功功率计算</h1></a>
             <div class="item_time">
                 创建于2021-3-29<br>
                 该项目完成于2014-2
@@ -70,13 +85,13 @@
                 <p>电机控制中，输出电压信号是非常重要的，小到显示当前电压的大小，大到根据输出电压估计电机的运行状态，都需要准确的输出电压信号。有功功率也同样重要，一些控制算法中需要使用该值。但在实际应用中，计算出的输出电压和有功功率可能会有较大误差...</p>
             </div>
             <div class="item_continue">
-                <a href="item_20210329_activepower.html">继续阅读</a>
+                <a href="items/item_20210329_activepower.html">继续阅读</a>
                 <a href="#">回到顶部</a>
             </div>
         </div>
 
         <div class="sub_item">
-            <a href="item_20210329_randompwm.html"><h1 class="item_title">随机PWM算法</h1></a>
+            <a href="items/item_20210329_randompwm.html"><h1 class="item_title">随机PWM算法</h1></a>
             <div class="item_time">
                 创建于2021-3-29<br>
                 该项目完成于2012-9
@@ -85,13 +100,13 @@
                 <p>脉宽调制技术（PWM）是广泛应用于变频器的一项重要技术，通常情况下，变频器的开关器件以固定的频率工作。由于PWM开关电磁噪声在窄带高频区产生，会引起通信干扰以及高声频噪声。生理研究表明，和宽带噪声相比，窄带噪声更易使人感到不适，因此有必要对开关噪声加以抑制...</p>
             </div>
             <div class="item_continue">
-                <a href="item_20210329_randompwm.html">继续阅读</a>
+                <a href="items/item_20210329_randompwm.html">继续阅读</a>
                 <a href="#">回到顶部</a>
             </div>
         </div>
-
+        
         <div class="sub_item">
-            <a href="item_20210329_overmodulation.html"><h1 class="item_title">实用过调制算法</h1></a>
+            <a href="items/item_20210329_overmodulation.html"><h1 class="item_title">实用过调制算法</h1></a>
             <div class="item_time">
                 创建于2021-3-29<br>
                 该项目完成于2012-8
@@ -100,7 +115,7 @@
                 <p>为提高变频器输出电压，可以使变频器工作在过调制区。但在过调制区时，电压波形会产生畸变，导致电流波形也发生畸变，从而引起转矩波动以及电机噪声等。为解决这些问题，需对SVPWM过调制算法进行研究，在提高电压利用率的同时，保证电能质量...</p>
             </div>
             <div class="item_continue">
-                <a href="item_20210329_overmodulation.html">继续阅读</a>
+                <a href="items/item_20210329_overmodulation.html">继续阅读</a>
                 <a href="#">回到顶部</a>
             </div>
         </div>
