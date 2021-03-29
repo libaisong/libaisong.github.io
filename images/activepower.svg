@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 生成 绘图1.svg 页-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="4.6163in" height="1.25693in"
+		viewBox="0 0 332.374 90.4993" xml:space="preserve" color-interpolation-filters="sRGB" class="st11">
+	<v:documentProperties v:langID="2052" v:metric="true" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#ffffff;fill-opacity:0;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.2}
+		.st2 {fill:#000000;font-family:黑体;font-size:0.666664em}
+		.st3 {font-size:1em}
+		.st4 {marker-start:url(#mrkr5-28);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.2}
+		.st5 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.32258064516129}
+		.st6 {marker-end:url(#mrkr5-44);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.2}
+		.st7 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.2}
+		.st8 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.72}
+		.st9 {fill:#000000;font-family:Times New Roman;font-size:0.666664em}
+		.st10 {baseline-shift:-32.4939%;font-size:0.649878em}
+		.st11 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend5">
+			<path d="M 2 1 L 0 0 L 1.98117 -0.993387 C 1.67173 -0.364515 1.67301 0.372641 1.98465 1.00043 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr5-28" class="st5" v:arrowType="5" v:arrowSize="2" v:setback="5.125" refX="5.125" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend5" transform="scale(3.1) "/>
+		</marker>
+		<marker id="mrkr5-44" class="st5" v:arrowType="5" v:arrowSize="2" v:setback="5.425" refX="-5.425" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend5" transform="scale(-3.1,-3.1) "/>
+		</marker>
+	</defs>
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>页-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(42.8797,-70.0568)">
+			<title>矩形</title>
+			<desc>电流修正</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(12):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="24.0945" cy="80.5781" width="48.19" height="19.8425"/>
+			<rect x="0" y="70.6568" width="48.189" height="19.8425" class="st1"/>
+			<text x="8.09" y="83.21" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>电流修正</text>		</g>
+		<g id="shape2-4" v:mID="2" v:groupContext="shape" transform="translate(42.8797,-34.6237)">
+			<title>矩形.2</title>
+			<desc>占空比修正</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(12):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="24.0945" cy="80.5781" width="48.19" height="19.8425"/>
+			<rect x="0" y="70.6568" width="48.189" height="19.8425" class="st1"/>
+			<text x="4.09" y="83.21" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>占空比修正</text>		</g>
+		<g id="shape3-7" v:mID="3" v:groupContext="shape" transform="translate(42.8797,-0.607981)">
+			<title>矩形.3</title>
+			<desc>母线电压 修正</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(12):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="24.0945" cy="80.5781" width="48.19" height="19.8425"/>
+			<rect x="0" y="70.6568" width="48.189" height="19.8425" class="st1"/>
+			<text x="8.09" y="77.95" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>母线电压<v:newlineChar/><tspan
+						x="16.09" dy="1.316em" class="st3">修正</tspan></text>		</g>
+		<g id="shape4-11" v:mID="4" v:groupContext="shape" transform="translate(116.58,-16.1985)">
+			<title>矩形.4</title>
+			<desc>端电压 计算</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(12):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="21.2598" cy="80.5781" width="42.52" height="19.8425"/>
+			<rect x="0" y="70.6568" width="42.5197" height="19.8425" class="st1"/>
+			<text x="9.26" y="77.95" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>端电压<v:newlineChar/><tspan
+						x="13.26" dy="1.316em" class="st3">计算</tspan></text>		</g>
+		<g id="shape5-15" v:mID="5" v:groupContext="shape" transform="translate(181.777,-41.7103)">
+			<title>矩形.5</title>
+			<desc>瞬时功率计算</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(12):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="22.6772" cy="80.5781" width="45.36" height="19.8425"/>
+			<rect x="0" y="70.6568" width="45.3543" height="19.8425" class="st1"/>
+			<text x="6.68" y="77.71" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>瞬时功率<tspan x="14.68"
+						dy="1.287em" class="st3">计算</tspan></text>		</g>
+		<g id="shape6-19" v:mID="6" v:groupContext="shape" transform="translate(251.226,-41.7103)">
+			<title>矩形.6</title>
+			<desc>低通 滤波器</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(12):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="21.2598" cy="80.5781" width="42.52" height="19.8425"/>
+			<rect x="0" y="70.6568" width="42.5197" height="19.8425" class="st1"/>
+			<text x="13.26" y="77.95" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>低通<v:newlineChar/><tspan
+						x="9.26" dy="1.316em" class="st3">滤波器</tspan></text>		</g>
+		<g id="shape7-23" v:mID="7" v:groupContext="shape" transform="translate(42.8797,101.021) rotate(180)">
+			<title>工作表.7</title>
+			<path d="M6.15 90.5 L6.51 90.5 L28.35 90.5" class="st4"/>
+		</g>
+		<g id="shape8-29" v:mID="8" v:groupContext="shape" transform="translate(42.8797,136.454) rotate(180)">
+			<title>工作表.8</title>
+			<path d="M6.15 90.5 L6.51 90.5 L28.35 90.5" class="st4"/>
+		</g>
+		<g id="shape9-34" v:mID="9" v:groupContext="shape" transform="translate(42.8797,170.469) rotate(180)">
+			<title>工作表.9</title>
+			<path d="M6.15 90.5 L6.51 90.5 L28.35 90.5" class="st4"/>
+		</g>
+		<g id="shape10-39" v:mID="10" v:groupContext="shape" transform="translate(91.0687,-26.1198)">
+			<title>工作表.10</title>
+			<path d="M0 72.07 L15.59 72.07 L15.59 90.5 L19 90.5" class="st6"/>
+		</g>
+		<g id="shape11-45" v:mID="11" v:groupContext="shape" transform="translate(91.0687,-10.5292)">
+			<title>工作表.11</title>
+			<path d="M0 90.5 L15.59 90.5 L15.59 74.91" class="st7"/>
+		</g>
+		<g id="shape12-48" v:mID="12" v:groupContext="shape" transform="translate(91.0687,-79.9781)">
+			<title>工作表.12</title>
+			<path d="M0 90.5 L76.54 90.5" class="st7"/>
+		</g>
+		<g id="shape13-51" v:mID="13" v:groupContext="shape" transform="translate(167.604,-51.6316)">
+			<title>工作表.13</title>
+			<path d="M0 62.15 L0 90.5 L7.66 90.5" class="st6"/>
+		</g>
+		<g id="shape14-56" v:mID="14" v:groupContext="shape" transform="translate(159.1,-26.1198)">
+			<title>工作表.14</title>
+			<path d="M0 90.5 L8.5 90.5 L8.5 64.99" class="st7"/>
+		</g>
+		<g id="shape15-59" v:mID="15" v:groupContext="shape" transform="translate(227.132,-51.6316)">
+			<title>工作表.15</title>
+			<path d="M0 90.5 L17.58 90.5" class="st6"/>
+		</g>
+		<g id="shape16-64" v:mID="16" v:groupContext="shape" transform="translate(293.746,-51.6316)">
+			<title>工作表.16</title>
+			<path d="M0 90.5 L14.75 90.5" class="st6"/>
+		</g>
+		<g id="shape17-69" v:mID="17" v:groupContext="shape" transform="translate(5.32063,-81.3954)">
+			<title>工作表.17</title>
+			<desc>ia, ib, ic</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="17.7165" cy="86.2474" width="35.44" height="8.50394"/>
+			<rect x="0" y="81.9954" width="35.4331" height="8.50394" class="st8"/>
+			<text x="6.78" y="88.65" class="st9" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>i<tspan dy="-0.279em"
+						class="st10" v:baseFontSize="8">a</tspan><tspan dy="0.181em" class="st3">, i</tspan><tspan dy="-0.279em"
+						class="st10" v:baseFontSize="8">b</tspan><tspan dy="0.181em" class="st3">, i</tspan><tspan dy="-0.279em"
+						class="st10" v:baseFontSize="8">c</tspan></text>		</g>
+		<g id="shape18-77" v:mID="18" v:groupContext="shape" transform="translate(0.36,-45.9623)">
+			<title>工作表.18</title>
+			<desc>da, db, dc</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="19.8425" cy="86.2474" width="39.69" height="8.50394"/>
+			<rect x="0" y="81.9954" width="39.685" height="8.50394" class="st8"/>
+			<text x="6.23" y="88.65" class="st9" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>d<tspan dy="-0.279em"
+						class="st10" v:baseFontSize="8">a</tspan><tspan dy="0.181em" class="st3">, d</tspan><tspan dy="-0.279em"
+						class="st10" v:baseFontSize="8">b</tspan><tspan dy="0.181em" class="st3">, d</tspan><tspan dy="-0.279em"
+						class="st10" v:baseFontSize="8">c</tspan></text>		</g>
+		<g id="shape19-85" v:mID="19" v:groupContext="shape" transform="translate(14.5332,-11.7925)">
+			<title>工作表.19</title>
+			<desc>Udc</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="11.3386" cy="86.2474" width="22.68" height="8.50394"/>
+			<rect x="0" y="81.9954" width="22.6772" height="8.50394" class="st8"/>
+			<text x="6" y="88.65" class="st9" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>U<tspan dy="-0.279em"
+						class="st10" v:baseFontSize="8">dc</tspan></text>		</g>
+		<g id="shape20-89" v:mID="20" v:groupContext="shape" transform="translate(289.494,-54.3122)">
+			<title>工作表.20</title>
+			<desc>有功功率</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="21.2598" cy="86.2474" width="42.52" height="8.50394"/>
+			<rect x="0" y="81.9954" width="42.5197" height="8.50394" class="st8"/>
+			<text x="5.26" y="88.88" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>有功功率</text>		</g>
+	</g>
+</svg>

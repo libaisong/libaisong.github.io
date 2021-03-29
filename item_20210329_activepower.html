@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/index.css">
+    <title>李柏松个人主页</title>
+</head>
+<body>
+    <section>
+        <div>
+            <a href="index.html">
+                <div class="logo">
+                    <img class="logoimg" src="./images/logo.png" alt="">
+                </div>
+            </a>
+
+        </div>
+
+        <div class="sub_item">
+            <a href="#"><h1 class="item_title">电压重构以及有功功率计算</h1></a>
+            <div class="item_time">
+                创建于2021-3-29<br>
+                该项目完成于2014-2
+            </div>
+            <div class="item_intro">
+                <p>电机控制中，输出电压信号是非常重要的，小到显示当前电压的大小，大到根据输出电压估计电机的运行状态，都需要准确的输出电压信号。某些应用中，逆变器具有输出电压检测电路，这样就可以通过ADC采样获得准确的电压信号，而更多的应用中，逆变器并不具备输出电压检测功能，只能实现母线电压的检测，这时就需要通过母线电压和三相占空比重构出输出电压。在实际应用中，即使采集的母线电压信号非常准确，重构出的输出电压也可能会有较大误差，从而使显示的电压值不准确，甚至会影响电机控制性能。</p>
+                <p>另外，在实际测试中，变频器显示的有功功率与功率分析仪测得的数据会有差异，最大误差甚至会超过5％。为提高有功功率计算的精度，需要对原有算法进行改进。在保证母线电压和三相电流信号准确的情况下，通过改进电压重构方法以及有功功率计算方法，提高有功功率计算精度。改进后，有功功率计算精度可以达到1%额定功率以内。</p>
+
+                <p>下图为有功功率计算示意图，图中“端电压计算”也就是上文的电压重构。</p>
+
+                <div class="item_img">
+                    <img class="img90p" src="images/activepower.svg" alt="">
+                </div>
+
+
+            </div>
+            <div class="item_continue">
+                <!-- <a href="">了解更多</a> -->
+                <a href="project.html">返回</a>
+            </div>
+        </div>
+
+        <div class="footer">
+            李柏松制作，2021
+        </div>
+    </section>
+</body>
+</html>
