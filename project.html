@@ -36,7 +36,8 @@
         <div class="sub_item">
             <a href="items/item_20210327_SSCS.html"><h1 class="item_title">高精度单电阻电流采样</h1></a>
             <div class="item_time">
-                创建于2021-3-27
+                创建于2021-3-27<br>
+                该项目完成于2021-3，原创
             </div>
             <div class="item_intro">
                 <p>单电阻电流采样采集的是母线电流，然后通过重构得到三相电流。这种方法的硬件成本较低，但实现较为复杂。现有的一些采样方法在载波频率较低时，会有较大的采样误差...</p>
@@ -51,7 +52,8 @@
         <div class="sub_item">
             <a href="items/item_20210227_GVF.html"><h1 class="item_title">通用型VF控制算法</h1></a>
             <div class="item_time">
-                创建于2021-2-27
+                创建于2021-2-27<br>
+                该项目完成于2020-10，原创
             </div>
             <div class="item_intro">
                 <p>VF控制一般只支持异步电机，并不支持永磁同步电机和同步磁阻电机。永磁同步电机应用广泛，同步磁阻电机近些年也在飞速发展，如果VF控制能够支持这两款电机的控制，就可以大大提高调试便捷性，提高用户体验，同时避免使用电感参数等，提高控制可靠性...</p>
@@ -62,12 +64,28 @@
             </div>
         </div>
 
+        <!-- 数字滤波器 -->
+        <div class="sub_item">
+            <a href="items/item_20210329_digitalfilters.html"><h1 class="item_title">数字滤波器</h1></a>
+            <div class="item_time">
+                创建于2021-3-29<br>
+                该项目完成于2014-12
+            </div>
+            <div class="item_intro">
+                <p>数字控制系统的信号处理，常用到数字滤波器。按照功能来分类，滤波器可以分为低通滤波器、高通滤波器、带通滤波器、低阻滤波器（陷波器）等。按照响应类型来分类，可以分为巴特沃兹滤波器、切比雪夫滤波器等...</p>
+            </div>
+            <div class="item_continue">
+                <a href="items/item_20210329_digitalfilters.html">继续阅读</a>
+                <a href="#">回到顶部</a>
+            </div>
+        </div>        
+        
         <!-- 电流谐波抑制方法 -->
         <div class="sub_item">
             <a href="items/item_20210329_harmonicsuppression.html"><h1 class="item_title">电流谐波抑制方法</h1></a>
             <div class="item_time">
                 创建于2021-3-29<br>
-                该项目完成于2014-5
+                该项目完成于2014-5，原创
             </div>
             <div class="item_intro">
                 <p>受到死区效应等非线性因素的影响，变频器的输出电流常含有很多谐波，同时由于电机齿槽效应等本身结构的原因，使得电机的反电势等并不是理想的形状，这也会导致电机的电流不为正弦波，而含有谐波。谐波电流会引起转矩脉动，使得电机性能降低。对电流谐波进行抑制，可以提高电机的性能...</p>
@@ -83,7 +101,7 @@
             <a href="items/item_20210329_deadtimecomp.html"><h1 class="item_title">死区补偿算法</h1></a>
             <div class="item_time">
                 创建于2021-3-29<br>
-                该项目完成于2016-7
+                该项目完成于2016-7，原创
             </div>
             <div class="item_intro">
                 <p>死区时间的存在使得电压型逆变器能够可靠工作，但同时又使逆变器输出电压与期望值并不完全相等，并且还引入了电压谐波，最终导致输出的电流中也含有谐波，从而引起转矩脉动、电机噪声等相关问题。为了解决死区效应带来的问题，提高电机的控制性能，需要对死区效应进行补偿...</p>
@@ -131,7 +149,7 @@
             <a href="items/item_20210329_overmodulation.html"><h1 class="item_title">实用过调制算法</h1></a>
             <div class="item_time">
                 创建于2021-3-29<br>
-                该项目完成于2012-8
+                该项目完成于2012-8，原创
             </div>
             <div class="item_intro">
                 <p>为提高变频器输出电压，可以使变频器工作在过调制区。但在过调制区时，电压波形会产生畸变，导致电流波形也发生畸变，从而引起转矩波动以及电机噪声等。为解决这些问题，需对SVPWM过调制算法进行研究，在提高电压利用率的同时，保证电能质量...</p>
