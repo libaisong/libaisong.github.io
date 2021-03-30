@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <title>李柏松个人主页</title>
+</head>
+<body>
+    <section>
+        <div>
+            <a href="../index.html">
+                <div class="logo">
+                    <img class="logoimg" src="../images/logo.png" alt="">
+                </div>
+            </a>
+
+        </div>
+
+        <div class="sub_item">
+            <a href="#"><h1 class="item_title">永磁同步电机初始角自学习</h1></a>
+            <div class="item_time">
+                创建于2021-3-30<br>
+                该项目完成于2015-10，原创
+            </div>
+            <div class="item_intro">
+                <p>转子初始位置判断是永磁同步电机控制中很重要的一个环节。在永磁同步电机闭环控制（带编码器的矢量控制）中，只有已知初始角才能根据编码器反馈信号获得准确的电机位置信息。在永磁同步电机无传感器控制中，初始位置的判断同样十分重要，初始位置不准确会使电机无法以最大转矩启动，若位置误差过大，甚至会导致启动失败。对于凸极式永磁同步电机，可以根据dq轴电感的不同来判断初始磁链位置，对于隐极式永磁同步电机，则可以使磁路饱和产生“凸极”来进行判断。总之，就是可以根据“凸极效应”来获得电机初始角度。</p>
+                <p>一般来说，凸极式永磁同步电机d轴电感要小于q轴电感，也就是Ld&ltLq，隐极式永磁同步电机在磁路饱和时，d轴电感也小于q轴电感，现有的方法大多根据永磁同步电机的这个特性，来判断转子初始位置。</p>
+               
+                <div class="item_img">
+                    <img class="img50p" src="../images/PmInitAngle.svg" alt="">
+                </div>
+
+                <p>某些特殊结构的电机，d轴电感要大于q轴电感，甚至在磁路饱和情况下也是这样，这样以来很多方法就不再适用，需要开发新的方法。</p>
+
+                <p>针对以上情况，开发了两种永磁同步电机初始角自学习方法，很好地满足了不同场合的使用需求。</p>
+
+            </div>
+            <div class="item_continue">
+                <!-- <a href="">了解更多</a> -->
+                <a href="../project.html">返回</a>
+            </div>
+        </div>
+
+        <div class="footer">
+            李柏松制作，2021
+        </div>
+    </section>
+</body>
+</html>
