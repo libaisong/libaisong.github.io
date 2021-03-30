@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <title>李柏松个人主页</title>
+</head>
+<body>
+    <section>
+        <div>
+            <a href="../index.html">
+                <div class="logo">
+                    <img class="logoimg" src="../images/logo.png" alt="">
+                </div>
+            </a>
+
+        </div>
+
+        <div class="sub_item">
+            <a href="#"><h1 class="item_title">永磁同步电机短接制动</h1></a>
+            <div class="item_time">
+                创建于2021-3-30<br>
+                该项目完成于2017-4，原创
+            </div>
+            <div class="item_intro">
+                <p>永磁同步电机具有高效、节能等优点，近年来得到了广泛的应用。电梯应用中，为保证安全，通常具备“封星”功能，以防止电梯失速。“封星”时，永磁同步电机的三相绕组被短接，从而产生制动力矩。但是如果在电梯高速运行时直接“封星”，由于此时反电势很大，从而导致电机电流过大，并产生非常大的制动转矩，严重时甚至会使电机损坏。</p>
+                <p>下图为永磁同步电机直接短接时电流与转矩的关系示意图。可以看出，随着频率升高，短接时电机电流越来越大，当频率为9Hz时，电流已经超过1.6倍额定值。同时，可以看出，转矩并没有随着电流的增大而一直增大，当达到一定值后，开始出现减小的趋势。</p>
+               
+                <div class="item_img">
+                    <img class="img60p" src="../images/shortbrake1.svg" alt="">
+                </div>
+
+                <p>逆变器为三相桥式结构，每一相都有上下两个桥臂，共有六只开关管。通过控制开关管动作，不使用封星接触器就可以实现“封星”功能，为了避免带速“封星”可能出现的过流、电机损坏等情况，需要设计合理的开关管工作方式。如果能够合理地控制开关管动作，就可以保证电流可控，并且同时输出较大的制动转矩。根据这个思路，设计了一种永磁同步电机短接制动方法，这种方法不需要配备封星继电器，通过控制逆变器开关管实现电机的制动，在保证电流幅值可控的情况下，输出较大制动转矩。</p>
+
+                <p>下图为使用该永磁同步电机短接制动方法时，电机电流和转矩的关系示意图。可以看出，随着频率升高，电机电流随之变大，但达到一定值后不再变大，同时电机转矩与电流近似正比，没有出现变小的趋势。</p>
+
+                <div class="item_img">
+                    <img class="img80p" src="../images/shortbrake2.svg" alt="">
+                </div>
+            </div>
+            <div class="item_continue">
+                <!-- <a href="">了解更多</a> -->
+                <a href="../project.html">返回</a>
+            </div>
+        </div>
+
+        <div class="footer">
+            李柏松制作，2021
+        </div>
+    </section>
+</body>
+</html>
