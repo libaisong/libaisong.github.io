@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <title>李柏松个人主页</title>
+</head>
+<body>
+    <section>
+        <div>
+            <a href="../index.html">
+                <div class="logo">
+                    <img class="logoimg" src="../images/logo.png" alt="">
+                </div>
+            </a>
+
+        </div>
+
+        <div class="sub_item">
+            <a href="#"><h1 class="item_title">负载转矩前馈</h1></a>
+            <div class="item_time">
+                创建于2021-3-30<br>
+                该项目完成于2014-9
+            </div>
+            <div class="item_intro">
+                <p>电机驱动系统一般外环为速度闭环控制，内环为电流闭环控制。相对于电流环，速度外环的带宽一般较低，这就使得当负载在短时间内发生较大变化时，电机转速也会有较大波动。增大速度环带宽可以减小速度的波动，但是速度环带宽收到电流环带宽、反馈速度精度等因素的影响，不能无限制提高，这时候就需要寻找其它的解决方案。</p>
+                <p>一种较好的解决方法就是增加负载转矩前馈。所谓负载转矩前馈，就是将负载转矩叠加到速度环输出上，作为实际的转矩给定。下图为负载转矩突加时，速度环输出是否增加负载转矩前馈对应的速度波形示意图，可以看出，增加负载转矩前馈后，电机转矩跌落会明显减小。</p>
+            
+
+                <div class="item_img">
+                    <img class="img60p" src="../images/loadtorque.svg" alt="">
+                </div>
+
+                <p>线性插值比较简单，二次和三次插值相对复杂，因此特开发了二次和三次样条插值算法。下图中，红色圆圈为已知的数据点，蓝色线为使用三次样条插值得到的曲线。该算法目前已在多个项目中得到应用。</p>
+                <p>线性插值比较简单，二次和三次插值相对复杂，因此特开发了二次和三次样条插值算法。下图中，红色圆圈为已知的数据点，蓝色线为使用三次样条插值得到的曲线。该算法目前已在多个项目中得到应用。</p>
+            </div>
+            <div class="item_continue">
+                <!-- <a href="">了解更多</a> -->
+                <a href="../project.html">返回</a>
+            </div>
+        </div>
+
+        <div class="footer">
+            李柏松制作，2021
+        </div>
+    </section>
+</body>
+</html>
