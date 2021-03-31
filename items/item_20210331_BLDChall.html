@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <title>李柏松个人主页</title>
+</head>
+<body>
+    <section>
+        <div>
+            <a href="../index.html">
+                <div class="logo">
+                    <img class="logoimg" src="../images/logo.png" alt="">
+                </div>
+            </a>
+
+        </div>
+
+        <div class="sub_item">
+            <a href="#"><h1 class="item_title">无刷直流电机有霍尔传感器控制算法</h1></a>
+            <div class="item_time">
+                创建于2021-3-31<br>
+                该项目完成于2013-3，原创
+            </div>
+            <div class="item_intro">
+                <p>无刷直流电机应用广泛，在电动车辆、家用电器、纺织机械等领域都可以见到无刷直流电机的身影。无刷直流电机工作时，需要根据转子位置的不同来切换工作状态。霍尔传感器常用来检测无刷直流电机的换相位置，对于三相无刷直流电机，三个霍尔传感器就可以将六个换相位置检测出来。常用的霍尔传感器安装方式有120゜安装和60゜安装两种，两种方法都可以输出六个不同的霍尔信号，分别对应六个不同的区域，如下图所示，当无刷直流电机电机转子转到某一区域时，对应的绕组通电，电机就可以正常工作。</p>
+
+                <div class="item_img">
+                    <img class="img90p" src="../images/BLDChall1.svg" alt="">
+                </div>
+
+                <p>之所以能够根据霍尔传感器确定绕组工作情况，是因为根据霍尔传感器信号可以知道电机反电势的情况。下图为无刷直流电机反电势与相电流波形示意图，当电机正转时，按照下图所示输出电流，电机就可以产生正转矩。根据霍尔信号还可以计算出电机转速，从而实现对速度的控制。</p>
+
+                <div class="item_img">
+                    <img class="img60p" src="../images/BLDChall2.svg" alt="">
+                </div>
+
+                <p>若霍尔信号安装错误，或者无法区分霍尔信号接线与电机绕组的关系，霍尔信号就不能正确给出转子位置，电机就无法正常工作，甚至会对电机或功率器件造成损坏。因此，确定霍尔信号与定子绕组关系对于无刷直流电机而言非常重要。为方便使用，特设计了一种判断电机绕组与霍尔信号关系的方法，使用该方法，在接线时无需关系霍尔信号相序，大大方便现场使用。</p>
+
+                <p class="quote">申请专利一项：无刷直流电机霍尔信号与转子位置关系自学习方法，已授权，ZL201310628167.8。</p>
+                <p class="quote">发表论文一篇：<a href="https://d.wanfangdata.com.cn/periodical/dqcd201605018">一种无刷直流电机霍耳信号与定子绕组关系自学习方法。</a></p>
+
+            </div>
+            <div class="item_continue">
+                <!-- <a href="">了解更多</a> -->
+                <a href="../project.html">返回</a>
+            </div>
+        </div>
+
+        <div class="footer">
+            李柏松制作，2021
+        </div>
+    </section>
+</body>
+</html>
