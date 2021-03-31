@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <title>李柏松个人主页</title>
+</head>
+<body>
+    <section>
+        <div>
+            <a href="../index.html">
+                <div class="logo">
+                    <img class="logoimg" src="../images/logo.png" alt="">
+                </div>
+            </a>
+
+        </div>
+
+        <div class="sub_item">
+            <a href="#"><h1 class="item_title">带编码器的永磁电机初始磁极判断</h1></a>
+            <div class="item_time">
+                创建于2021-3-31<br>
+                该项目完成于2017-7，原创
+            </div>
+            <div class="item_intro">
+                <p>初始磁极判断是永磁同步电机控制中很重要的一个环节，如果初始磁极位置不对，会导致永磁同步电机不能输出预期的转矩，甚至会出现“飞车”等严重后果。初始磁极判断利用了永磁同步电机的“凸极效应”，也就是根据dq轴电感的不同进行磁极的位置。对于凸极式永磁同步电机，dq轴电感即使在空载时也会显著不同。而对于表贴式永磁同步电机，则需要增大励磁电流时磁场饱和，从而使dq轴电感出现较大差异，这样才能进行初始磁极判断，如果注入较大励磁电流后，dq轴电感的差异仍然不明显，常规初始磁极判断方法就无法使用。</p>
+                <p>另外，判断初始磁极位置通常需要电流信息，而且对电流信息的精度要求较高，如果电流精度不够，就会导致计算出的初始位置误差较大，而误差过大将导致永磁同步电机无法正常运行。而在实际应用中，确实存在电流采样精度不高的情况，这时候，要想获得准确的电机初始磁极位置，就需要采用其它的方法。</p>
+                <p>为解决以上问题，特设计了电机带编码器时的永磁同步电机初始磁极判断方法，利用编码器反馈的信号对初始磁极进行自学习，在电流采样精度较低的情况下，可以准确地学习出电机初始磁极，保证电机能够正常运行。</p>
+
+                <div class="item_img">
+                    <img class="img80p" src="../images/initanglewithencoder.svg" alt="">
+                </div>
+
+                <p class="quote">申请专利两项：永磁同步电机初始磁极的自学习方法，已授权，ZL201610818044.4；永磁同步电机磁极初始位置自学习方法，已授权，ZL201910240055.2</p>
+
+            </div>
+            <div class="item_continue">
+                <!-- <a href="">了解更多</a> -->
+                <a href="../project.html">返回</a>
+            </div>
+        </div>
+
+        <div class="footer">
+            李柏松制作，2021
+        </div>
+    </section>
+</body>
+</html>
