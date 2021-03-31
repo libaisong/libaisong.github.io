@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <title>李柏松个人主页</title>
+</head>
+<body>
+    <section>
+        <div>
+            <a href="../index.html">
+                <div class="logo">
+                    <img class="logoimg" src="../images/logo.png" alt="">
+                </div>
+            </a>
+
+        </div>
+
+        <div class="sub_item">
+            <a href="#"><h1 class="item_title">无刷直流电机无传感器控制算法</h1></a>
+            <div class="item_time">
+                创建于2021-3-31<br>
+                该项目完成于2013-10，原创
+            </div>
+            <div class="item_intro">
+                <p>无刷直流电机具有高效、可靠性好等优点，近些年来得到了越来越多的关注。无刷直流电机常通以方波电流，工作时需要位置传感器（如霍尔传感器等）来提供准确的换相位置，位置传感器的安装不仅增加了系统的成本，也会降低系统可靠性，采用无传感器技术可以解决这些问题。</p>
+
+                <p>常用的无刷直流电机无传感器方法一般根据反电势的过零点来判断换相位置，相反电势过零点与换相点相差30゜，而线反电势过零点与换相点位置相同，如下图所示，因此利用线反电势判断换相点更加方便。通过端电压检测电路可以获得无刷直流电机的端电压，从而得到反电势。传统变频器通常用于驱动交流电机，不具有端电压检测电路，要想在传统变频器上实现反电势估计和换相点检测，通常要对其硬件电路进行改动。</p>
+
+                <div class="item_img">
+                    <img class="img60p" src="../images/BLDCsensorless1.svg" alt="">
+                </div>
+
+                <p>另外，无刷直流电机通常采用120度控制方式，在这种控制方式下，某一时刻只有两相工作，而另一相悬空。与一般的交流电机不同，由于同一时刻只有两相工作，因此无法使用在交流电机控制中已经得到广泛应用的SVPWM调制。如果能够将SVPWM（特别是七段式SVPWM）应用到无刷直流电机当中，可以带来减小电流谐波等优点。</p>
+
+                <p>为了能够在通用变频器上实现无刷直流电机的无传感器控制，特开发了一系列算法。为了能够将SVPWM应用到无刷直流电机控制中，开发了一种使用SVPWM调制的无刷直流电机180度控制方法，在三相同时工作的情况下，保证各相电流仍呈方波，如下图所示。为避免修改硬件，在无刷直流电机180度控制方法基础上，又开发了一种新型无刷直流电机线反电势估计和换相点检测方法，这种方法不使用端电压检测电路就可以获得线反电势，从而估计出换相点。为实现速度控制，又开发了无刷直流电机转速估计方法。结合以上几种方法，就可以在通用变频器上实现无刷直流电机的无传感器控制。</p>
+
+                <div class="item_img">
+                    <img class="img70p" src="../images/BLDCsensorless2.svg" alt="">
+                </div>
+
+                <p class="quote">申请专利一项：无刷直流电机180°方波控制方法及其控制模块和变频器，已授权，ZL201310698184.9；无刷直流电机的三相端电压估计方法、线反电势估计方法、换相点检测方法及其变频器，201310271734.9；无刷直流电机转速估计方法及其变频器，201310261748.2。</p>
+                <p class="quote">发表论文一篇：<a href="https://ieeexplore.ieee.org/document/6684526">A New Sensorless Control Method for Brushless Permanent Magnet DC Motors。</a></p>
+
+            </div>
+            <div class="item_continue">
+                <!-- <a href="">了解更多</a> -->
+                <a href="../project.html">返回</a>
+            </div>
+        </div>
+
+        <div class="footer">
+            李柏松制作，2021
+        </div>
+    </section>
+</body>
+</html>
