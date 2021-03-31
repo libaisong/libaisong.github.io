@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <title>李柏松个人主页</title>
+</head>
+<body>
+    <section>
+        <div>
+            <a href="../index.html">
+                <div class="logo">
+                    <img class="logoimg" src="../images/logo.png" alt="">
+                </div>
+            </a>
+
+        </div>
+
+        <div class="sub_item">
+            <a href="#"><h1 class="item_title">异步电机转差计算方法</h1></a>
+            <div class="item_time">
+                创建于2021-3-31<br>
+                该项目完成于2014-8，原创
+            </div>
+            <div class="item_intro">
+                <p>异步电机控制通常需要转差信息。当采用转子磁链定向控制时，转差ωsl可以根据定子dq轴电流isd、isq和转子时间常数Tr获得。定子dq轴电流isd、isq可以测量获得，转子时间常数Tr根据转子电阻Rr和转子电感Lr计算获得，而转子电阻Rr和转子电感Lr可以通过离线辨识的方法获得。但如果转子磁链定向不成立，比如采用VF控制时，就不能用这种方法来计算转差，这时就要找到一种新的转差计算方法。</p>
+                <p>常用的转差计算方法是在转子磁链定向基础上实现的，当转子磁链定向不准确时，就不能准确地计算出转差，当采用VF控制时，由于没有进行磁链定向，因此使用这些基于转子磁链定向的转差估计方法也会有较大的误差。如果能够找到一种不依赖于转子磁链定向的转差估计方法，就可以在各种控制方式下实现异步电机转差的准确计算。</p>
+                <p>为解决上述问题，特开发了一种新的异步电机转差估计方法，这种方法不依赖于转子磁链定向，在各种控制方式下都可以准确地对异步电机转差进行估计。</p>
+
+                <div class="item_img">
+                    <img class="img100p" src="../images/slipcalc.svg" alt="">
+                </div>
+
+                <p class="quote">申请专利一项：一种异步电机转差估计方法及系统，已授权，ZL201510204963.8。</p>
+
+            </div>
+            <div class="item_continue">
+                <!-- <a href="">了解更多</a> -->
+                <a href="../project.html">返回</a>
+            </div>
+        </div>
+
+        <div class="footer">
+            李柏松制作，2021
+        </div>
+    </section>
+</body>
+</html>
