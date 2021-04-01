@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <title>李柏松个人主页</title>
+</head>
+<body>
+    <section>
+        <div>
+            <a href="../index.html">
+                <div class="logo">
+                    <img class="logoimg" src="../images/logo.png" alt="">
+                </div>
+            </a>
+
+        </div>
+
+        <div class="sub_item">
+            <a href="#"><h1 class="item_title">异步电机无传感器矢量控制算法</h1></a>
+            <div class="item_time">
+                创建于2021-4-1<br>
+                该项目完成于2017-3，原创
+            </div>
+            <div class="item_intro">
+                <p>异步电机也叫感应电机，是最常见的电机类型之一。电机定子绕组通电时，会产生定子磁场，电机转子运动时切割定子磁场磁感线，产生感应电流，进而产生转子磁场。两个磁场的相互作用产生力，力的存在使电机转动。异步电机最早采用工频驱动，工频驱动时电机启动电流大，电机效率相对较低，而且调速困难。随着电力电子技术的发展，工频驱动逐步向着变频驱动发展，变频器驱动使得异步电机的调速变得容易，应用越来越广泛。</p>
+                <p>矢量控制是异步电机常用的一种控制算法。矢量控制通过解耦运算，将三相电流分解成励磁电流和转矩电流，从而可以将异步电机等效成直流电机来控制，达到媲美直流调速的性能。矢量控制需要电机转速反馈信号，速度反馈信号通常通过光电编码器等速度传感器获得。速度传感器一般价格较高，如果对系统成本比较敏感，通常会设法避免使用速度传感器。另外，某些环境比较恶劣或是电磁干扰比较大的场合，速度传感器在使用中损坏的概率变大，从而使得系统稳定性下降，同时，反馈速度可能受到环境因素产生的干扰信号也会使系统性能受到影响，这时，无速度传感器方案就是一种好的解决办法。</p>
+                <p>异步电机无传感器矢量控制算法，是指不使用速度传感器的异步电机矢量控制算法。根据异步电机模型，通过电机输入电压和相电流估计出电机转速和位置，从而实现矢量控制。异步电机无传感器矢量控制算法的结构框图如下所示。</p>
+
+                <div class="item_img">
+                    <img class="img90p" src="../images/IM_SVC1.svg" alt="">
+                </div>
+
+                <p>异步电机无传感器矢量控制算法的控制性能受到很多因素的影响，可以尝试从下图所示的几个方面提升其性能：1、提高速度观测精度；2、提高磁链观测的精度和稳定性；3、提高电机参数的准确度；4、提高电压、电流采样精度并更好地实现死区补偿等。</p>
+
+                <div class="item_img">
+                    <img class="img70p" src="../images/IM_SVC2.svg" alt="">
+                </div>
+
+                <p>从上面几个角度出发，开发了一种异步电机无传感器矢量控制算法。这种异步电机无传感器矢量控制算法对参数依赖性较传统方法要小，可以实现低载波比运行，低速带载能力较好。实际应用中，可以实现带满载时正反转切换，而且能够做到启动时突加满载而电机基本不动。目前，该算法已在多个行业应用中得到了验证。</p>
+
+            </div>
+            <div class="item_continue">
+                <!-- <a href="">了解更多</a> -->
+                <a href="../project.html">返回</a>
+            </div>
+        </div>
+
+        <div class="footer">
+            李柏松制作，2021
+        </div>
+    </section>
+</body>
+</html>
