@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<!-- 由 Microsoft Visio, SVG Export 生成 SynRM.svg 页-1 -->
+<!-- 由 Microsoft Visio, SVG Export 生成 SynRM1.svg 页-1 -->
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
 		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="12.5743in" height="5.74068in"
-		viewBox="0 0 905.35 413.329" xml:space="preserve" color-interpolation-filters="sRGB" class="st11">
+		viewBox="0 0 905.35 413.329" xml:space="preserve" color-interpolation-filters="sRGB" class="st14">
 	<v:documentProperties v:langID="2052" v:metric="true" v:viewMarkup="false"/>
 
 	<style type="text/css">
@@ -18,7 +18,10 @@
 		.st8 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
 		.st9 {fill:#000000;font-family:等线;font-size:1.99999em}
 		.st10 {marker-end:url(#mrkr5-1993);stroke:#ff0000;stroke-linecap:round;stroke-linejoin:round;stroke-width:5}
-		.st11 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+		.st11 {marker-start:url(#mrkr5-2004);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:3}
+		.st12 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.54347826086957}
+		.st13 {font-size:1em}
+		.st14 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
 	]]>
 	</style>
 
@@ -37,6 +40,10 @@
 		<marker id="mrkr5-1993" class="st5" v:arrowType="5" v:arrowSize="2" v:setback="2.632" refX="-2.632" orient="auto"
 				markerUnits="strokeWidth" overflow="visible">
 			<use xlink:href="#lend5" transform="scale(-1.504,-1.504) "/>
+		</marker>
+		<marker id="mrkr5-2004" class="st12" v:arrowType="5" v:arrowSize="2" v:setback="3.1" refX="3.1" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend5" transform="scale(1.84) "/>
 		</marker>
 	</defs>
 	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
@@ -2850,5 +2857,17 @@
 			<title>工作表.684</title>
 			<path d="M0 413.33 L100.23 413.33" class="st10"/>
 		</g>
+		<g id="shape685-1999" v:mID="685" v:groupContext="shape" transform="translate(66.0766,380.49) rotate(-127.569)">
+			<title>工作表.685</title>
+			<path d="M8.08 404.03 L8.4 404.21 A83.5923 46.6447 -7.18 0 0 116.23 399.43" class="st11"/>
+		</g>
+		<g id="shape686-2005" v:mID="686" v:groupContext="shape" transform="translate(349.197,-332.44)">
+			<title>工作表.686</title>
+			<desc>电机转动方向</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="52.1732" cy="403.329" width="104.35" height="20"/>
+			<rect x="0" y="393.329" width="104.346" height="20" class="st8"/>
+			<text x="4.17" y="396.13" class="st9" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>电机转动<tspan x="28.17"
+						dy="1.2em" class="st13">方向</tspan></text>		</g>
 	</g>
 </svg>
