@@ -1,0 +1,884 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 生成 DTC3.svg 页-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="10.2982in" height="5.24664in"
+		viewBox="0 0 741.47 377.758" xml:space="preserve" color-interpolation-filters="sRGB" class="st27">
+	<v:documentProperties v:langID="2052" v:metric="true" v:viewMarkup="false">
+		<v:userDefs>
+			<v:ud v:nameU="msvConvertTheme"/>
+		</v:userDefs>
+	</v:documentProperties>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {visibility:visible}
+		.st2 {fill:none;filter:url(#filter_2);stroke:#5b9bd5;stroke-opacity:0.22}
+		.st3 {fill:#5b9bd5;filter:url(#filter_2);font-family:Times New Roman;font-size:1.5em;opacity:0.219608}
+		.st4 {font-size:1em}
+		.st5 {fill:none;stroke:#000000;stroke-width:1.5}
+		.st6 {fill:#000000;font-family:Times New Roman;font-size:1.5em}
+		.st7 {marker-start:url(#mrkr5-16);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5}
+		.st8 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.45454545454545}
+		.st9 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st10 {fill:#000000;font-family:Times New Roman;font-size:1.5em;font-style:italic}
+		.st11 {baseline-shift:-32.4951%;font-size:0.649902em}
+		.st12 {fill:#ffffff;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5}
+		.st13 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5}
+		.st14 {fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5}
+		.st15 {fill:#5b9bd5;filter:url(#filter_2);font-family:微软雅黑;font-size:1.5em;opacity:0.219608}
+		.st16 {fill:#000000;font-family:微软雅黑;font-size:1.5em}
+		.st17 {fill:#000000;font-family:Times New Roman;font-size:0.833336em}
+		.st18 {marker-end:url(#mrkr5-172);marker-start:url(#mrkr5-16);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5}
+		.st19 {fill:#000000;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5}
+		.st20 {baseline-shift:32.4951%;font-size:0.649902em;font-style:normal}
+		.st21 {marker-start:url(#mrkr5-251);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st22 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.35714285714286}
+		.st23 {fill:#000000;font-family:Times New Roman;font-size:1.00001em;font-style:italic}
+		.st24 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st25 {baseline-shift:-32.4951%;font-size:0.649902em;font-style:normal}
+		.st26 {fill:none;stroke:#000000;stroke-dasharray:5.25,3.75;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st27 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend5">
+			<path d="M 2 1 L 0 0 L 1.98117 -0.993387 C 1.67173 -0.364515 1.67301 0.372641 1.98465 1.00043 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr5-16" class="st8" v:arrowType="5" v:arrowSize="1" v:setback="3.61" refX="3.61" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend5" transform="scale(2.2) "/>
+		</marker>
+		<marker id="mrkr5-172" class="st8" v:arrowType="5" v:arrowSize="1" v:setback="3.85" refX="-3.85" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend5" transform="scale(-2.2,-2.2) "/>
+		</marker>
+		<marker id="mrkr5-251" class="st22" v:arrowType="5" v:arrowSize="1" v:setback="4.54" refX="4.54" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend5" transform="scale(2.8) "/>
+		</marker>
+	</defs>
+	<defs id="Filters">
+		<filter id="filter_2">
+			<feGaussianBlur stdDeviation="2"/>
+		</filter>
+	</defs>
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>页-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<g id="shape722-1" v:mID="722" v:groupContext="shape" transform="translate(237.216,-59.1939)">
+			<title>矩形.722</title>
+			<desc>IM Observer</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="38.9764" cy="342.325" width="77.96" height="70.8661"/>
+			<g id="shadow722-2" v:groupContext="shadow" v:shadowOffsetX="0.3456" v:shadowOffsetY="-1.9728" v:shadowType="1"
+					transform="matrix(1,0,0,1,0.3456,1.9728)" class="st1">
+				<rect x="0" y="306.892" width="77.9528" height="70.8661" class="st2"/>
+				<text x="27.98" y="336.92" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>IM<v:newlineChar/><tspan
+							x="5.99" dy="1.2em" class="st4">Observer</tspan></text>			</g>
+			<rect x="0" y="306.892" width="77.9528" height="70.8661" class="st5"/>
+			<text x="27.98" y="336.92" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>IM<v:newlineChar/><tspan
+						x="5.99" dy="1.2em" class="st4">Observer</tspan></text>		</g>
+		<g id="shape723-11" v:mID="723" v:groupContext="shape" transform="translate(314.47,-126.517)">
+			<title>工作表.723</title>
+			<path d="M5.41 377.76 L5.77 377.76 L32.04 377.76" class="st7"/>
+		</g>
+		<g id="shape724-17" v:mID="724" v:groupContext="shape" transform="translate(314.47,-105.257)">
+			<title>工作表.724</title>
+			<path d="M5.41 377.76 L5.77 377.76 L32.04 377.76" class="st7"/>
+		</g>
+		<g id="shape725-22" v:mID="725" v:groupContext="shape" transform="translate(314.47,-83.9971)">
+			<title>工作表.725</title>
+			<path d="M5.41 377.76 L5.77 377.76 L32.04 377.76" class="st7"/>
+		</g>
+		<g id="shape726-27" v:mID="726" v:groupContext="shape" transform="translate(314.47,-63.0207)">
+			<title>工作表.726</title>
+			<path d="M5.41 377.76 L5.77 377.76 L32.04 377.76" class="st7"/>
+		</g>
+		<g id="shape727-32" v:mID="727" v:groupContext="shape" transform="translate(313.936,-126.359)">
+			<title>工作表.727</title>
+			<desc>Uα</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="17.6241" cy="367.758" width="35.25" height="20"/>
+			<rect x="0" y="357.758" width="35.2482" height="20" class="st9"/>
+			<text x="8.05" y="373.16" class="st10" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>U<tspan dy="-0.279em"
+						class="st11" v:langID="1032" v:baseFontSize="18">α</tspan></text>		</g>
+		<g id="shape728-36" v:mID="728" v:groupContext="shape" transform="translate(313.936,-106.989)">
+			<title>工作表.728</title>
+			<desc>Uβ</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="17.6241" cy="367.758" width="35.25" height="20"/>
+			<rect x="0" y="357.758" width="35.2482" height="20" class="st9"/>
+			<text x="8.21" y="373.16" class="st10" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>U<tspan dy="-0.279em"
+						class="st11" v:baseFontSize="18">β</tspan> </text>		</g>
+		<g id="shape729-40" v:mID="729" v:groupContext="shape" transform="translate(312.334,-84.4065)">
+			<title>工作表.729</title>
+			<desc>iα</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="17.6241" cy="367.758" width="35.25" height="20"/>
+			<rect x="0" y="357.758" width="35.2482" height="20" class="st9"/>
+			<text x="12.05" y="373.16" class="st10" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>i<tspan
+						dy="-0.279em" class="st11" v:baseFontSize="18">α</tspan> </text>		</g>
+		<g id="shape730-44" v:mID="730" v:groupContext="shape" transform="translate(313.402,-65.2884)">
+			<title>工作表.730</title>
+			<desc>iβ</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="17.6241" cy="367.758" width="35.25" height="20"/>
+			<rect x="0" y="357.758" width="35.2482" height="20" class="st9"/>
+			<text x="12.21" y="373.16" class="st10" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>i<tspan
+						dy="-0.279em" class="st11" v:langID="1032" v:baseFontSize="18">β</tspan></text>		</g>
+		<g id="shape731-48" v:mID="731" v:groupContext="shape" transform="translate(52.1073,-294.023)">
+			<title>矩形.731</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<g id="shadow731-49" v:groupContext="shadow" v:shadowOffsetX="0.3456" v:shadowOffsetY="-1.9728" v:shadowType="1"
+					transform="matrix(1,0,0,1,0.3456,1.9728)" class="st1">
+				<rect x="0" y="335.238" width="56.6929" height="42.5197" class="st2"/>
+			</g>
+			<rect x="0" y="335.238" width="56.6929" height="42.5197" class="st5"/>
+		</g>
+		<g id="shape732-53" v:mID="732" v:groupContext="shape" transform="translate(52.1073,440.233) rotate(180)">
+			<title>工作表.732</title>
+			<path d="M5.41 377.76 L5.77 377.76 L42.52 377.76" class="st7"/>
+		</g>
+		<g id="group733-58" transform="translate(130.06,-308.196)" v:mID="733" v:groupContext="group">
+			<title>工作表.733</title>
+			<g id="shape734-59" v:mID="734" v:groupContext="shape">
+				<title>圆形</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<path d="M0 370.67 A7.08661 7.08661 0 0 1 14.17 370.67 A7.08661 7.08661 0 1 1 0 370.67 Z" class="st12"/>
+			</g>
+			<g id="shape735-61" v:mID="735" v:groupContext="shape" transform="translate(269.19,98.5445) rotate(45)">
+				<title>工作表.735</title>
+				<path d="M0 377.76 L14.18 377.76" class="st13"/>
+			</g>
+			<g id="shape736-64" v:mID="736" v:groupContext="shape" transform="translate(-265.04,108.568) rotate(-45)">
+				<title>工作表.736</title>
+				<path d="M0 377.76 L14.18 377.76" class="st13"/>
+			</g>
+		</g>
+		<g id="shape737-67" v:mID="737" v:groupContext="shape" transform="translate(130.06,440.233) rotate(180)">
+			<title>工作表.737</title>
+			<path d="M5.41 377.76 L5.77 377.76 L21.26 377.76" class="st7"/>
+		</g>
+		<g id="shape738-72" v:mID="738" v:groupContext="shape" transform="translate(514.905,69.5618) rotate(90)">
+			<title>工作表.738</title>
+			<path d="M5.41 377.76 L5.77 377.76 L27.33 377.76" class="st7"/>
+		</g>
+		<g id="shape739-77" v:mID="739" v:groupContext="shape" transform="translate(165.493,440.233) rotate(180)">
+			<title>工作表.739</title>
+			<path d="M5.41 377.76 L5.77 377.76 L21.26 377.76" class="st7"/>
+		</g>
+		<g id="shape740-82" v:mID="740" v:groupContext="shape" transform="translate(165.493,-294.023)">
+			<title>矩形.740</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<g id="shadow740-83" v:groupContext="shadow" v:shadowOffsetX="0.3456" v:shadowOffsetY="-1.9728" v:shadowType="1"
+					transform="matrix(1,0,0,1,0.3456,1.9728)" class="st1">
+				<rect x="0" y="335.238" width="56.6929" height="42.5197" class="st2"/>
+			</g>
+			<rect x="0" y="335.238" width="56.6929" height="42.5197" class="st5"/>
+		</g>
+		<g id="shape741-87" v:mID="741" v:groupContext="shape" transform="translate(299.578,-294.023)">
+			<title>矩形.741</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<g id="shadow741-88" v:groupContext="shadow" v:shadowOffsetX="0.3456" v:shadowOffsetY="-1.9728" v:shadowType="1"
+					transform="matrix(1,0,0,1,0.3456,1.9728)" class="st1">
+				<rect x="0" y="335.238" width="35.4331" height="42.5197" class="st2"/>
+			</g>
+			<rect x="0" y="335.238" width="35.4331" height="42.5197" class="st5"/>
+		</g>
+		<g id="shape742-92" v:mID="742" v:groupContext="shape" transform="translate(299.578,440.233) rotate(180)">
+			<title>工作表.742</title>
+			<path d="M5.41 377.76 L5.77 377.76 L77.39 377.76" class="st7"/>
+		</g>
+		<g id="group743-97" transform="translate(356.271,-308.196)" v:mID="743" v:groupContext="group">
+			<title>工作表.743</title>
+			<g id="shape744-98" v:mID="744" v:groupContext="shape">
+				<title>圆形</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<path d="M0 370.67 A7.08661 7.08661 0 0 1 14.17 370.67 A7.08661 7.08661 0 1 1 0 370.67 Z" class="st14"/>
+			</g>
+			<g id="shape745-100" v:mID="745" v:groupContext="shape" transform="translate(269.19,98.5445) rotate(45)">
+				<title>工作表.745</title>
+				<path d="M0 377.76 L14.18 377.76" class="st13"/>
+			</g>
+			<g id="shape746-103" v:mID="746" v:groupContext="shape" transform="translate(-265.04,108.568) rotate(-45)">
+				<title>工作表.746</title>
+				<path d="M0 377.76 L14.18 377.76" class="st13"/>
+			</g>
+		</g>
+		<g id="shape747-106" v:mID="747" v:groupContext="shape" transform="translate(356.271,440.233) rotate(180)">
+			<title>工作表.747</title>
+			<path d="M5.41 377.76 L5.77 377.76 L21.26 377.76" class="st7"/>
+		</g>
+		<g id="shape748-111" v:mID="748" v:groupContext="shape" transform="translate(741.116,69.5618) rotate(90)">
+			<title>工作表.748</title>
+			<path d="M5.41 377.76 L5.77 377.76 L27.33 377.76" class="st7"/>
+		</g>
+		<g id="shape749-116" v:mID="749" v:groupContext="shape" transform="translate(418.323,438.879) rotate(178.143)">
+			<title>工作表.749</title>
+			<path d="M5.41 377.76 L5.77 377.76 L35.66 377.76" class="st7"/>
+		</g>
+		<g id="shape752-121" v:mID="752" v:groupContext="shape" transform="translate(406.084,-158.401)">
+			<title>矩形.752</title>
+			<desc>电压矢量选择</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="96.2749" cy="282.309" width="192.55" height="190.898"/>
+			<g id="shadow752-122" v:groupContext="shadow" v:shadowOffsetX="0.3456" v:shadowOffsetY="-1.9728" v:shadowType="1"
+					transform="matrix(1,0,0,1,0.3456,1.9728)" class="st1">
+				<rect x="0" y="186.86" width="192.55" height="190.898" class="st2"/>
+				<text x="42.27" y="287.71" class="st15" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>电压矢量选择</text>			</g>
+			<rect x="0" y="186.86" width="192.55" height="190.898" class="st5"/>
+			<text x="42.27" y="287.71" class="st16" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>电压矢量选择</text>		</g>
+		<g id="shape757-129" v:mID="757" v:groupContext="shape" transform="translate(694.657,-230.818)">
+			<title>圆形</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<path d="M0 354.73 A23.0315 23.0315 0 0 1 46.06 354.73 A23.0315 23.0315 0 1 1 0 354.73 Z" class="st14"/>
+		</g>
+		<g id="shape756-131" v:mID="756" v:groupContext="shape" transform="translate(694.657,-230.818)">
+			<title>工作表.756</title>
+			<desc>MOTOR</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="23.0315" cy="354.726" width="46.07" height="46.063"/>
+			<text x="4.97" y="357.73" class="st17" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>MOTOR</text>		</g>
+		<g id="shape760-133" v:mID="760" v:groupContext="shape" transform="translate(694.657,501.666) rotate(180)">
+			<title>工作表.760</title>
+			<path d="M0 377.76 L96.02 377.76" class="st13"/>
+		</g>
+		<g id="group764-136" transform="translate(356.98,-185.294)" v:mID="764" v:groupContext="group">
+			<title>工作表.764</title>
+			<g id="shape765-137" v:mID="765" v:groupContext="shape">
+				<title>圆形</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<path d="M0 370.67 A7.08661 7.08661 0 0 1 14.17 370.67 A7.08661 7.08661 0 1 1 0 370.67 Z" class="st12"/>
+			</g>
+			<g id="shape766-139" v:mID="766" v:groupContext="shape" transform="translate(269.19,98.5445) rotate(45)">
+				<title>工作表.766</title>
+				<path d="M0 377.76 L14.18 377.76" class="st13"/>
+			</g>
+			<g id="shape767-142" v:mID="767" v:groupContext="shape" transform="translate(-265.04,108.568) rotate(-45)">
+				<title>工作表.767</title>
+				<path d="M0 377.76 L14.18 377.76" class="st13"/>
+			</g>
+		</g>
+		<g id="shape768-145" v:mID="768" v:groupContext="shape" transform="translate(356.98,563.135) rotate(180)">
+			<title>工作表.768</title>
+			<path d="M5.41 377.76 L5.77 377.76 L21.26 377.76" class="st7"/>
+		</g>
+		<g id="shape769-150" v:mID="769" v:groupContext="shape" transform="translate(741.824,192.464) rotate(90)">
+			<title>工作表.769</title>
+			<path d="M5.41 377.76 L5.77 377.76 L27.33 377.76" class="st7"/>
+		</g>
+		<g id="shape770-155" v:mID="770" v:groupContext="shape" transform="translate(406.084,563.135) rotate(180)">
+			<title>工作表.770</title>
+			<path d="M5.41 377.76 L5.77 377.76 L34.93 377.76" class="st7"/>
+		</g>
+		<g id="shape771-160" v:mID="771" v:groupContext="shape" transform="translate(471.783,-44.574)">
+			<title>矩形.771</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<g id="shadow771-161" v:groupContext="shadow" v:shadowOffsetX="0.3456" v:shadowOffsetY="-1.9728" v:shadowType="1"
+					transform="matrix(1,0,0,1,0.3456,1.9728)" class="st1">
+				<rect x="0" y="321.065" width="61.6535" height="56.6929" class="st2"/>
+			</g>
+			<rect x="0" y="321.065" width="61.6535" height="56.6929" class="st5"/>
+		</g>
+		<g id="shape773-165" v:mID="773" v:groupContext="shape" transform="translate(880.113,217.696) rotate(89.748)">
+			<title>工作表.773</title>
+			<path d="M5.41 377.76 L5.77 377.76 L51.36 377.76" class="st18"/>
+		</g>
+		<g id="shape774-173" v:mID="774" v:groupContext="shape" transform="translate(444.569,-87.0937)">
+			<title>工作表.774</title>
+			<path d="M5.41 377.76 L5.77 377.76 L27.21 377.76" class="st7"/>
+		</g>
+		<g id="shape775-178" v:mID="775" v:groupContext="shape" transform="translate(444.569,-58.7473)">
+			<title>工作表.775</title>
+			<path d="M5.41 377.76 L5.77 377.76 L27.21 377.76" class="st7"/>
+		</g>
+		<g id="shape776-183" v:mID="776" v:groupContext="shape" transform="translate(533.437,-87.0937)">
+			<title>工作表.776</title>
+			<path d="M5.41 377.76 L5.77 377.76 L111.84 377.76" class="st7"/>
+		</g>
+		<g id="shape777-188" v:mID="777" v:groupContext="shape" transform="translate(533.437,-58.7473)">
+			<title>工作表.777</title>
+			<path d="M5.41 377.76 L5.77 377.76 L132.3 377.76" class="st7"/>
+		</g>
+		<g id="shape778-193" v:mID="778" v:groupContext="shape" transform="translate(284.989,158.247) rotate(-90.2464)">
+			<title>工作表.778</title>
+			<path d="M0 377.76 L0.03 377.76" class="st13"/>
+		</g>
+		<g id="shape779-196" v:mID="779" v:groupContext="shape" transform="translate(662.744,-221.135)">
+			<title>工作表.779</title>
+			<path d="M0 377.73 A2.98854 2.98854 0 1 1 5.98 377.73 L5.98 377.76" class="st13"/>
+		</g>
+		<g id="shape780-199" v:mID="780" v:groupContext="shape" transform="translate(668.721,-221.135)">
+			<title>工作表.780</title>
+			<path d="M0 377.76 L6.45 377.76 L32.68 362.38" class="st13"/>
+		</g>
+		<g id="shape781-202" v:mID="781" v:groupContext="shape" transform="translate(598.633,-221.135)">
+			<title>工作表.781</title>
+			<path d="M0 377.76 L64.11 377.76" class="st13"/>
+		</g>
+		<g id="shape782-205" v:mID="782" v:groupContext="shape" transform="translate(264.658,101.968) rotate(-91.4758)">
+			<title>工作表.782</title>
+			<path d="M-0 377.76 A2.98854 2.98854 171.31 0 1 0.15 377.76" class="st13"/>
+		</g>
+		<g id="shape783-208" v:mID="783" v:groupContext="shape" transform="translate(642.287,-285.519)">
+			<title>工作表.783</title>
+			<path d="M0 377.6 A2.98854 2.98854 0 1 1 5.98 377.6 A2.98854 2.98854 0 0 1 5.97 377.76" class="st13"/>
+		</g>
+		<g id="shape784-211" v:mID="784" v:groupContext="shape" transform="translate(648.26,-270.138)">
+			<title>工作表.784</title>
+			<path d="M0 362.38 L26.91 362.38 L53.14 377.76" class="st13"/>
+		</g>
+		<g id="shape785-214" v:mID="785" v:groupContext="shape" transform="translate(598.633,-285.519)">
+			<title>工作表.785</title>
+			<path d="M0 377.76 L43.66 377.76" class="st13"/>
+		</g>
+		<g id="shape786-217" v:mID="786" v:groupContext="shape" transform="translate(645.276,-250.861)">
+			<title>工作表.786</title>
+			<path d="M-0 371.78 A2.98854 2.98854 0 0 1 2.99 374.77 A2.98854 2.98854 0 0 1 -0 377.76" class="st13"/>
+		</g>
+		<g id="shape787-220" v:mID="787" v:groupContext="shape" transform="translate(645.276,-176.102)">
+			<title>工作表.787</title>
+			<path d="M0 303 L0 329.71 A2.98854 2.98854 0 0 1 2.99 332.7 A2.98854 2.98854 0 0 1 0 335.69 L0 377.76" class="st13"/>
+		</g>
+		<g id="shape788-223" v:mID="788" v:groupContext="shape" transform="translate(267.518,120.92) rotate(-90)">
+			<title>工作表.788</title>
+			<path d="M0 377.76 L28.68 377.76" class="st13"/>
+		</g>
+		<g id="group789-226" transform="translate(644.626,-284.869)" v:mID="789" v:groupContext="group">
+			<title>工作表.789</title>
+			<g id="shape790-227" v:mID="790" v:groupContext="shape">
+				<title>圆形</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<path d="M0 377.11 a0.649954 0.649954 0 0 1 1.29991 0 a0.649954 0.649954 0 1 1 -1.29991 0 Z" class="st19"/>
+			</g>
+		</g>
+		<g id="group791-229" transform="translate(665.082,-220.322)" v:mID="791" v:groupContext="group">
+			<title>工作表.791</title>
+			<g id="shape792-230" v:mID="792" v:groupContext="shape">
+				<title>圆形</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<path d="M0 377.11 a0.649954 0.649954 0 0 1 1.29991 0 a0.649954 0.649954 0 1 1 -1.29991 0 Z" class="st19"/>
+			</g>
+		</g>
+		<g id="shape793-232" v:mID="793" v:groupContext="shape" transform="translate(287.974,319.011) rotate(-90)">
+			<title>工作表.793</title>
+			<path d="M0 377.76 L162.22 377.76" class="st13"/>
+		</g>
+		<g id="shape794-235" v:mID="794" v:groupContext="shape" transform="translate(267.518,290.664) rotate(-90)">
+			<title>工作表.794</title>
+			<path d="M0 377.76 L89.01 377.76" class="st13"/>
+		</g>
+		<g id="shape796-238" v:mID="796" v:groupContext="shape" transform="translate(0.375,-316.543)">
+			<title>工作表.796</title>
+			<desc>ω*</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="23.3858" cy="367.758" width="46.78" height="20"/>
+			<rect x="0" y="357.758" width="46.7717" height="20" class="st9"/>
+			<text x="14.11" y="373.16" class="st10" v:langID="1032"><v:paragraph v:horizAlign="1"/><v:tabList/>ω<tspan
+						dy="-0.198em" class="st20" v:langID="2052" v:baseFontSize="18">*</tspan></text>		</g>
+		<g id="shape797-242" v:mID="797" v:groupContext="shape" transform="translate(48.4222,-271.346)">
+			<title>工作表.797</title>
+			<desc>Ramp</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="26.5703" cy="367.758" width="53.15" height="20"/>
+			<rect x="0" y="357.758" width="53.1406" height="20" class="st9"/>
+			<text x="5.57" y="373.16" class="st10" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Ramp</text>		</g>
+		<g id="group798-245" transform="translate(55.7745,-296.858)" v:mID="798" v:groupContext="group">
+			<title>工作表.798</title>
+			<g id="shape799-246" v:mID="799" v:groupContext="shape" transform="translate(45.8983,750.926) rotate(180)">
+				<title>工作表.799</title>
+				<path d="M4.54 377.76 L4.9 377.76 L45.9 377.76" class="st21"/>
+			</g>
+			<g id="shape800-252" v:mID="800" v:groupContext="shape" transform="translate(382.106,339.554) rotate(90)">
+				<title>工作表.800</title>
+				<path d="M4.54 377.76 L4.9 377.76 L38.2 377.76" class="st21"/>
+			</g>
+			<g id="shape801-257" v:mID="801" v:groupContext="shape" transform="translate(3.44237,-23.0852)">
+				<title>工作表.801</title>
+				<desc>ω</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="5.73729" cy="369.662" width="11.48" height="16.1919"/>
+				<rect x="0" y="361.566" width="11.4746" height="16.1919" class="st9"/>
+				<text x="4" y="375.06" class="st10" v:langID="1032"><v:paragraph v:horizAlign="1"/><v:tabList/>ω</text>			</g>
+			<g id="shape802-260" v:mID="802" v:groupContext="shape" transform="translate(37.8661,-3.37863)">
+				<title>工作表.802</title>
+				<desc>t</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="5.73729" cy="369.662" width="11.48" height="16.1919"/>
+				<rect x="0" y="361.566" width="11.4746" height="16.1919" class="st9"/>
+				<text x="4.07" y="373.26" class="st23" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>t</text>			</g>
+			<g id="shape803-263" v:mID="803" v:groupContext="shape" transform="translate(4.34826,-9.17966)">
+				<title>工作表.803</title>
+				<path d="M0 377.76 L5.94 377.76 L28.69 355 L39.26 355" class="st24"/>
+			</g>
+		</g>
+		<g id="shape804-266" v:mID="804" v:groupContext="shape" transform="translate(127.934,-268.172)">
+			<title>工作表.804</title>
+			<desc>ωr</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="23.3858" cy="367.758" width="46.78" height="20"/>
+			<rect x="0" y="357.758" width="46.7717" height="20" class="st9"/>
+			<text x="15.08" y="373.16" class="st10" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>ω<tspan
+						dy="-0.279em" class="st25" v:baseFontSize="18">r</tspan></text>		</g>
+		<g id="group806-270" transform="translate(302.98,-297.991)" v:mID="806" v:groupContext="group">
+			<title>工作表.806</title>
+			<g id="shape807-271" v:mID="807" v:groupContext="shape" transform="translate(26.4023,740.159) rotate(180)">
+				<title>工作表.807</title>
+				<path d="M4.54 377.76 L4.9 377.76 L25.92 377.76" class="st21"/>
+			</g>
+			<g id="shape808-276" v:mID="808" v:groupContext="shape" transform="translate(390.565,343.81) rotate(90)">
+				<title>工作表.808</title>
+				<path d="M4.54 377.76 L4.9 377.76 L33.95 377.76" class="st21"/>
+			</g>
+			<g id="shape809-281" v:mID="809" v:groupContext="shape" transform="translate(20.1652,-14.2806)">
+				<title>工作表.809</title>
+				<desc>t</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="3.24025" cy="370.564" width="6.49" height="14.3879"/>
+				<rect x="0" y="363.37" width="6.48051" height="14.3879" class="st9"/>
+				<text x="4" y="374.17" class="st23" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>t</text>			</g>
+			<g id="shape810-284" v:mID="810" v:groupContext="shape" transform="translate(1.59872E-14,-1.20307)">
+				<title>工作表.810</title>
+				<path d="M25.61 350.29 L21.87 350.29 L12.81 363.74 L3.84 377.76 L0 377.76" class="st24"/>
+			</g>
+		</g>
+		<g id="shape811-287" v:mID="811" v:groupContext="shape" transform="translate(169.045,-271.346)">
+			<title>工作表.811</title>
+			<desc>ASR</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="26.5703" cy="367.758" width="53.15" height="20"/>
+			<rect x="0" y="357.758" width="53.1406" height="20" class="st9"/>
+			<text x="11.08" y="373.16" class="st10" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>ASR</text>		</g>
+		<g id="shape812-290" v:mID="812" v:groupContext="shape" transform="translate(290.725,-271.346)">
+			<title>工作表.812</title>
+			<desc>Limit</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="26.5703" cy="367.758" width="53.15" height="20"/>
+			<rect x="0" y="357.758" width="53.1406" height="20" class="st9"/>
+			<text x="7.56" y="373.16" class="st10" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Limit</text>		</g>
+		<g id="shape813-293" v:mID="813" v:groupContext="shape" transform="translate(224.666,-320.532)">
+			<title>工作表.813</title>
+			<desc>Te*</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="30.8268" cy="367.758" width="61.66" height="20"/>
+			<rect x="0" y="357.758" width="61.6535" height="20" class="st9"/>
+			<text x="20.3" y="373.16" class="st10" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>T<tspan dy="-0.279em"
+						class="st11" v:baseFontSize="18">e</tspan><tspan dy="0.081em" class="st20" v:baseFontSize="18">*</tspan></text>		</g>
+		<g id="shape814-298" v:mID="814" v:groupContext="shape" transform="translate(350.46,-271.346)">
+			<title>工作表.814</title>
+			<desc>Te</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="23.3858" cy="367.758" width="46.78" height="20"/>
+			<rect x="0" y="357.758" width="46.7717" height="20" class="st9"/>
+			<text x="15.78" y="373.16" class="st10" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>T<tspan
+						dy="-0.279em" class="st11" v:baseFontSize="18">e</tspan></text>		</g>
+		<g id="group815-302" transform="translate(122.973,-322.369)" v:mID="815" v:groupContext="group">
+			<title>工作表.815</title>
+			<g id="shape816-303" v:mID="816" v:groupContext="shape" transform="translate(0,-2.4817)">
+				<title>工作表.816</title>
+				<path d="M0 377.76 L4.82 377.76" class="st13"/>
+			</g>
+			<g id="shape817-306" v:mID="817" v:groupContext="shape" transform="translate(380.095,372.939) rotate(90)">
+				<title>工作表.817</title>
+				<path d="M0 377.76 L4.82 377.76" class="st13"/>
+			</g>
+		</g>
+		<g id="group818-309" transform="translate(142.816,-295.775)" v:mID="818" v:groupContext="group">
+			<title>工作表.818</title>
+			<g id="shape819-310" v:mID="819" v:groupContext="shape" transform="translate(0,-2.4817)">
+				<title>工作表.819</title>
+				<path d="M0 377.76 L4.82 377.76" class="st13"/>
+			</g>
+		</g>
+		<g id="group820-313" transform="translate(344.082,-306.779)" v:mID="820" v:groupContext="group">
+			<title>工作表.820</title>
+			<g id="shape821-314" v:mID="821" v:groupContext="shape" transform="translate(0,-2.4817)">
+				<title>工作表.821</title>
+				<path d="M0 377.76 L4.82 377.76" class="st13"/>
+			</g>
+			<g id="shape822-317" v:mID="822" v:groupContext="shape" transform="translate(380.095,372.939) rotate(90)">
+				<title>工作表.822</title>
+				<path d="M0 377.76 L4.82 377.76" class="st13"/>
+			</g>
+		</g>
+		<g id="group823-320" transform="translate(370.019,-299.046)" v:mID="823" v:groupContext="group">
+			<title>工作表.823</title>
+			<g id="shape824-321" v:mID="824" v:groupContext="shape" transform="translate(0,-2.4817)">
+				<title>工作表.824</title>
+				<path d="M0 377.76 L4.82 377.76" class="st13"/>
+			</g>
+		</g>
+		<g id="shape829-324" v:mID="829" v:groupContext="shape" transform="translate(644.027,-286.779)">
+			<title>工作表.829</title>
+			<desc>U</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="12.3109" cy="367.758" width="24.63" height="20"/>
+			<rect x="0" y="357.758" width="24.6217" height="20" class="st9"/>
+			<text x="5.81" y="373.16" class="st10" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>U</text>		</g>
+		<g id="shape830-327" v:mID="830" v:groupContext="shape" transform="translate(644.027,-256.838)">
+			<title>工作表.830</title>
+			<desc>V</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="12.3109" cy="367.758" width="24.63" height="20"/>
+			<rect x="0" y="357.758" width="24.6217" height="20" class="st9"/>
+			<text x="6.81" y="373.16" class="st10" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>V</text>		</g>
+		<g id="shape831-330" v:mID="831" v:groupContext="shape" transform="translate(643.137,-222.999)">
+			<title>工作表.831</title>
+			<desc>W</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="12.3109" cy="367.758" width="24.63" height="20"/>
+			<rect x="0" y="357.758" width="24.6217" height="20" class="st9"/>
+			<text x="4.81" y="373.16" class="st10" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>W</text>		</g>
+		<g id="shape834-333" v:mID="834" v:groupContext="shape" transform="translate(789.879,553.08) rotate(137.07)">
+			<title>工作表.834</title>
+			<path d="M0 377.76 L83.24 377.76" class="st13"/>
+		</g>
+		<g id="shape835-336" v:mID="835" v:groupContext="shape" transform="translate(441.38,-91.267)">
+			<title>工作表.835</title>
+			<desc>iα</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="14.5276" cy="367.758" width="29.06" height="20"/>
+			<rect x="0" y="357.758" width="29.0551" height="20" class="st9"/>
+			<text x="8.96" y="373.16" class="st10" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>i<tspan dy="-0.279em"
+						class="st11" v:langID="1032" v:baseFontSize="18">α</tspan></text>		</g>
+		<g id="shape836-340" v:mID="836" v:groupContext="shape" transform="translate(441.38,-62.9205)">
+			<title>工作表.836</title>
+			<desc>iβ</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="14.5276" cy="367.758" width="29.06" height="20"/>
+			<rect x="0" y="357.758" width="29.0551" height="20" class="st9"/>
+			<text x="9.11" y="373.16" class="st10" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>i<tspan dy="-0.279em"
+						class="st11" v:langID="1032" v:baseFontSize="18">β</tspan> </text>		</g>
+		<g id="shape837-344" v:mID="837" v:groupContext="shape" transform="translate(464.555,-72.9205)">
+			<title>工作表.837</title>
+			<desc>αβ</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="23.3858" cy="367.758" width="46.78" height="20"/>
+			<rect x="0" y="357.758" width="46.7717" height="20" class="st9"/>
+			<text x="14.18" y="373.16" class="st10" v:langID="1032"><v:paragraph v:horizAlign="1"/><v:tabList/>αβ</text>		</g>
+		<g id="shape838-347" v:mID="838" v:groupContext="shape" transform="translate(488.649,-50.0859)">
+			<title>工作表.838</title>
+			<desc>abc</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="23.3858" cy="367.758" width="46.78" height="20"/>
+			<rect x="0" y="357.758" width="46.7717" height="20" class="st9"/>
+			<text x="10.39" y="373.16" class="st10" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>abc</text>		</g>
+		<g id="shape839-350" v:mID="839" v:groupContext="shape" transform="translate(450.381,-24.574)">
+			<title>工作表.839</title>
+			<desc>Clarke&#38;Park</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="53.8583" cy="367.758" width="107.72" height="20"/>
+			<rect x="0" y="357.758" width="107.717" height="20" class="st9"/>
+			<text x="6.37" y="373.16" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Clarke&#38;Park</text>		</g>
+		<g id="shape840-353" v:mID="840" v:groupContext="shape" transform="translate(324.381,-194.013)">
+			<title>工作表.840</title>
+			<desc>ψs*</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="23.3858" cy="367.758" width="46.78" height="20"/>
+			<rect x="0" y="357.758" width="46.7717" height="20" class="st9"/>
+			<text x="11.02" y="373.16" class="st10" v:langID="1032"><v:paragraph v:horizAlign="1"/><v:tabList/>ψ<tspan
+						dy="-0.279em" class="st11" v:langID="2052" v:baseFontSize="18">s</tspan><tspan dy="0.181em" class="st4"
+						v:langID="2052">*</tspan></text>		</g>
+		<g id="group842-358" transform="translate(369.027,-175.021)" v:mID="842" v:groupContext="group">
+			<title>工作表.842</title>
+			<g id="shape843-359" v:mID="843" v:groupContext="shape" transform="translate(0,-2.4817)">
+				<title>工作表.843</title>
+				<path d="M0 377.76 L4.82 377.76" class="st13"/>
+			</g>
+		</g>
+		<g id="group844-362" transform="translate(342.098,-185.294)" v:mID="844" v:groupContext="group">
+			<title>工作表.844</title>
+			<g id="shape845-363" v:mID="845" v:groupContext="shape" transform="translate(0,-2.4817)">
+				<title>工作表.845</title>
+				<path d="M0 377.76 L4.82 377.76" class="st13"/>
+			</g>
+			<g id="shape846-366" v:mID="846" v:groupContext="shape" transform="translate(380.095,372.939) rotate(90)">
+				<title>工作表.846</title>
+				<path d="M0 377.76 L4.82 377.76" class="st13"/>
+			</g>
+		</g>
+		<g id="shape865-369" v:mID="865" v:groupContext="shape" transform="translate(201.783,-95.1782)">
+			<title>工作表.865</title>
+			<desc>θe</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="19.8425" cy="367.758" width="39.69" height="20"/>
+			<rect x="0" y="357.758" width="39.685" height="20" class="st9"/>
+			<text x="12.83" y="373.16" class="st10" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>θ<tspan
+						dy="-0.279em" class="st25" v:baseFontSize="18">e</tspan></text>		</g>
+		<g id="shape867-373" v:mID="867" v:groupContext="shape" transform="translate(139.627,-0.375)">
+			<title>工作表.867</title>
+			<path d="M544.25 0.75 L544.25 377.76 L0 377.76 L0 170.83 L141.73 170.83 L141.73 0.75 L544.25 0.75 Z" class="st26"/>
+		</g>
+		<g id="shape868-375" v:mID="868" v:groupContext="shape" transform="translate(593.17,-349.036)">
+			<title>工作表.868</title>
+			<desc>转矩控制</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="367.758" width="90.71" height="20"/>
+			<rect x="0" y="357.758" width="90.7087" height="20" class="st9"/>
+			<text x="9.35" y="373.16" class="st16" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>转矩控制</text>		</g>
+		<g id="shape869-378" v:mID="869" v:groupContext="shape" transform="translate(108.24,-118.013)">
+			<title>工作表.869</title>
+			<path d="M5.41 377.76 L5.77 377.76 L128.98 377.76" class="st7"/>
+		</g>
+		<g id="shape871-383" v:mID="871" v:groupContext="shape" transform="translate(205.172,-89.5089)">
+			<title>工作表.871</title>
+			<path d="M5.41 377.76 L5.77 377.76 L32.04 377.76" class="st7"/>
+		</g>
+		<g id="shape872-388" v:mID="872" v:groupContext="shape" transform="translate(89.8145,-122.422)">
+			<title>工作表.872</title>
+			<desc>ωr</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="23.3858" cy="367.758" width="46.78" height="20"/>
+			<rect x="0" y="357.758" width="46.7717" height="20" class="st9"/>
+			<text x="15.08" y="373.16" class="st10" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>ω<tspan
+						dy="-0.279em" class="st25" v:baseFontSize="18">r</tspan></text>		</g>
+		<g id="shape873-392" v:mID="873" v:groupContext="shape" transform="translate(354.145,-156.202)">
+			<title>工作表.873</title>
+			<desc>ψs</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="23.3858" cy="367.758" width="46.78" height="20"/>
+			<rect x="0" y="357.758" width="46.7717" height="20" class="st9"/>
+			<text x="15.52" y="373.16" class="st10" v:langID="1032"><v:paragraph v:horizAlign="1"/><v:tabList/>ψ<tspan
+						dy="-0.279em" class="st11" v:langID="2052" v:baseFontSize="18">s</tspan></text>		</g>
+		<g id="shape878-396" v:mID="878" v:groupContext="shape" transform="translate(200.366,-69.8238)">
+			<title>工作表.878</title>
+			<desc>ψs</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="23.3858" cy="367.758" width="46.78" height="20"/>
+			<rect x="0" y="357.758" width="46.7717" height="20" class="st9"/>
+			<text x="15.52" y="373.16" class="st10" v:langID="1032"><v:paragraph v:horizAlign="1"/><v:tabList/>ψ<tspan
+						dy="-0.279em" class="st11" v:langID="2052" v:baseFontSize="18">s</tspan></text>		</g>
+		<g id="shape879-400" v:mID="879" v:groupContext="shape" transform="translate(205.172,-66.9892)">
+			<title>工作表.879</title>
+			<path d="M5.41 377.76 L5.77 377.76 L32.04 377.76" class="st7"/>
+		</g>
+		<g id="shape1-405" v:mID="1" v:groupContext="shape" transform="translate(162.992,-297.966)">
+			<title>工作表.1</title>
+			<rect v:rectContext="foreign" x="0" y="343.124" width="56.6929" height="34.6344" class="st9"/>
+			<switch>
+				<foreignObject x="0" y="343.124" width="56.6929" height="34.6344"
+						requiredExtensions="http://schemas.microsoft.com/visio/2003/SVGExtensions/">
+					<v:foreignData v:orgSize="14684" v:data="data:metafile;base64,eNrtWwl0FMW6/js9Sy8z6Z6ZMGCSCUkmmQmEfV9CMlWREG
+								URNZMgAgqoREHAiMii0EAEBFRAdiL7EjIBgaDsSXcJsi+CoICCKIhgBC6iss+rmQmIPsj13avnvXuec843X3X137X8VV31Tf
+								1nGADoQ5FG0ZBichhAfwbgpt/vD+CEALDQABDbun0GAANdmgMUUjtq9ptPdxtAbhTAAZquwfz2XttGLMSM1QEtAGpRxFLQ4p
+								IZDwPRNC0HypPVYwHbTmEhBGy76AE66kO29TxhQTtdsEQlLd6jA1NF+TU9AAmUq1Xc+7XmX9MNPMDcruvX2wkPAuxI/yPPJ3
+								rgrvoBqnvYO/XHePg76TiP8Q+1qxj64x2D30jnPMA+QwvtpAv5YEiFBXNuA1J+3EZg8WM4yH0ewfCxSgAyMdwqI8pyjMFRRk
+								YMSMPgLCVKyxQMNTYT6Nwcw+qNhNnfBEPpegIZjTDsXEtgYX2sblpD4Ewd7Jm2kkByLaz2KyagJmGleDGBJQlYaVdA4IiEIe
+								FJAvkPhHhdXJCVejUwjOxClB/qYkh9iihFtPxr3QmMScX+y88RGNUG++v0Jczwjtif+wpR9nTDSqcRROmbhxV2PFGNo7CyYg
+								rxsOOwaiwgao23sUeaTzwdJ2PVvoR4cqZiT78ioqZOx2q1FcTjmok9ZBWByFlYifwgxHHrQjx5A4HYmVidsIlArenYI5cSaD
+								YVq+9Sv/SbjGGoSpQDb4f81W9i0H9Kxr6QH4v2hPLJDgz1VKJmb8WeGqXEk6tiddUGog7eiD0t1hLlfAmGV1cS5eNlGHKXED
+								jZHYO1G4GEidQfEzXo+i5mJvbQPIZp2G9soqnVZ2D/+5Gap/ksyrdU2FyA/Y8fVME3F/vblqgwcwH2p7+rQpMl2P/OUBVGFl
+								G7Z1XldCEODvgHT4f4fM9gPgzpi/2PvKKC+jL2u+eFOOebEH9k0GB5HvbviNFgTH/s39xcg+59MbM6S4PPemNmXn8NzuZi2D
+								Jag4N0nkyIJeBNxbAimcCLLTAMa0ggqimGG00J7GiIYUgKgdb1MMxKI8w7tTB0QYQ5koQhJp0wdicGP+WMqCDDcSHEkacR7Y
+								PGGL5CYH1XY9Z8geA9RWMSjiEm4zkNphxBzGNtNdj9OfK3bRjihjEhrvqzytT/EvmHblGZ66eR/92lKrP1PPL7xqlM/k3kr5
+								unQjQf9APzjT7ol7AZb3gCzD491xPIZ9WjHn+/QSqziEX+l8erzGtW5B8/T2Wy4pB/4Qcq82lt5L9wQA270RT5+11RmQSM/L
+								+Ea2H5bZH/k0SNic5C/q0e2u4uiNnwpMbMeB7BxTEas30IgoIVGsBJBHkFhJlxFtExI8ypH5BiXRFi45oQz1lHmPZnkecT+r
+								5V/wqpczcT5h+HkadvGWGe2Y4C85AZtAYF5xvDsHd9fnv12zvMfzNh7k7fpwzmd5e3E6MAIjyg3LV2+ePoF0fRgyKwVgWW64
+								QK0LWp1V3r1J10YL13V6xlv1veIfGucmx3pVtW1BNVse7WoWt5Lt1PnrhTV0WDKj6BOlhjrvCzYYHQiabb3cMmUPbnhkLhI8
+								P7woeGtcIyQ6kwx7BTmGI4KowznBWGG8LEAQan+LzhQfFJwxCxrWGrWFl9V/QtzdUNLc2B+l67h02gv2n0fldDE/MgQ7L5XU
+								OsucRgMn9muGC6ZjhgamR8zzTS2NH0iTHMxHPbxJrcXLEt96rYk8sS87im4kguUnyT8wtvcmcoDgojuI+EPG6t0IPzCe24RU
+								JdboEQaF/SPepmaTqFyxUaCrmCSwj5pNE97Oj2DEZhifAN/6GwiT8gTOHPC534BNHID6i07x5jXXMLbowUKNdzDxueph/ntk
+								rPc5ekwZxZHsclyXO4VPlDroO8h+smn+Oel818X7my9gNfKLc0FsqZxr5yZfXkGV+Qxxg7UTShiJNHGXl5qPG8lGc8KOUa10
+								pdjLOkJhXzaAvtsCuc7pmVlLfacNW8wHDUPNWw3TzW8KF5iGGZubdhgbmLYba5tWGG2UVRmW9O6WeYR+kflyqbh4P1I6U8/R
+								Kpn16T+ui/kF7QX6bg5Rf0teWX9a3lfH2WPE3fQ16j7y1/qa/cT/v1hfJ1tlDmdCE/3a9Ol+4FOUXXQ26ry5E769rLz+lS5f
+								66ZHmo7gE5Xxcmv6U7I03V7ZYW6GZIJbqH7/hsCH33toiV+2yCfqA4Rd+UwkjxjTBev0MYrN8oPKcvFh7SLxLi9AuEVhXvdE
+								oFp1asCQFxs4RiEYXI/HYduL0+BBXXr+sMumudQXevMwHtN5aO8WuGkPb7I/rsj9i4fqfh/mxNlwwPpO+4OiWo6dZRfxfrQ5
+								pu3m2TXxpgmJRKvC1qBvlQcjw+9GNLouyKxMr6JiS5tw0nD69PvCNE7GVrEghnMWTQvfvpW8i3MooUNfkF+WpXJTDvIoLNVp
+								LNn0PeduHEV/UUOjSQJ7DrOFJSdMQ77AjK1t3Ssrd8irwvXNLgvf3IX3RaK35lNyr6/nPNt3c7ymq1U2MKtyL/3PWad7GG/M
+								cWa8XDSlFR6lQNGm1CsH2Mln12PSpaMECDLesQ1YAhjkgPcXGExjhLka/0jMqcpHtdF01l5h5E2VdnqdknTyFm+xgVCm8E2b
+								fAgAN8qFc4hmemqcrCKhgKStTkE9HYf3C/6uvjxNmLr6jQjmrMsVU0b3Jd7N1cR/M9S7VrZDsNrjfDMOdFzTuxFfXbGC35WY
+								SzBs3UlMEPYn9+sXborTbYN6lMO3TuIVwUc1BTJrbF/uQzWnKT9tjb/LoGfAcMnY0kyHvlIHvjYklyeVvsm5ZMlNVtMNRpSA
+								4NSsferS2I752U4PjcHi94ew6CJ58k3ldLggzrP0KHTuYQ5vF9SLnQkTA/HEXJNx8izIavkO+YJ8gwvnHoOq0BKWpOrx+oS6
+								D5CQRVa5HsZscRVKlBmL5UM9lcBI4eQWBxEuY4vT8xjvguXkfeuo2JookY1qcT5WGqxWu3J8pBF4b52cQnNMbBdlxMD7L3el
+								aQa5p7YG8DL1ESe2M4mUkOtxqAaV8I7ByEYVrNEF+2Btm/9IZWc9Yr2L/lkKa06If9qau0w0dzsX/dBK2oOdWifZ7QIMdLOV
+								7zDngYM58fVpX9rTBjUlSlN/0N8B2oiiEOu/3HNvn2WjCjvJoGW5gQ1/sBBdi37Qh69JV6afDIDiQpfGr24XVo/QuflfqSfG
+								jFzvFlkDGPzr+LZbD6PXR++C+lzJlZweeY09MRxMZ44JspyP/UMI9PPxkxM5Z7oP07yN/mqMc7ZQKC11g658YhiK6GYNFYBL
+								pkBOWjKVohkEcjX2T7IMPETiH+qgcqPkJ5UG8EL45FTKc85AX6fLPByPflBOS7NAwx+kkItoxA3lpTkS88H8HKWQiOvIGYif
+								MROMcg6F8YepZbhUB5E0GnjcE2MOEbEKxbgphm4z0BhiXjqTY2EbC/g3w9Ikj2G5OQ92okYS5PRoH32ddjCvJNTiRMJK2nXc
+								0gw4A6oevvmpHiJbR/zlRCfRHiei8GOdAHZWYrwtA+KaNTCOPpgJSXWxJfs3QEnzUnzJCmCFY1Jdkbk4PzL/uzGOQ90IAwe2
+								UEY+qS4i1hyNeyFgnr+K3H1zWJhF38yAM/OEnYykgPnKpPli8Y7fGam5Pl4Rs9yWn0t0DBOQ99x0hxhBkdKnmIZPud6JC/PW
+								HCWyCl66OkOLojSt6YRXwznkWHUuj7MHIIUr7uRIo/GIOSx3Ym3n2TQ+9LxfsD7L/yGQX31LX/sw9zH8F9d+6o3+vkP6KJ/6
+								j2zaI33pNC++/le+y/gX26vuk9yWIqlC6Lm6XD4gFprXhRmipWld8Qa8ivii3lF8T2clexm/yomCdniGPklmKB3EAskWuKu+
+								U48Vs5UmQtEWKCxSS2s+jFFy2MONZyQ1houSZspjhEwVr1YoI1UmxqrSc+bH1MzLKOpFhIQcR21hNiqvWGWNdqN0VZ65jCrK
+								1NZy2dTbstfUxFluGmNy1vm561zDKlWZaaHrCsNP1DXmvaIW82zZc10xCKLIqq8jrTWWmpaZc0zbRcGkr7k0XR6ne++Jj+Bq
+								hZ4Yv76ZwLQk1JFptJbjFLShX7Sw+LUygIxT7pIfGY1EY8I7UWf5SQ6JdSRFG+rXMyqcaxyJX7WRE/ktaJb0rnxZ5SgqmV1N
+								VUU5pB8QWFxZwuNTYPkJ4wL5b6mH+gaCf3Mc+RnzKXy63NjS21zMMsvLnUctz0k2W1qZZVMXWyZphetZpN0637xaXWiRQ9KV
+								LEhdYocZb1mjDJekIYbd0hDLFuESZaS4Wl1nVCmXW18Jl1uXDeulTQ2xYIUbb3hHq2WUK6bZqQbZsqPEvRn2IovR5lmymMsx
+								UIk6jddJtPmG0rEebZSoWFtt3CEtsRYZnte8Fn8wvFtsr05U3htG0vf9o2T3guqC/738OuCk0vFTLkYqGWvEKoKq8SGLlEOC
+								+VCMcp1kgLhLmSQjGQorcwX+ouLJFyhCKpnbBS8gjrpUYCkdzCbukB4agkCmekG/zP0jmeuzM271ORuf+fjPtuvkT6lp8t3e
+								JHS3bhJamW8LSULjwmPSG0lvoKLaVRQiNphlBHWkHnx8cU99OjsyguUXwW0KZ/gh7tQheFjrr/ND06PH3yj9WCenQCnQQKG9
+								KjPe50riNW2u4kcK17kJV5edjz/g6iXlOwOnA78Sweiz2p2wjETMKQvJXAs7MwtCIE6k/GyvQCAnH5Id48CiunFhEYNBJ7nv
+								cReIw+n7iSQKfXsOfrNdR+IIY26wjU7YshawOB2s9h6L6JwNgnsdJrMwFPhxALqSHeXhcrpRsJDHFipQ99rlbV0BngbnPo7L
+								KzEasnigjVINhTYzFhul1HsHNOiMn0EPebSJRxDPaw44iCeKwOyyfKFRkrl18nsKU6hu/7E1hEddTJ7rS+TAwzs4jSPQcrGz
+								OJ0p/6IzOVKMN7Y+VQQ6J8n4dBTSLKmlcxcA6ivP4aho4WAl8Pw7CZDfGc77Qg/7xOU5IHY1j+tqaUvohh9OOa8mgPDKt5TW
+								n0GL71+HxV6UV17Lo4VZmVhFeGZW6CchnfempuGqwrRwFmtm8PMbsAGaB7GnOgP9KBPZWZ4whwWVjuEg+jamXivAlpt8qSVG
+								b7+x5o8aHGPJOJ7vDk0RozsBtiUjM0pj3VMKSqxjw1GzETDqjMgM2IkRepzITvgwzZMg5ySiL2n/hShUGNAv3VYE168IwTHm
+								uLIX9miCP2hPi7U5rS7CEMZ65qir41VjgDUQ54sOKQiDK4BVb2ViXKtfpYiYolytAaWMlNItDCgeF8fQJNzBiKqS7Nv0k1VQ
+								Zhhp1GSjjV0Z0PoOFjniBMkzKkQE/CXHsfwcwXCbNkEYJHB9N5NRMp+SMJU/guUqQ3Q/zQxBDvm02YnXOQ8gudD+EfIEVbQe
+								13IWX8WsJsOYfAW0roGGCI+YhAWAxtN53XeY1D8//2e/DPzubury7+oJRh2b9SY9SgNxuzofX1fudE/W2N2RJbC/ai7UG2Tk
+								QH9qWIbuymiIFsZWchQyIW6gSKQLlf3MOmHk0bIrrrbthq6b63GXVHbSdZzbaVnW/7gB1hW8zm2ArYOIqT1gK20FrEDrRuYV
+								tbT7CxVlZnsNbXlVu66U5YJlHspNDpL1ia6cOtz+hrWSfqc61b9GVWMJhsjQ0ZtmcNfW3vGKbZ1hnW2E4bttkijEdt2HjKNp
+								jiQwo7t8f2AjfXtobLs93i6tua8setT/HjrWP4WtYCnlgK+CEUtS3T+CPyOH60PIxPkfvx16RufKXnZHIUt4oi0P9197AJnI
+								uukody22SN+1G+yFW3xPA9LU14laKmtQn/uvUBfoP1BPeLdTFnt3kpzhvttlKj2TbFeNPa31hubWs8YE0yrrQajW9bvzV0ta
+								oGh3Wq4ZSlr6HE0sbwliXe0MtyQ59p+UTfwLJAH2UZoJctaRR6imU6l6WT7nGLVTfcsosttUxlJWs/trs1ky21NmZr0PG+3x
+								7pr4j5tWNC++W/u0dm0Qczmf+sPdJOf2Df3iPzac6giljk7WeDa93XJQTKB/zKujRC14tf2VwtlF/B/ulveALP3eZAflhBHX
+								SH6XPB/AAzdz4j/sy14XY+HW8lu0JvvcaExv4zyu9V3M+IPMuWBzHB0NsRgNtYHhnATj4jCLdxW9UAJhgyqM3tco203H93vj
+								TSU72q/8+aLyIwD96eL3/Hbf+O2/4dt/07bvvXxG1Z5q/Uiivi6IrEVh6LHeXMZAc6R7KV/V7v5BzLpjvfYZs4p7M1nHPYGG
+								cRG+HcwArOHaw//mv2cjyrOxufoDsW31m3K36xrrL6BsVHGeZSVBaLLaP3v4y3G67EiwabEwwNneX6HOc+/RDnav0a5+v6sI
+								R6+kcTvta9mbBUV5QwXLcrIUf3TUIj3aWEqrqwxGssn3iCYhtFCcskLmQvJUxnv04Yz+5OyGffTxjJVnaGsikhky1xZbJLXC
+								Gf3E9jj3GNZnu6prEprtVshGsv+3miTjcmMavSvqtOybAhoRdXWXzuYMJi7mzCAe5qwg+ckMjxMYkxfJPEOnz7xFT+hcSH+L
+								cSO/CVtV9JHMtvdI7ltzs78JXVc8n5MG9MaEZhp2B4NuEsd925l7vkLOG+c07nvnAO4W6f6TzopNrfWHlcsYHziCHeucFQxV
+								lo4JzTDNfi3zR8Hz/S8EX8UMPW+EGGJRSV+eYZep+Nb8hVNg+vxvXgLsWN5i7EzefK4zZx5+I+pThLYeZ/jEvkdfGNeHs85h
+								vFt+W7xlfup47xY/mhsWP5sbEhP92vziWxD/ObYjG/K7YpfzS2Nv9tbAx/MVbkr8de5XRxX3PmuG1clbhiLj5uENcwruYdn1
+								2j794iXeU+M8Vn6yLiq1KcYSPiP2LF+GXs1bjZ7LdxE9gdcfns/LiR99X1xrDQ3OxDeeafoOuvUKeUs/9hOs1Tjeq0pkGdlk
+								TbHl1x9pVz28SzF0HjJwh0+CbEHy5EkDpF85bMRd6cUZr3uwKUrfXWwDsbwZoczafNRL4l6RpcmYGKZ9UPMkyMC7Jvp6h568
+								1Gy6xXVJg/F/mnn1J9lkXI6/hE9W0oQvD0NhUKSkIciJ0GuHwzKu6xS4WIjxDkUr2Rsh1lvXhM9ZXtQcB9p8LcgwiaXVUDsV
+								x/Q72WffEE8raUNfjpWwSrHVrR1R9QcVKyBtt/QkynllogRgyeDlrgjCwYQ33CgHO859WiGn5UFL5RhZuXkL/lJDV7/7do+Y
+								EOqi/zGHp8saDCc/vRzRO+Mu+orWjZOV2Z77MNaEXR5FbQcyUywBep3vOL0cqih9J8n85CN4e/mhaIaQXY2zA/yDnbBqDO3q
+								Zp0KEnte+S6vv00cDzpb6dGL2/c3AZ1GuCwur9UJY9tQbK2VxHhc+ro05bX1KZK9UQfD5XhWpWlL3nYxUKw5F36z+CDE/Tfg
+								Y406kVX5JpfguN9onaZ2teRyQqOpen+W5UR94Px2rgciOoO1PzPlIH+ZYu0wL1wbkN1C+pCH7eTf3SBkHYCc178BGUffaixs
+								R3QpDNkKL+TyNvU4Fkf9MLJX9sJVS3ISUsihTJr6BDqU5StHMw8m2oSaDwNQQD65OcPa8j7+wGBJ4ehpS1DUO8s1GIv2wcZD
+								jUJMSrmpKiFq8jaNOK6vpXUECXQelzVKdQPRaoPz+DeBunIt+lNiToh5RMwmQ6A/0jkPUBgtPTCSyg+inATX5Gym6FQPz8EF
+								eiQP610NgIWuSIv/RcarGb3ucq1xr73Dauo/sRobK9P9P9koDdE4Q09zwhxb1GaOH+mOIwRTnNuyFkuvXio25J7OaOEPtTDK
+								HId1vFd9zh4ky3IC5y68SV7uvCRvclYbv7jHDYfVQ45d4jXHZvEvRJy4Tb67OHbgxfC5XHkOKTGNGYFCmed9cVD7sfFMvcXn
+								GZu4c4xd1PHOYeLD7vHi5mufPFVPcY0U1hobjpGiWWu4aKR10vi7tcuWKZq7O42tVOLHS1FOe7ksTZrghxussvTHedofhUmO
+								naLMxxzRcWut4QCl3PCStdrYW1rgShzBUmbHMd5/e7NvCfu6bxJ115/FnXI/xFV23+F5eJv+X6ngtz7+H07tWcwb2cM7qXUS
+								ymmEdRQDGT5o/ibrnyuAuuXO6kqxu3zdWJm+/KubNHFbvomknH7Pexu5fpWK43hMbyfvtn9aT1hp/cLxnbUtxvj3qeDnpvyv
+								mU18P/z/iMXdmXvmPw2r/jM3/HZ/6Oz/yfiM8wf+lv7hoOgKnyP4nPOKbKJY5Z8kXHIrlOzAr5pZhSeVPMYbnS+EwMaxUoKo
+								3PxGiWG44Jlu8dvSxHHciiORIt8x1VLCMcekuO44YcR3Ey+oZcGC1YBkYnWFpHp1lio3taDNGTLOVRpZYTUf+gqGk9EfWM9U
+								LUDGt49BZrreiL1tzoBFtZ9NM2k2OqLcOx1dbXccE2zVEtYo2jdcQ2x4CIo44FEaccRyjsVU45BlbZ49hZZa4jwp7n6Gav75
+								huPx5dZh8ffcZeK/qGnUTdsA+hqB31s/1I5Dn76Mjj9pTIffZrD5TaK43PRA6tsoqi0vhM5LEq2yLj7D9GdrRXjxpm7xk1za
+								5S1IyeZn89erB9Q3Sa/Zdovd3u+KCK3dGBIqaK2XE54mb0/ojyaF/EgeixESuje0W8HZ0R0TU6NsIR/ZPtVNReW0nUUttbUS
+								NtvaK62DKj6tsaRIXZoqI+tcpRcymepeCtrqh1lsej8izDo5ItpVE/yVL0Prl7dKFcGj1VrkHH+3575Fw6iXiKcib0n6x/d4
+								98kD7Y7H81PmP4l/4n9XbBBRTYIwfQnNyK+IxwxyY9naqUdPjq3RB7Pg7xvCshVqo8+Cu3qchvU2HXpuI5ysFyKN+Jxvw2Vt
+								vr+VH+JPj3/i8x6vleIR/9wZgNbTDcojgKof/lnaYc6Pd3UqG5kb3QrEQXmnfHF5qr1QggM3x3fGa4Ep0Z3sieGf6dlBn+Z8
+								ZqZlBMgNDcuVvr/FXziPMwumoV7bz930Aqj+RGHuZO3YFzmWcqzlAC6+kk2th+zK/Xj9HrFHpdA4rgXnX+Nn3vT3xFGwLrSM
+								APt/9DGPBDmOeOHyGcIqIiLVek/wtyV1xS"/>
+				</foreignObject>
+				<!-- Unsupported Record: EmfPlusRecordTypeSetPixelOffsetMode  -->
+				<svg viewBox="-0.70871 -0.70869 658.16 402.06" height="34.6344" preserveAspectRatio="none" width="56.6929" x="0"
+						y="343.124">
+					<clipPath id="mfid1">
+						<rect x="-0.70871" y="-0.70869" width="658.16" height="402.06" id="mfid2"/>
+					</clipPath>
+					<g clip-path="url(#mfid1)">
+						<mask id="mfid3">
+							<rect width="658" height="402" fill="white" stroke="none"/>
+						</mask>
+						<mask id="mfid4" fill="white" stroke="none">
+							<g>
+								<g mask="url(#mfid3)">
+									<use xlink:href="#mfid2"/>
+								</g>
+							</g>
+						</mask>
+						<defs>
+							<path id="mfid5"
+									d="M23.364,-99.976 L52.661,-99.976 L51.855,-96.387 C50,-95.996 48.669,-95.557 47.864,-95.068 C47.058,-94.58 46.338,-93.848 45.703,-92.871 C45.068,-91.895 44.409,-90.369 43.726,-88.293 C43.042,-86.218 42.188,-82.837 41.162,-78.149 L35.962,-54.785 L38.379,-54.785 C40.43,-54.785 42.297,-55.127 43.982,-55.811 C45.667,-56.494 47.632,-57.739 49.878,-59.546 C52.124,-61.353 55.701,-64.673 60.608,-69.507 C65.515,-74.341 69.006,-78.015 71.082,-80.53 C73.157,-83.044 74.67,-85.217 75.623,-87.048 C76.575,-88.879 77.051,-90.552 77.051,-92.065 C77.051,-93.286 76.562,-94.275 75.586,-95.032 C74.609,-95.789 73.218,-96.24 71.411,-96.387 L72.217,-99.976 L103.64,-99.976 L102.83,-96.387 C100.88,-96.094 98.669,-95.081 96.204,-93.347 C93.738,-91.614 89.966,-88.232 84.888,-83.203 L56.47,-55.518 L72.07,-18.018 C73.682,-14.16 75.012,-11.377 76.062,-9.668 C77.112,-7.959 78.369,-6.604 79.834,-5.603 C81.299,-4.6021 83.105,-3.9307 85.254,-3.5889 L84.448,0 L56.177,0 L56.982,-3.5889 C59.619,-3.833 60.938,-5.0049 60.938,-7.1045 C60.938,-8.4229 60.669,-9.9243 60.132,-11.609 C59.595,-13.293 58.96,-15.039 58.228,-16.846 L48.706,-40.137 C47.583,-42.92 46.606,-44.873 45.776,-45.996 C44.946,-47.119 44.067,-47.9 43.14,-48.34 C42.212,-48.779 40.771,-48.999 38.818,-48.999 L34.717,-48.999 L28.638,-21.313 C28.003,-18.384 27.588,-16.077 27.393,-14.392 C27.197,-12.708 27.1,-11.206 27.1,-9.8877 C27.1,-7.6904 27.649,-6.1401 28.748,-5.2368 C29.846,-4.3335 31.689,-3.7842 34.277,-3.5889 L33.472,0 L4.1748,0 L4.9805,-3.5889 C6.8359,-3.8818 8.2275,-4.3579 9.1553,-5.0171 C10.083,-5.6763 10.864,-6.5918 11.499,-7.7637 C12.134,-8.9355 12.72,-10.364 13.257,-12.048 C13.794,-13.733 14.6,-16.992 15.674,-21.826 L28.125,-78.223 C29.199,-83.105 29.736,-87.036 29.736,-90.015 C29.736,-92.31 29.163,-93.909 28.015,-94.812 C26.868,-95.715 25.049,-96.24 22.559,-96.387 Z"/>
+						</defs>
+						<g mask="url(#mfid4)">
+							<g transform="matrix(1, 0, 0, 1, 60.001, 266.95)">
+								<g fill="#000000">
+									<use xlink:href="#mfid5" fill-rule="evenodd" stroke="none"/>
+									<defs>
+										<path id="mfid6"
+												d="M44.741,-47.642 C42.557,-47.642 40.543,-46.988 38.699,-45.681 C36.855,-44.374 34.876,-42.503 32.764,-40.068 C31.797,-38.923 30.902,-37.795 30.078,-36.685 C29.255,-35.575 28.512,-34.366 27.849,-33.059 C27.187,-31.752 26.596,-30.302 26.077,-28.708 C25.557,-27.115 25.101,-25.28 24.707,-23.203 C24.206,-20.732 23.812,-18.656 23.525,-16.973 C23.239,-15.29 23.096,-13.696 23.096,-12.192 C23.096,-9.292 23.767,-7.242 25.11,-6.0425 C26.453,-4.8429 28.61,-4.2432 31.582,-4.2432 C33.659,-4.2432 35.601,-4.6997 37.41,-5.6128 C39.218,-6.5259 40.856,-7.7702 42.324,-9.3457 C43.792,-10.921 45.099,-12.756 46.245,-14.851 C47.391,-16.946 48.349,-19.184 49.119,-21.565 C49.889,-23.946 50.479,-26.39 50.891,-28.896 C51.303,-31.403 51.509,-33.838 51.509,-36.201 C51.509,-40.033 50.981,-42.897 49.924,-44.795 C48.868,-46.693 47.14,-47.642 44.741,-47.642 Z M19.819,-54.839 C22.433,-54.839 24.465,-53.971 25.916,-52.234 C27.366,-50.497 28.091,-48.215 28.091,-45.386 C28.091,-44.562 28.028,-43.774 27.903,-43.022 C27.778,-42.271 27.554,-41.519 27.231,-40.767 L27.983,-40.391 C31.493,-45.296 34.939,-48.931 38.323,-51.294 C41.707,-53.657 45.26,-54.839 48.984,-54.839 C53.245,-54.839 56.513,-53.299 58.787,-50.22 C61.06,-47.14 62.197,-42.646 62.197,-36.738 C62.197,-31.582 61.401,-26.721 59.807,-22.156 C58.214,-17.59 56.056,-13.589 53.335,-10.151 C50.614,-6.7139 47.454,-4.0015 43.855,-2.0142 C40.256,-0.026855 36.452,0.9668 32.441,0.9668 C29.648,0.9668 27.222,0.68929 25.164,0.13428 C23.105,-0.42074 21.395,-1.0921 20.034,-1.8799 C19.712,-0.4834 19.363,0.9668 18.987,2.4707 C18.611,3.9746 18.253,5.4248 17.913,6.8213 C17.572,8.2178 17.295,9.5068 17.08,10.688 C16.865,11.87 16.758,12.819 16.758,13.535 C16.758,14.18 16.856,14.717 17.053,15.146 C17.25,15.576 17.608,15.934 18.127,16.221 C18.647,16.507 19.336,16.731 20.195,16.892 C21.055,17.053 22.129,17.188 23.418,17.295 L23.257,20.84 L4.3506,20.84 L17.456,-35.127 C17.886,-37.096 18.19,-38.743 18.369,-40.068 C18.548,-41.393 18.638,-42.575 18.638,-43.613 C18.638,-46.227 17.581,-47.534 15.469,-47.534 C14.824,-47.534 14.18,-47.4 13.535,-47.131 C12.891,-46.863 12.201,-46.46 11.467,-45.923 C10.733,-45.386 9.9276,-44.705 9.0503,-43.882 C8.173,-43.058 7.1973,-42.091 6.123,-40.981 L2.417,-44.473 C4.2074,-46.263 5.8455,-47.812 7.3315,-49.119 C8.8175,-50.426 10.25,-51.5 11.628,-52.341 C13.007,-53.183 14.35,-53.809 15.657,-54.221 C16.964,-54.633 18.351,-54.839 19.819,-54.839 Z"/>
+									</defs>
+								</g>
+							</g>
+							<g transform="matrix(1, 0, 0, 1, 153, 297.95)">
+								<g fill="#000000">
+									<use xlink:href="#mfid6" fill-rule="evenodd" stroke="none"/>
+									<defs>
+										<path id="mfid7"
+												d="M52.002,-101.15 C56.494,-101.15 60.657,-100.84 64.49,-100.23 C68.323,-99.622 72.559,-98.584 77.197,-97.119 L73.096,-78.296 L66.064,-78.296 C65.869,-82.446 65.234,-85.706 64.16,-88.074 C63.086,-90.442 61.548,-92.139 59.546,-93.164 C57.544,-94.189 54.883,-94.702 51.562,-94.702 C47.51,-94.702 43.945,-93.872 40.869,-92.212 C37.793,-90.552 35.449,-88.293 33.838,-85.437 C32.227,-82.581 31.421,-79.395 31.421,-75.879 C31.421,-72.217 32.385,-69.006 34.314,-66.248 C36.243,-63.489 39.941,-60.229 45.41,-56.47 C50.195,-53.149 53.845,-50.183 56.36,-47.571 C58.875,-44.958 60.73,-42.188 61.926,-39.258 C63.123,-36.328 63.721,-32.935 63.721,-29.077 C63.721,-23.12 62.292,-17.834 59.436,-13.22 C56.58,-8.606 52.551,-5.0415 47.351,-2.5269 C42.151,-0.012208 36.23,1.2451 29.59,1.2451 C25.098,1.2451 20.251,0.87891 15.051,0.14648 C9.8511,-0.58594 5.2002,-1.5137 1.0986,-2.6367 L5.4932,-22.778 L12.524,-22.778 C12.524,-16.821 13.904,-12.39 16.663,-9.4849 C19.421,-6.5796 23.682,-5.127 29.443,-5.127 C36.084,-5.127 41.309,-6.9336 45.117,-10.547 C48.926,-14.16 50.83,-19.189 50.83,-25.635 C50.83,-28.613 50.305,-31.238 49.255,-33.508 C48.206,-35.779 46.619,-37.952 44.495,-40.027 C42.371,-42.102 39.307,-44.482 35.303,-47.168 C31.689,-49.609 28.687,-52.014 26.294,-54.382 C23.901,-56.75 21.997,-59.399 20.581,-62.329 C19.165,-65.259 18.457,-68.53 18.457,-72.144 C18.457,-77.905 19.849,-82.983 22.632,-87.378 C25.415,-91.772 29.346,-95.166 34.424,-97.559 C39.502,-99.951 45.361,-101.15 52.002,-101.15 Z"/>
+									</defs>
+								</g>
+							</g>
+							<g transform="matrix(1, 0, 0, 1, 255, 152.95)">
+								<g fill="#000000">
+									<use xlink:href="#mfid7" fill-rule="evenodd" stroke="none"/>
+									<defs>
+										<path id="mfid8"
+												d="M50.83,-89.941 L61.23,-89.941 L61.23,-47.754 L101.15,-47.754 L101.15,-38.013 L61.23,-38.013 L61.23,4.1748 L50.83,4.1748 L50.83,-38.013 L10.913,-38.013 L10.913,-47.754 L50.83,-47.754 Z"/>
+									</defs>
+								</g>
+							</g>
+							<g transform="matrix(1, 0, 0, 1, 370, 152.95)">
+								<g fill="#000000">
+									<use xlink:href="#mfid8" fill-rule="evenodd" stroke="none"/>
+									<defs>
+										<path id="mfid9"
+												d="M23.364,-99.976 L52.661,-99.976 L51.855,-96.387 C50,-95.996 48.669,-95.557 47.864,-95.068 C47.058,-94.58 46.338,-93.848 45.703,-92.871 C45.068,-91.895 44.409,-90.369 43.726,-88.293 C43.042,-86.218 42.188,-82.837 41.162,-78.149 L35.962,-54.785 L38.379,-54.785 C40.43,-54.785 42.297,-55.127 43.982,-55.811 C45.667,-56.494 47.632,-57.739 49.878,-59.546 C52.124,-61.353 55.701,-64.673 60.608,-69.507 C65.515,-74.341 69.006,-78.015 71.082,-80.53 C73.157,-83.044 74.67,-85.217 75.623,-87.048 C76.575,-88.879 77.051,-90.552 77.051,-92.065 C77.051,-93.286 76.562,-94.275 75.586,-95.032 C74.609,-95.789 73.218,-96.24 71.411,-96.387 L72.217,-99.976 L103.64,-99.976 L102.83,-96.387 C100.88,-96.094 98.669,-95.081 96.204,-93.347 C93.738,-91.614 89.966,-88.232 84.888,-83.203 L56.47,-55.518 L72.07,-18.018 C73.682,-14.16 75.012,-11.377 76.062,-9.668 C77.112,-7.959 78.369,-6.604 79.834,-5.603 C81.299,-4.6021 83.105,-3.9307 85.254,-3.5889 L84.448,0 L56.177,0 L56.982,-3.5889 C59.619,-3.833 60.938,-5.0049 60.938,-7.1045 C60.938,-8.4229 60.669,-9.9243 60.132,-11.609 C59.595,-13.293 58.96,-15.039 58.228,-16.846 L48.706,-40.137 C47.583,-42.92 46.606,-44.873 45.776,-45.996 C44.946,-47.119 44.067,-47.9 43.14,-48.34 C42.212,-48.779 40.771,-48.999 38.818,-48.999 L34.717,-48.999 L28.638,-21.313 C28.003,-18.384 27.588,-16.077 27.393,-14.392 C27.197,-12.708 27.1,-11.206 27.1,-9.8877 C27.1,-7.6904 27.649,-6.1401 28.748,-5.2368 C29.846,-4.3335 31.689,-3.7842 34.277,-3.5889 L33.472,0 L4.1748,0 L4.9805,-3.5889 C6.8359,-3.8818 8.2275,-4.3579 9.1553,-5.0171 C10.083,-5.6763 10.864,-6.5918 11.499,-7.7637 C12.134,-8.9355 12.72,-10.364 13.257,-12.048 C13.794,-13.733 14.6,-16.992 15.674,-21.826 L28.125,-78.223 C29.199,-83.105 29.736,-87.036 29.736,-90.015 C29.736,-92.31 29.163,-93.909 28.015,-94.812 C26.868,-95.715 25.049,-96.24 22.559,-96.387 Z"/>
+									</defs>
+								</g>
+							</g>
+							<g transform="matrix(1, 0, 0, 1, 516, 152.95)">
+								<g fill="#000000">
+									<use xlink:href="#mfid9" fill-rule="evenodd" stroke="none"/>
+									<defs>
+										<path id="mfid10"
+												d="M25.781,-54.302 L28.413,-54.302 L20.464,-18.53 C19.963,-16.418 19.613,-14.735 19.417,-13.481 C19.22,-12.228 19.121,-11.1 19.121,-10.098 C19.121,-8.737 19.399,-7.7523 19.954,-7.1436 C20.509,-6.5348 21.341,-6.2305 22.451,-6.2305 C23.096,-6.2305 23.74,-6.3558 24.385,-6.6064 C25.029,-6.8571 25.719,-7.251 26.453,-7.7881 C27.187,-8.3252 27.992,-9.0145 28.87,-9.856 C29.747,-10.697 30.723,-11.709 31.797,-12.891 L35.449,-9.3457 C33.587,-7.4479 31.895,-5.8455 30.374,-4.5386 C28.852,-3.2316 27.41,-2.1663 26.05,-1.3428 C24.689,-0.51921 23.355,0.071615 22.048,0.42969 C20.741,0.78776 19.354,0.9668 17.886,0.9668 C16.525,0.9668 15.299,0.71615 14.207,0.21484 C13.114,-0.28646 12.174,-0.97575 11.387,-1.853 C10.599,-2.7303 9.9902,-3.7777 9.5605,-4.9951 C9.1309,-6.2126 8.916,-7.5553 8.916,-9.0234 C8.916,-10.205 9.0592,-11.673 9.3457,-13.428 C9.6322,-15.182 9.9992,-17.089 10.447,-19.148 C10.894,-21.207 11.387,-23.364 11.924,-25.62 C12.461,-27.876 12.989,-30.114 13.508,-32.334 C14.028,-34.554 14.493,-36.694 14.905,-38.752 C15.317,-40.811 15.612,-42.682 15.791,-44.365 C15.863,-44.652 15.898,-44.929 15.898,-45.198 C15.898,-45.466 15.898,-45.708 15.898,-45.923 C15.827,-47.319 15.334,-48.34 14.421,-48.984 C13.508,-49.629 11.888,-49.987 9.5605,-50.059 L10.205,-53.711 Z M22.666,-75.947 L33.408,-75.947 L30.776,-64.399 L20.142,-64.399 Z"/>
+									</defs>
+								</g>
+							</g>
+							<g transform="matrix(1, 0, 0, 1, 609, 183.95)">
+								<g fill="#000000">
+									<use xlink:href="#mfid10" fill-rule="evenodd" stroke="none"/>
+									<defs>
+										<path id="mfid11"
+												d="M52.002,-101.15 C56.494,-101.15 60.657,-100.84 64.49,-100.23 C68.323,-99.622 72.559,-98.584 77.197,-97.119 L73.096,-78.296 L66.064,-78.296 C65.869,-82.446 65.234,-85.706 64.16,-88.074 C63.086,-90.442 61.548,-92.139 59.546,-93.164 C57.544,-94.189 54.883,-94.702 51.562,-94.702 C47.51,-94.702 43.945,-93.872 40.869,-92.212 C37.793,-90.552 35.449,-88.293 33.838,-85.437 C32.227,-82.581 31.421,-79.395 31.421,-75.879 C31.421,-72.217 32.385,-69.006 34.314,-66.248 C36.243,-63.489 39.941,-60.229 45.41,-56.47 C50.195,-53.149 53.845,-50.183 56.36,-47.571 C58.875,-44.958 60.73,-42.188 61.926,-39.258 C63.123,-36.328 63.721,-32.935 63.721,-29.077 C63.721,-23.12 62.292,-17.834 59.436,-13.22 C56.58,-8.606 52.551,-5.0415 47.351,-2.5269 C42.151,-0.012208 36.23,1.2451 29.59,1.2451 C25.098,1.2451 20.251,0.87891 15.051,0.14648 C9.8511,-0.58594 5.2002,-1.5137 1.0986,-2.6367 L5.4932,-22.778 L12.524,-22.778 C12.524,-16.821 13.904,-12.39 16.663,-9.4849 C19.421,-6.5796 23.682,-5.127 29.443,-5.127 C36.084,-5.127 41.309,-6.9336 45.117,-10.547 C48.926,-14.16 50.83,-19.189 50.83,-25.635 C50.83,-28.613 50.305,-31.238 49.255,-33.508 C48.206,-35.779 46.619,-37.952 44.495,-40.027 C42.371,-42.102 39.307,-44.482 35.303,-47.168 C31.689,-49.609 28.687,-52.014 26.294,-54.382 C23.901,-56.75 21.997,-59.399 20.581,-62.329 C19.165,-65.259 18.457,-68.53 18.457,-72.144 C18.457,-77.905 19.849,-82.983 22.632,-87.378 C25.415,-91.772 29.346,-95.166 34.424,-97.559 C39.502,-99.951 45.361,-101.15 52.002,-101.15 Z"/>
+									</defs>
+								</g>
+							</g>
+							<g transform="matrix(1, 0, 0, 1, 415, 366.95)">
+								<g fill="#000000">
+									<use xlink:href="#mfid11" fill-rule="evenodd" stroke="none"/>
+									<defs>
+										<path id="mfid12"
+												d="M195,189 L295.75,189 L396.5,189 L497.25,189 L598,189 L598,199 L497.25,199 L396.5,199 L295.75,199 L195,199 Z"/>
+									</defs>
+								</g>
+							</g>
+							<g transform="matrix(1, 0, 0, 1, 60.001, 29.951)">
+								<g fill="#836967">
+									<use xlink:href="#mfid12" fill-rule="evenodd" stroke="none"/>
+								</g>
+							</g>
+						</g>
+					</g>
+				</svg>
+			</switch>
+			<rect v:rectContext="foreign" x="0" y="343.124" width="56.6929" height="34.6344" class="st9"/>
+		</g>
+	</g>
+</svg>
