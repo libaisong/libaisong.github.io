@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <title>李柏松个人主页</title>
+</head>
+<body>
+    <section>
+        <div>
+            <a href="../index.html">
+                <div class="logo">
+                    <img class="logoimg" src="../images/logo.png" alt="">
+                </div>
+            </a>
+
+        </div>
+
+        <div class="sub_item">
+            <a href="#"><h1 class="item_title">MTPV控制算法</h1></a>
+            <div class="item_time">
+                创建于2021-4-3<br>
+                该项目完成于2019-6，原创
+            </div>
+            <div class="item_intro">
+                <p>当变频器输出电压达到最大值后，如果还想继续提高电机转速，就需要进行弱磁控制，一般通过调节励磁电流id的方式来使输出电压维持在最大值附近，同时保证转矩电流可控，从而使电机能够继续加速。但采用弱磁控制后，电机转速并不能无限制地升高，当转速达到一定值后，就无法再继续升高，否则电机可能会进入不稳定状态，导致失控。</p>
+
+                <div class="item_img">
+                    <img class="img40p" src="../images/MTPV1.svg" alt="">
+                </div>
+
+                <p>上面的公式为永磁同步电机的电压限制方程和转矩方程，根据两个方程，可以计算出当电机输入电压为U<sub>max</sub>且转速为ω时，电机可以产生的最大转矩，以及此时对应的id大小，如下式所示。</p>
+
+                <div class="item_img">
+                    <img class="img70p" src="../images/MTPV2.svg" alt="">
+                </div>
+
+                <p>同时，也可以计算出电机输入电压为Umax且转速为ω时，能够输出的最大转矩，并可以得出相同输出电压情况下，转速越高，电机能够输出的最大转矩越小。具体公式这里不再给出。</p>
+                
+                <p>当电机转速升高并进入弱磁控制时，为保证电压限制在最大电压附近，id会逐渐减小，当id减小至上式对应的结果时，电机输出转矩达到最大能力，如果转速继续升高，电机输出转矩能力将下降，从而无法满足调试需求，从而可能导致系统无法稳定运行。因此，当id达到上式所示的限制值后，转矩就不能再继续升高，以保证系统稳定运行。</p>
+
+                <p>在实际应用中，为了提高参数鲁棒性，特设计了一种新的MTPA方法，降低了算法对电机参数的依赖性。使用该算法可以计算出电机在指定负载下可以运行的最高速度，防止出现因盲目加速导致的不稳定情况。</p>
+
+            </div>
+            <div class="item_continue">
+                <!-- <a href="">了解更多</a> -->
+                <a href="../project.html">返回</a>
+            </div>
+        </div>
+
+        <div class="footer">
+            李柏松制作，2021
+        </div>
+    </section>
+</body>
+</html>
