@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <title>李柏松个人主页</title>
+</head>
+<body>
+    <section>
+        <div>
+            <a href="../index.html">
+                <div class="logo">
+                    <img class="logoimg" src="../images/logo.png" alt="">
+                </div>
+            </a>
+
+        </div>
+
+        <div class="sub_item">
+            <a href="#"><h1 class="item_title">MTPA控制算法</h1></a>
+            <div class="item_time">
+                创建于2021-4-3<br>
+                该项目完成于2019-12，原创
+            </div>
+            <div class="item_intro">
+                <p>节能是电机采用变频控制很重要的一个目的。对于永磁同步电机和同步磁阻电机，采用最大转矩电流比（MTPA）控制可以在输出相同转矩的情况下，使电机电流最小，从而可以减小电机的铜损，提高电机效率，得到节能的目的。当电机电流一定时，可以求出使电机输出转矩最大时的励磁电流id和转矩电流iq的大小关系，如下式所示。已知iq的情况下，根据下式调整id的太小，就可以实现MTPA控制。</p>
+
+                <div class="item_img">
+                    <img class="img40p" src="../images/MTPA1.svg" alt="">
+                </div>
+
+                <p>下图根据上式作出的id-iq关系曲线示意图，可以看出，id与iq的极性无关，只与其绝对值大小有关。</p>
+
+                <div class="item_img">
+                    <img class="img30p" src="../images/MTPA2.svg" alt="">
+                </div>
+
+                <p>在实际应用中，往往很难获得准确的电机参数，而且电机参数还会随着电机运行状态的不同而发生变化，这就使得按照上面的公式计算出的MTPA曲线会与实际情况有所偏差，从而使电机无法工作在真正的MTPA点。而且，上面的公式是在电机参数不变的情况下推导出来的，在考虑电机参数变化的时候，计算出的结果会有所不同，也就是说，即使获得了电机参数在不同状态下的准确值，使用上式计算出的MTPA曲线也会有偏差。</p>
+                
+                <div class="item_img">
+                    <img class="img30p" src="../images/MTPA3.svg" alt="">
+                </div>
+
+                <p>为了解决这个问题，特推导了考虑电机参数变化时的MTPA曲线，当获得准确的电机参数时，就可以根据推导出的方法计算出准确的MTPA曲线，确保电机能够工作在真实的MTPA点。上图为磁链ψ和电流i的关系示意图，根据磁链ψ和电流i可以计算出电机的视在电感和增量电感，从而得到MTPA曲线。也可以考虑更多耦合因素，建立更准确的电机模型，得到更为准确的MTPA曲线，具体内容这里不做详细介绍。</p>
+
+                <p>由于准确电机参数的获得较为复杂和繁琐，为了避免使用准确的电机参数，可以考虑使用在线MTPA算法，这一类算法通常在电机注入某些特定形状的信号，通过对信号的分析，得出为了达到MTPA工作点，励磁电流或者电流矢量角度需要调整的方向。这类方法无需获得准确的电机参数，具有较高的使用价值。本人开发了一种基于信号注入的电机最大转矩电流比控制方法，该方法可以很好地实现对MTPA工作点的搜索，达到节能控制的目的。</p>
+
+            </div>
+            <div class="item_continue">
+                <!-- <a href="">了解更多</a> -->
+                <a href="../project.html">返回</a>
+            </div>
+        </div>
+
+        <div class="footer">
+            李柏松制作，2021
+        </div>
+    </section>
+</body>
+</html>
