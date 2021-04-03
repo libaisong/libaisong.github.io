@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 生成 inverter.svg 页-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="11.1667in" height="6.53125in"
+		viewBox="0 0 804 470.25" xml:space="preserve" color-interpolation-filters="sRGB" class="st13">
+	<v:documentProperties v:langID="2052" v:metric="true" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none}
+		.st2 {stroke:#73a1bf;stroke-linecap:butt;stroke-width:0.75}
+		.st3 {fill:#73a1bf;stroke:#73a1bf;stroke-linecap:butt;stroke-width:2.25}
+		.st4 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st5 {fill:#ffffff;font-family:微软雅黑;font-size:1.5em}
+		.st6 {fill:#ffffff;stroke:#808080;stroke-linecap:butt;stroke-width:0.75}
+		.st7 {stroke:#808080;stroke-linecap:butt;stroke-width:0.75}
+		.st8 {fill:#eef3f6;stroke:#73a1bf;stroke-linecap:butt;stroke-width:0.75}
+		.st9 {fill:#000000;font-family:微软雅黑;font-size:1.5em}
+		.st10 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:2.25}
+		.st11 {fill:#000000;font-family:Arial;font-size:1.5em}
+		.st12 {font-family:Arial;font-size:1em}
+		.st13 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>页-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<g id="group23-1" transform="translate(2.25,-0.75)" v:mID="23" v:groupContext="group">
+			<title>minder1</title>
+			<g id="group24-2" transform="translate(1.169E-05,2.21689E-12)" v:mID="24" v:groupContext="group">
+				<title>minder_connect_group1</title>
+				<g id="shape25-3" v:mID="25" v:groupContext="shape" transform="translate(426.75,-186.75)">
+					<title>kity_path_31</title>
+					<path d="M-0 470.25 A133.5 123.75 180 0 1 133.5 346.5 L0 470.25 Z" class="st1"/>
+					<path d="M-0 470.25 A133.5 123.75 180 0 1 133.5 346.5" class="st2"/>
+				</g>
+				<g id="shape26-6" v:mID="26" v:groupContext="shape" transform="translate(646.5,-310.5)">
+					<title>kity_path_33</title>
+					<path d="M0 470.25 C11.25 470.25 11.25 341.25 22.5 341.25 L83.25 341.25 L0 470.25 Z" class="st1"/>
+					<path d="M0 470.25 C11.25 470.25 11.25 341.25 22.5 341.25 L83.25 341.25" class="st2"/>
+				</g>
+				<g id="shape27-9" v:mID="27" v:groupContext="shape" transform="translate(646.5,-310.5)">
+					<title>kity_path_39</title>
+					<path d="M0 470.25 C11.25 470.25 11.25 389.25 22.5 389.25 L83.25 389.25 L0 470.25 Z" class="st1"/>
+					<path d="M0 470.25 C11.25 470.25 11.25 389.25 22.5 389.25 L83.25 389.25" class="st2"/>
+				</g>
+				<g id="shape28-12" v:mID="28" v:groupContext="shape" transform="translate(646.5,-310.5)">
+					<title>kity_path_41</title>
+					<path d="M0 470.25 C11.25 470.25 11.25 437.25 22.5 437.25 L99 437.25 L0 470.25 Z" class="st1"/>
+					<path d="M0 470.25 C11.25 470.25 11.25 437.25 22.5 437.25 L99 437.25" class="st2"/>
+				</g>
+				<g id="shape29-15" v:mID="29" v:groupContext="shape" transform="translate(646.5,-295.5)">
+					<title>kity_path_51</title>
+					<path d="M0 455.25 C11.25 455.25 11.25 470.25 22.5 470.25 L65.25 470.25 L0 455.25 Z" class="st1"/>
+					<path d="M0 455.25 C11.25 455.25 11.25 470.25 22.5 470.25 L65.25 470.25" class="st2"/>
+				</g>
+				<g id="shape30-18" v:mID="30" v:groupContext="shape" transform="translate(646.5,-247.5)">
+					<title>kity_path_59</title>
+					<path d="M0 407.25 C11.25 407.25 11.25 470.25 22.5 470.25 L93 470.25 L0 407.25 Z" class="st1"/>
+					<path d="M0 407.25 C11.25 407.25 11.25 470.25 22.5 470.25 L93 470.25" class="st2"/>
+				</g>
+				<g id="shape31-21" v:mID="31" v:groupContext="shape" transform="translate(646.5,-199.5)">
+					<title>kity_path_61</title>
+					<path d="M0 359.25 C11.25 359.25 11.25 470.25 22.5 470.25 L114.75 470.25 L0 359.25 Z" class="st1"/>
+					<path d="M0 359.25 C11.25 359.25 11.25 470.25 22.5 470.25 L114.75 470.25" class="st2"/>
+				</g>
+				<g id="shape32-24" v:mID="32" v:groupContext="shape" transform="translate(646.5,-151.5)">
+					<title>kity_path_63</title>
+					<path d="M0 311.25 C11.25 311.25 11.25 470.25 22.5 470.25 L110.25 470.25 L0 311.25 Z" class="st1"/>
+					<path d="M0 311.25 C11.25 311.25 11.25 470.25 22.5 470.25 L110.25 470.25" class="st2"/>
+				</g>
+				<g id="shape33-27" v:mID="33" v:groupContext="shape" transform="translate(426.75,-63)">
+					<title>kity_path_65</title>
+					<path d="M-0 346.5 A133.5 123.75 -0 0 0 133.5 470.25 L0 346.5 Z" class="st1"/>
+					<path d="M-0 346.5 A133.5 123.75 -0 0 0 133.5 470.25" class="st2"/>
+				</g>
+				<g id="shape34-30" v:mID="34" v:groupContext="shape" transform="translate(646.5,-63)">
+					<title>kity_path_67</title>
+					<path d="M0 470.25 C11.25 470.25 11.25 437.25 22.5 437.25 L153 437.25 L0 470.25 Z" class="st1"/>
+					<path d="M0 470.25 C11.25 470.25 11.25 437.25 22.5 437.25 L153 437.25" class="st2"/>
+				</g>
+				<g id="shape35-33" v:mID="35" v:groupContext="shape" transform="translate(646.5,-48)">
+					<title>kity_path_75</title>
+					<path d="M0 455.25 C11.25 455.25 11.25 470.25 22.5 470.25 L135 470.25 L0 455.25 Z" class="st1"/>
+					<path d="M0 455.25 C11.25 455.25 11.25 470.25 22.5 470.25 L135 470.25" class="st2"/>
+				</g>
+				<g id="shape36-36" v:mID="36" v:groupContext="shape" transform="translate(646.5,2.27374E-13)">
+					<title>kity_path_83</title>
+					<path d="M0 407.25 C11.25 407.25 11.25 470.25 22.5 470.25 L110.25 470.25 L0 407.25 Z" class="st1"/>
+					<path d="M0 407.25 C11.25 407.25 11.25 470.25 22.5 470.25 L110.25 470.25" class="st2"/>
+				</g>
+				<g id="shape37-39" v:mID="37" v:groupContext="shape" transform="translate(293.25,-186.75)">
+					<title>kity_path_95</title>
+					<path d="M133.5 470.25 L0 470.25 L133.5 470.25 Z" class="st1"/>
+					<path d="M133.5 470.25 L0 470.25" class="st2"/>
+				</g>
+				<g id="shape38-42" v:mID="38" v:groupContext="shape" transform="translate(-3.96483E-12,-186.75)">
+					<title>kity_path_97</title>
+					<path d="M207 470.25 C195.75 470.25 195.75 341.25 184.5 341.25 L0 341.25 L207 470.25 Z" class="st1"/>
+					<path d="M207 470.25 C195.75 470.25 195.75 341.25 184.5 341.25 L0 341.25" class="st2"/>
+				</g>
+				<g id="shape39-45" v:mID="39" v:groupContext="shape" transform="translate(89.25,-186.75)">
+					<title>kity_path_99</title>
+					<path d="M117.75 470.25 C106.5 470.25 106.5 389.25 95.25 389.25 L0 389.25 L117.75 470.25 Z" class="st1"/>
+					<path d="M117.75 470.25 C106.5 470.25 106.5 389.25 95.25 389.25 L0 389.25" class="st2"/>
+				</g>
+				<g id="shape40-48" v:mID="40" v:groupContext="shape" transform="translate(89.25,-186.75)">
+					<title>kity_path_103</title>
+					<path d="M117.75 470.25 C106.5 470.25 106.5 437.25 95.25 437.25 L0 437.25 L117.75 470.25 Z" class="st1"/>
+					<path d="M117.75 470.25 C106.5 470.25 106.5 437.25 95.25 437.25 L0 437.25" class="st2"/>
+				</g>
+				<g id="shape41-51" v:mID="41" v:groupContext="shape" transform="translate(125.25,-171.75)">
+					<title>kity_path_109</title>
+					<path d="M81.75 455.25 C70.5 455.25 70.5 470.25 59.25 470.25 L0 470.25 L81.75 455.25 Z" class="st1"/>
+					<path d="M81.75 455.25 C70.5 455.25 70.5 470.25 59.25 470.25 L0 470.25" class="st2"/>
+				</g>
+				<g id="shape42-54" v:mID="42" v:groupContext="shape" transform="translate(90,-123.75)">
+					<title>kity_path_121</title>
+					<path d="M117 407.25 C105.75 407.25 105.75 470.25 94.5 470.25 L0 470.25 L117 407.25 Z" class="st1"/>
+					<path d="M117 407.25 C105.75 407.25 105.75 470.25 94.5 470.25 L0 470.25" class="st2"/>
+				</g>
+				<g id="shape43-57" v:mID="43" v:groupContext="shape" transform="translate(95.25,-75.75)">
+					<title>kity_path_125</title>
+					<path d="M111.75 359.25 C100.5 359.25 100.5 470.25 89.25 470.25 L0 470.25 L111.75 359.25 Z" class="st1"/>
+					<path d="M111.75 359.25 C100.5 359.25 100.5 470.25 89.25 470.25 L0 470.25" class="st2"/>
+				</g>
+				<g id="shape44-60" v:mID="44" v:groupContext="shape" transform="translate(96.75,-27.75)">
+					<title>kity_path_475</title>
+					<path d="M110.25 311.25 C99 311.25 99 470.25 87.75 470.25 L0 470.25 L110.25 311.25 Z" class="st1"/>
+					<path d="M110.25 311.25 C99 311.25 99 470.25 87.75 470.25 L0 470.25" class="st2"/>
+				</g>
+			</g>
+			<g id="group45-63" transform="translate(381.75,-168.75)" v:mID="45" v:groupContext="group">
+				<title>minder_node1</title>
+				<g id="shape46-64" v:mID="46" v:groupContext="shape">
+					<title>node_outline1</title>
+					<path d="M3.75 434.25 L86.25 434.25 A3.75 3.75 0 0 1 90 438 L90 466.5 A3.75 3.75 0 0 1 86.25 470.25 L3.75 470.25
+								 A3.75 3.75 0 0 1 0 466.5 L0 438 A3.75 3.75 0 0 1 3.75 434.25 Z" class="st3"/>
+				</g>
+				<g id="shape47-66" v:mID="47" v:groupContext="shape" transform="translate(18,-9.9)">
+					<title>kity_text_22</title>
+					<desc>变频器</desc>
+					<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+					<v:textRect cx="27" cy="459.45" width="54.01" height="21.6"/>
+					<rect x="0" y="448.65" width="54" height="21.6" class="st4"/>
+					<text x="0" y="464.92" class="st5" v:langID="2052"><v:paragraph/><v:tabList/>变频器</text>				</g>
+			</g>
+			<g id="group48-69" transform="translate(552,-297)" v:mID="48" v:groupContext="group">
+				<title>minder_node2</title>
+				<g id="group49-70" transform="translate(1.85851E-13,-9)" v:mID="49" v:groupContext="group">
+					<title>node_expander17</title>
+					<g id="shape50-71" v:mID="50" v:groupContext="shape">
+						<title>kity_path_379</title>
+						<path d="M9 465.75 A4.5 4.5 0 0 1 0 465.75 A4.5 4.5 0 0 1 9 465.75 Z" class="st6"/>
+					</g>
+					<g id="shape51-73" v:mID="51" v:groupContext="shape" transform="translate(1.125,-4.5)">
+						<title>kity_path_380</title>
+						<path d="M0 470.25 L6.75 470.25 L0 470.25 Z" class="st1"/>
+						<path d="M0 470.25 L6.75 470.25" class="st7"/>
+					</g>
+				</g>
+				<g id="shape52-76" v:mID="52" v:groupContext="shape" transform="translate(9.75,0)">
+					<title>node_outline18</title>
+					<path d="M2.25 443.25 L82.5 443.25 A2.25 2.25 0 0 1 84.75 445.5 L84.75 468 A2.25 2.25 0 0 1 82.5 470.25 L2.25
+								 470.25 A2.25 2.25 0 0 1 0 468 L0 445.5 A2.25 2.25 0 0 1 2.25 443.25 Z" class="st8"/>
+				</g>
+				<g id="shape53-78" v:mID="53" v:groupContext="shape" transform="translate(24.75,-5.4)">
+					<title>kity_text_159</title>
+					<desc>硬件层</desc>
+					<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+					<v:textRect cx="27" cy="459.45" width="54.01" height="21.6"/>
+					<rect x="0" y="448.65" width="54" height="21.6" class="st4"/>
+					<text x="-0" y="464.92" class="st9" v:langID="2052"><v:paragraph/><v:tabList/>硬件层</text>				</g>
+			</g>
+			<g id="group54-81" transform="translate(676.5,-441.75)" v:mID="54" v:groupContext="group">
+				<title>minder_node3</title>
+				<g id="shape55-82" v:mID="55" v:groupContext="shape">
+					<title>node_outline4</title>
+					<path d="M3.75 444.75 L49.5 444.75 A3.75 3.75 0 0 1 53.25 448.5 L53.25 466.5 A3.75 3.75 0 0 1 49.5 470.25 L3.75
+								 470.25 A3.75 3.75 0 0 1 0 466.5 L0 448.5 A3.75 3.75 0 0 1 3.75 444.75 Z" class="st10"/>
+				</g>
+				<g id="shape56-84" v:mID="56" v:groupContext="shape" transform="translate(7.5,-4.65)">
+					<title>kity_text_131</title>
+					<desc>ADC</desc>
+					<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+					<v:textRect cx="27" cy="459.45" width="54" height="21.6"/>
+					<rect x="0" y="448.65" width="54" height="21.6" class="st4"/>
+					<text x="-0" y="464.85" class="st11" v:langID="2052"><v:paragraph/><v:tabList/>ADC</text>				</g>
+			</g>
+			<g id="group57-87" transform="translate(676.5,-393.75)" v:mID="57" v:groupContext="group">
+				<title>minder_node6</title>
+				<g id="shape58-88" v:mID="58" v:groupContext="shape">
+					<title>node_outline5</title>
+					<path d="M3.75 444.75 L49.5 444.75 A3.75 3.75 0 0 1 53.25 448.5 L53.25 466.5 A3.75 3.75 0 0 1 49.5 470.25 L3.75
+								 470.25 A3.75 3.75 0 0 1 0 466.5 L0 448.5 A3.75 3.75 0 0 1 3.75 444.75 Z" class="st10"/>
+				</g>
+				<g id="shape59-90" v:mID="59" v:groupContext="shape" transform="translate(7.5,-4.65)">
+					<title>kity_text_133</title>
+					<desc>DAC</desc>
+					<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+					<v:textRect cx="27" cy="459.45" width="54" height="21.6"/>
+					<rect x="0" y="448.65" width="54" height="21.6" class="st4"/>
+					<text x="-0" y="464.85" class="st11" v:langID="2052"><v:paragraph/><v:tabList/>DAC</text>				</g>
+			</g>
+			<g id="group60-93" transform="translate(676.5,-345.75)" v:mID="60" v:groupContext="group">
+				<title>minder_node7</title>
+				<g id="shape61-94" v:mID="61" v:groupContext="shape">
+					<title>node_outline10</title>
+					<path d="M3.75 444.75 L65.25 444.75 A3.75 3.75 0 0 1 69 448.5 L69 466.5 A3.75 3.75 0 0 1 65.25 470.25 L3.75 470.25
+								 A3.75 3.75 0 0 1 0 466.5 L0 448.5 A3.75 3.75 0 0 1 3.75 444.75 Z" class="st10"/>
+				</g>
+				<g id="shape62-96" v:mID="62" v:groupContext="shape" transform="translate(7.5,-4.65)">
+					<title>kity_text_143</title>
+					<desc>编码器</desc>
+					<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+					<v:textRect cx="27" cy="459.45" width="54" height="21.6"/>
+					<rect x="0" y="448.65" width="54" height="21.6" class="st4"/>
+					<text x="-0" y="464.92" class="st9" v:langID="2052"><v:paragraph/><v:tabList/>编码器</text>				</g>
+			</g>
+			<g id="group63-99" transform="translate(676.5,-297.75)" v:mID="63" v:groupContext="group">
+				<title>minder_node12</title>
+				<g id="shape64-100" v:mID="64" v:groupContext="shape">
+					<title>node_outline14</title>
+					<path d="M3.75 444.75 L31.5 444.75 A3.75 3.75 0 0 1 35.25 448.5 L35.25 466.5 A3.75 3.75 0 0 1 31.5 470.25 L3.75
+								 470.25 A3.75 3.75 0 0 1 -0 466.5 L0 448.5 A3.75 3.75 0 0 1 3.75 444.75 Z" class="st10"/>
+				</g>
+				<g id="shape65-102" v:mID="65" v:groupContext="shape" transform="translate(7.5,-4.65)">
+					<title>kity_text_151</title>
+					<desc>IO</desc>
+					<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+					<v:textRect cx="18" cy="459.45" width="36" height="21.6"/>
+					<rect x="0" y="448.65" width="36" height="21.6" class="st4"/>
+					<text x="0" y="464.85" class="st11" v:langID="2052"><v:paragraph/><v:tabList/>IO</text>				</g>
+			</g>
+			<g id="group66-105" transform="translate(676.5,-249.75)" v:mID="66" v:groupContext="group">
+				<title>minder_node16</title>
+				<g id="shape67-106" v:mID="67" v:groupContext="shape">
+					<title>node_outline15</title>
+					<path d="M3.75 444.75 L59.25 444.75 A3.75 3.75 0 0 1 63 448.5 L63 466.5 A3.75 3.75 0 0 1 59.25 470.25 L3.75 470.25
+								 A3.75 3.75 0 0 1 0 466.5 L0 448.5 A3.75 3.75 0 0 1 3.75 444.75 Z" class="st10"/>
+				</g>
+				<g id="shape68-108" v:mID="68" v:groupContext="shape" transform="translate(7.5,-4.65)">
+					<title>kity_text_153</title>
+					<desc>UART</desc>
+					<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+					<v:textRect cx="36" cy="459.45" width="72" height="21.6"/>
+					<rect x="0" y="448.65" width="72" height="21.6" class="st4"/>
+					<text x="0" y="464.85" class="st11" v:langID="2052"><v:paragraph/><v:tabList/>UART</text>				</g>
+			</g>
+			<g id="group69-111" transform="translate(676.5,-201.75)" v:mID="69" v:groupContext="group">
+				<title>minder_node17</title>
+				<g id="shape70-112" v:mID="70" v:groupContext="shape">
+					<title>node_outline16</title>
+					<path d="M3.75 444.75 L81 444.75 A3.75 3.75 0 0 1 84.75 448.5 L84.75 466.5 A3.75 3.75 0 0 1 81 470.25 L3.75 470.25
+								 A3.75 3.75 0 0 1 0 466.5 L0 448.5 A3.75 3.75 0 0 1 3.75 444.75 Z" class="st10"/>
+				</g>
+				<g id="shape71-114" v:mID="71" v:groupContext="shape" transform="translate(7.5,-4.65)">
+					<title>kity_text_155</title>
+					<desc>SVPWM</desc>
+					<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+					<v:textRect cx="45" cy="459.45" width="90.01" height="21.6"/>
+					<rect x="0" y="448.65" width="90" height="21.6" class="st4"/>
+					<text x="-0" y="464.85" class="st11" v:langID="2052"><v:paragraph/><v:tabList/>SVPWM</text>				</g>
+			</g>
+			<g id="group72-117" transform="translate(676.5,-153.75)" v:mID="72" v:groupContext="group">
+				<title>minder_node18</title>
+				<g id="shape73-118" v:mID="73" v:groupContext="shape">
+					<title>node_outline17</title>
+					<path d="M3.75 444.75 L76.5 444.75 A3.75 3.75 0 0 1 80.25 448.5 L80.25 466.5 A3.75 3.75 0 0 1 76.5 470.25 L3.75
+								 470.25 A3.75 3.75 0 0 1 0 466.5 L0 448.5 A3.75 3.75 0 0 1 3.75 444.75 Z" class="st10"/>
+				</g>
+				<g id="shape74-120" v:mID="74" v:groupContext="shape" transform="translate(7.5,-4.65)">
+					<title>kity_text_157</title>
+					<desc>其它……</desc>
+					<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+					<v:textRect cx="36" cy="459.45" width="72.01" height="21.6"/>
+					<rect x="0" y="448.65" width="72" height="21.6" class="st4"/>
+					<text x="0" y="464.92" class="st9" v:langID="2052"><v:paragraph/><v:tabList/>其它<tspan class="st12">……</tspan></text>				</g>
+			</g>
+			<g id="group75-124" transform="translate(552,-49.5)" v:mID="75" v:groupContext="group">
+				<title>minder_node19</title>
+				<g id="group76-125" transform="translate(1.85851E-13,-9)" v:mID="76" v:groupContext="group">
+					<title>node_expander32</title>
+					<g id="shape77-126" v:mID="77" v:groupContext="shape">
+						<title>kity_path_424</title>
+						<path d="M9 465.75 A4.5 4.5 0 0 1 0 465.75 A4.5 4.5 0 0 1 9 465.75 Z" class="st6"/>
+					</g>
+					<g id="shape78-128" v:mID="78" v:groupContext="shape" transform="translate(1.125,-4.5)">
+						<title>kity_path_425</title>
+						<path d="M0 470.25 L6.75 470.25 L0 470.25 Z" class="st1"/>
+						<path d="M0 470.25 L6.75 470.25" class="st7"/>
+					</g>
+				</g>
+				<g id="shape79-131" v:mID="79" v:groupContext="shape" transform="translate(9.75,0)">
+					<title>node_outline33</title>
+					<path d="M2.25 443.25 L82.5 443.25 A2.25 2.25 0 0 1 84.75 445.5 L84.75 468 A2.25 2.25 0 0 1 82.5 470.25 L2.25
+								 470.25 A2.25 2.25 0 0 1 0 468 L0 445.5 A2.25 2.25 0 0 1 2.25 443.25 Z" class="st8"/>
+				</g>
+				<g id="shape80-133" v:mID="80" v:groupContext="shape" transform="translate(24.75,-5.4)">
+					<title>kity_text_189</title>
+					<desc>驱动层</desc>
+					<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+					<v:textRect cx="27" cy="459.45" width="54.01" height="21.6"/>
+					<rect x="0" y="448.65" width="54" height="21.6" class="st4"/>
+					<text x="-0" y="464.92" class="st9" v:langID="2052"><v:paragraph/><v:tabList/>驱动层</text>				</g>
+			</g>
+			<g id="group81-136" transform="translate(676.5,-98.25)" v:mID="81" v:groupContext="group">
+				<title>minder_node20</title>
+				<g id="shape82-137" v:mID="82" v:groupContext="shape">
+					<title>node_outline22</title>
+					<path d="M3.75 444.75 L119.25 444.75 A3.75 3.75 0 0 1 123 448.5 L123 466.5 A3.75 3.75 0 0 1 119.25 470.25 L3.75
+								 470.25 A3.75 3.75 0 0 1 -0 466.5 L0 448.5 A3.75 3.75 0 0 1 3.75 444.75 Z" class="st10"/>
+				</g>
+				<g id="shape83-139" v:mID="83" v:groupContext="shape" transform="translate(7.5,-4.65)">
+					<title>kity_text_167</title>
+					<desc>电机控制算法</desc>
+					<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+					<v:textRect cx="54" cy="459.45" width="108" height="21.6"/>
+					<rect x="0" y="448.65" width="108" height="21.6" class="st4"/>
+					<text x="0" y="464.92" class="st9" v:langID="2052"><v:paragraph/><v:tabList/>电机控制算法</text>				</g>
+			</g>
+			<g id="group84-142" transform="translate(676.5,-50.25)" v:mID="84" v:groupContext="group">
+				<title>minder_node24</title>
+				<g id="shape85-143" v:mID="85" v:groupContext="shape">
+					<title>node_outline26</title>
+					<path d="M3.75 444.75 L101.25 444.75 A3.75 3.75 0 0 1 105 448.5 L105 466.5 A3.75 3.75 0 0 1 101.25 470.25 L3.75
+								 470.25 A3.75 3.75 0 0 1 0 466.5 L0 448.5 A3.75 3.75 0 0 1 3.75 444.75 Z" class="st10"/>
+				</g>
+				<g id="shape86-145" v:mID="86" v:groupContext="shape" transform="translate(7.5,-4.65)">
+					<title>kity_text_175</title>
+					<desc>电机自学习</desc>
+					<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+					<v:textRect cx="45" cy="459.45" width="90.01" height="21.6"/>
+					<rect x="0" y="448.65" width="90" height="21.6" class="st4"/>
+					<text x="0" y="464.92" class="st9" v:langID="2052"><v:paragraph/><v:tabList/>电机自学习</text>				</g>
+			</g>
+			<g id="group87-148" transform="translate(676.5,-2.24999)" v:mID="87" v:groupContext="group">
+				<title>minder_node28</title>
+				<g id="shape88-149" v:mID="88" v:groupContext="shape">
+					<title>node_outline31</title>
+					<path d="M3.75 444.75 L76.5 444.75 A3.75 3.75 0 0 1 80.25 448.5 L80.25 466.5 A3.75 3.75 0 0 1 76.5 470.25 L3.75
+								 470.25 A3.75 3.75 0 0 1 -0 466.5 L0 448.5 A3.75 3.75 0 0 1 3.75 444.75 Z" class="st10"/>
+				</g>
+				<g id="shape89-151" v:mID="89" v:groupContext="shape" transform="translate(7.5,-4.65)">
+					<title>kity_text_185</title>
+					<desc>其它……</desc>
+					<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+					<v:textRect cx="36" cy="459.45" width="72.01" height="21.6"/>
+					<rect x="0" y="448.65" width="72" height="21.6" class="st4"/>
+					<text x="0" y="464.92" class="st9" v:langID="2052"><v:paragraph/><v:tabList/>其它<tspan class="st12">……</tspan></text>				</g>
+			</g>
+			<g id="group90-155" transform="translate(207,-173.25)" v:mID="90" v:groupContext="group">
+				<title>minder_node34</title>
+				<g id="group91-156" transform="translate(85.5,-9)" v:mID="91" v:groupContext="group">
+					<title>node_expander48</title>
+					<g id="shape92-157" v:mID="92" v:groupContext="shape">
+						<title>kity_path_472</title>
+						<path d="M9 465.75 A4.5 4.5 0 0 1 0 465.75 A4.5 4.5 0 0 1 9 465.75 Z" class="st6"/>
+					</g>
+					<g id="shape93-159" v:mID="93" v:groupContext="shape" transform="translate(1.125,-4.5)">
+						<title>kity_path_473</title>
+						<path d="M0 470.25 L6.75 470.25 L0 470.25 Z" class="st1"/>
+						<path d="M0 470.25 L6.75 470.25" class="st7"/>
+					</g>
+				</g>
+				<g id="shape94-162" v:mID="94" v:groupContext="shape">
+					<title>node_outline49</title>
+					<path d="M2.25 443.25 L82.5 443.25 A2.25 2.25 0 0 1 84.75 445.5 L84.75 468 A2.25 2.25 0 0 1 82.5 470.25 L2.25
+								 470.25 A2.25 2.25 0 0 1 0 468 L0 445.5 A2.25 2.25 0 0 1 2.25 443.25 Z" class="st8"/>
+				</g>
+				<g id="shape95-164" v:mID="95" v:groupContext="shape" transform="translate(15,-5.4)">
+					<title>kity_text_221</title>
+					<desc>应用层</desc>
+					<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+					<v:textRect cx="27" cy="459.45" width="54.01" height="21.6"/>
+					<rect x="0" y="448.65" width="54" height="21.6" class="st4"/>
+					<text x="-0" y="464.92" class="st9" v:langID="2052"><v:paragraph/><v:tabList/>应用层</text>				</g>
+			</g>
+			<g id="group96-167" transform="translate(-1.35891E-12,-318)" v:mID="96" v:groupContext="group">
+				<title>minder_node35</title>
+				<g id="shape97-168" v:mID="97" v:groupContext="shape">
+					<title>node_outline34</title>
+					<path d="M3.75 444.75 L173.25 444.75 A3.75 3.75 0 0 1 177 448.5 L177 466.5 A3.75 3.75 0 0 1 173.25 470.25 L3.75
+								 470.25 A3.75 3.75 0 0 1 0 466.5 L0 448.5 A3.75 3.75 0 0 1 3.75 444.75 Z" class="st10"/>
+				</g>
+				<g id="shape98-170" v:mID="98" v:groupContext="shape" transform="translate(7.5,-4.65)">
+					<title>kity_text_191</title>
+					<desc>抱闸接触器逻辑时序</desc>
+					<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+					<v:textRect cx="81" cy="459.45" width="162" height="21.6"/>
+					<rect x="0" y="448.65" width="162" height="21.6" class="st4"/>
+					<text x="0" y="464.92" class="st9" v:langID="2052"><v:paragraph/><v:tabList/>抱闸接触器逻辑时序</text>				</g>
+			</g>
+			<g id="group99-173" transform="translate(89.25,-270)" v:mID="99" v:groupContext="group">
+				<title>minder_node36</title>
+				<g id="shape100-174" v:mID="100" v:groupContext="shape">
+					<title>node_outline35</title>
+					<path d="M3.75 444.75 L84 444.75 A3.75 3.75 0 0 1 87.75 448.5 L87.75 466.5 A3.75 3.75 0 0 1 84 470.25 L3.75 470.25
+								 A3.75 3.75 0 0 1 0 466.5 L0 448.5 A3.75 3.75 0 0 1 3.75 444.75 Z" class="st10"/>
+				</g>
+				<g id="shape101-176" v:mID="101" v:groupContext="shape" transform="translate(7.5,-4.65)">
+					<title>kity_text_193</title>
+					<desc>启停时序</desc>
+					<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+					<v:textRect cx="36" cy="459.45" width="72.01" height="21.6"/>
+					<rect x="0" y="448.65" width="72" height="21.6" class="st4"/>
+					<text x="0" y="464.92" class="st9" v:langID="2052"><v:paragraph/><v:tabList/>启停时序</text>				</g>
+			</g>
+			<g id="group102-179" transform="translate(89.25,-222)" v:mID="102" v:groupContext="group">
+				<title>minder_node38</title>
+				<g id="shape103-180" v:mID="103" v:groupContext="shape">
+					<title>node_outline37</title>
+					<path d="M3.75 444.75 L84 444.75 A3.75 3.75 0 0 1 87.75 448.5 L87.75 466.5 A3.75 3.75 0 0 1 84 470.25 L3.75 470.25
+								 A3.75 3.75 0 0 1 0 466.5 L0 448.5 A3.75 3.75 0 0 1 3.75 444.75 Z" class="st10"/>
+				</g>
+				<g id="shape104-182" v:mID="104" v:groupContext="shape" transform="translate(7.5,-4.65)">
+					<title>kity_text_197</title>
+					<desc>速度曲线</desc>
+					<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+					<v:textRect cx="36" cy="459.45" width="72.01" height="21.6"/>
+					<rect x="0" y="448.65" width="72" height="21.6" class="st4"/>
+					<text x="0" y="464.92" class="st9" v:langID="2052"><v:paragraph/><v:tabList/>速度曲线</text>				</g>
+			</g>
+			<g id="group105-185" transform="translate(125.25,-174)" v:mID="105" v:groupContext="group">
+				<title>minder_node41</title>
+				<g id="shape106-186" v:mID="106" v:groupContext="shape">
+					<title>node_outline45</title>
+					<path d="M3.75 444.75 L48 444.75 A3.75 3.75 0 0 1 51.75 448.5 L51.75 466.5 A3.75 3.75 0 0 1 48 470.25 L3.75 470.25
+								 A3.75 3.75 0 0 1 0 466.5 L0 448.5 A3.75 3.75 0 0 1 3.75 444.75 Z" class="st10"/>
+				</g>
+				<g id="shape107-188" v:mID="107" v:groupContext="shape" transform="translate(7.5,-4.65)">
+					<title>kity_text_213</title>
+					<desc>通讯</desc>
+					<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+					<v:textRect cx="18" cy="459.45" width="36" height="21.6"/>
+					<rect x="0" y="448.65" width="36" height="21.6" class="st4"/>
+					<text x="0" y="464.92" class="st9" v:langID="2052"><v:paragraph/><v:tabList/>通讯</text>				</g>
+			</g>
+			<g id="group108-191" transform="translate(90,-126)" v:mID="108" v:groupContext="group">
+				<title>minder_node47</title>
+				<g id="shape109-192" v:mID="109" v:groupContext="shape">
+					<title>node_outline46</title>
+					<path d="M3.75 444.75 L83.25 444.75 A3.75 3.75 0 0 1 87 448.5 L87 466.5 A3.75 3.75 0 0 1 83.25 470.25 L3.75 470.25
+								 A3.75 3.75 0 0 1 0 466.5 L0 448.5 A3.75 3.75 0 0 1 3.75 444.75 Z" class="st10"/>
+				</g>
+				<g id="shape110-194" v:mID="110" v:groupContext="shape" transform="translate(7.5,-4.65)">
+					<title>kity_text_215</title>
+					<desc>人机界面</desc>
+					<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+					<v:textRect cx="36" cy="459.45" width="72" height="21.6"/>
+					<rect x="0" y="448.65" width="72" height="21.6" class="st4"/>
+					<text x="0" y="464.92" class="st9" v:langID="2052"><v:paragraph/><v:tabList/>人机界面</text>				</g>
+			</g>
+			<g id="group111-197" transform="translate(95.25,-78)" v:mID="111" v:groupContext="group">
+				<title>minder_node49</title>
+				<g id="shape112-198" v:mID="112" v:groupContext="shape">
+					<title>node_outline48</title>
+					<path d="M3.75 444.75 L78 444.75 A3.75 3.75 0 0 1 81.75 448.5 L81.75 466.5 A3.75 3.75 0 0 1 78 470.25 L3.75 470.25
+								 A3.75 3.75 0 0 1 0 466.5 L0 448.5 A3.75 3.75 0 0 1 3.75 444.75 Z" class="st10"/>
+				</g>
+				<g id="shape113-200" v:mID="113" v:groupContext="shape" transform="translate(7.5,-4.65)">
+					<title>kity_text_219</title>
+					<desc>外部PID</desc>
+					<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+					<v:textRect cx="45" cy="459.45" width="90.01" height="21.6"/>
+					<rect x="0" y="448.65" width="90" height="21.6" class="st4"/>
+					<text x="0" y="464.92" class="st9" v:langID="2052"><v:paragraph/><v:tabList/>外部<tspan class="st12">PID</tspan></text>				</g>
+			</g>
+			<g id="group114-204" transform="translate(96.75,-30)" v:mID="114" v:groupContext="group">
+				<title>minder_node50</title>
+				<g id="shape115-205" v:mID="115" v:groupContext="shape">
+					<title>node_outline50</title>
+					<path d="M3.75 444.75 L76.5 444.75 A3.75 3.75 0 0 1 80.25 448.5 L80.25 466.5 A3.75 3.75 0 0 1 76.5 470.25 L3.75
+								 470.25 A3.75 3.75 0 0 1 0 466.5 L0 448.5 A3.75 3.75 0 0 1 3.75 444.75 Z" class="st10"/>
+				</g>
+				<g id="shape116-207" v:mID="116" v:groupContext="shape" transform="translate(7.5,-4.65)">
+					<title>kity_text_477</title>
+					<desc>其它……</desc>
+					<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+					<v:textRect cx="36" cy="459.45" width="72.01" height="21.6"/>
+					<rect x="0" y="448.65" width="72" height="21.6" class="st4"/>
+					<text x="0" y="464.92" class="st9" v:langID="2052"><v:paragraph/><v:tabList/>其它<tspan class="st12">……</tspan></text>				</g>
+			</g>
+		</g>
+	</g>
+</svg>
