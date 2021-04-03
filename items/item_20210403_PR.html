@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <title>李柏松个人主页</title>
+</head>
+<body>
+    <section>
+        <div>
+            <a href="../index.html">
+                <div class="logo">
+                    <img class="logoimg" src="../images/logo.png" alt="">
+                </div>
+            </a>
+
+        </div>
+
+        <div class="sub_item">
+            <a href="#"><h1 class="item_title">一种比例谐振调节器</h1></a>
+            <div class="item_time">
+                创建于2021-4-3<br>
+                该项目完成于2019-10，原创
+            </div>
+            <div class="item_intro">
+                <p>电机控制中，常使用比例积分（Proportional-Integral，PI）调节器对位置、速度、电流进行闭环控制，通过设置合理的PI参数，使位置、速度、电流跟踪给定值变化。当给定信号变化缓慢时，PI参数可以设置较小，但当给定信号变化速度较大时，一般需要将PI调节器的参数调大，以保证良好地跟踪效果。但实际使用中，PI参数并不能无限制增大，因此当遇到给定值变化速度较快的应用时，PI控制器无法确保反馈信号可以很好地跟踪给定进行变化，这时候就需要考虑使用其他的控制方法。当给定信号按照正弦/余弦信号变化时，可以考虑使用比例谐振（Proportional Resonant，PR）调节器。</p>
+
+                <p>下面两式分别为PI调节器和PR调节器的传递函数，可以看出两者形式相近，都有两个参数可以调节，不同的在于PR调节器将积分环节变成了谐振环节。PR调节器传递函数中的ω0代表谐振频率，也就是给定中包含的正弦/余弦信号的频率。</p>
+
+                <div class="item_img">
+                    <img class="img20p" src="../images/PR.svg" alt="">
+                </div>
+
+                <p>PI调节器的Kp和Ki可以根据控制对象的参数进行设计，比如控制电流时，可以根据电机的电感和电阻计算出合适的Kp和Ki值。但在使用PR调节器时，Kp和KI该又如何设计？</p>
+                
+                <p>为方便参数设计，特设计了一种新的PR调节器，该调节器的PI参数可以根据被控对象的参数计算出来。例如，当对电流进行控制时，就可以根据电机的电感和电阻大小计算出合适的PR调节器参数。</p>
+
+            </div>
+            <div class="item_continue">
+                <!-- <a href="">了解更多</a> -->
+                <a href="../project.html">返回</a>
+            </div>
+        </div>
+
+        <div class="footer">
+            李柏松制作，2021
+        </div>
+    </section>
+</body>
+</html>
