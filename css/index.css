@@ -135,6 +135,7 @@ p{
 .sub_item{
     /* margin-bottom: 50px; */
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .item_title{
@@ -157,7 +158,7 @@ p{
 }
 
 .item_continue{
-    margin-top: 5px;
+    margin-top: 0px;
     text-align: right;
 }
 
@@ -234,8 +235,15 @@ p{
     min-width: 200px;
 }
 
+.wechat{
+    /* align-content: center; */
+    width: 25%;
+    min-width: 100px;
+    vertical-align:top;
+}
+
 .footer{
-    margin: 5em 0 2em;
+    margin: 2em 0 5em;
     text-align: center;
     color: #888;
     font-size: 0.7em;
@@ -266,4 +274,15 @@ p{
 
 .backtoTop:hover{
     background-color: rgb(255, 193, 78);
+}
+
+.contact_item{
+    text-indent: 0;
+    display:inline-block;
+    width: 20%;
+    max-width: 6em;
+}
+
+.contact_content{
+    word-wrap:break-word;
 }
