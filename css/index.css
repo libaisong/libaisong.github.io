@@ -237,7 +237,7 @@ p{
 
 .wechat{
     /* align-content: center; */
-    width: 60%;
+    width: 50%;
     min-width: 100px;
     vertical-align:top;
 }
@@ -281,6 +281,7 @@ p{
     margin: 20px auto 0;
     width: 100%;
     max-width: 310px;
+    font-size: 0.8em;
 }
 .contact{
     text-indent: 0;
