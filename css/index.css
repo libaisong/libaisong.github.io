@@ -166,16 +166,17 @@ p{
     display: inline-block;
     margin-left: 1em;
     padding: 0 1em;
-    color: white;
+    color: #888;
     height: 2em;
     line-height: 2em;
-    background-color: orange;
+    background-color: rgba(0, 0, 0, 0.1);
     /* border: 1px solid red; */
     border-radius: 5px;
 }
 
 .item_continue>a:hover{
     background-color: rgb(255, 193, 78);
+    color:white;
 }
 
 .item_img
@@ -260,7 +261,7 @@ p{
     color: white!important;
     height: 2em;
     line-height: 2em;
-    background-color: rgb(45, 150, 233);
+    background-color:  orange;
     /* border: 1px solid red; */
     border-radius: 5px;
 }
@@ -273,7 +274,7 @@ p{
 }
 
 .backtoTop:hover{
-    background-color: rgb(129, 192, 242);
+    background-color: rgb(255, 193, 78);
 }
 
 .contact_box
