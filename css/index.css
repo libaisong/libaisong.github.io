@@ -260,7 +260,7 @@ p{
     color: white!important;
     height: 2em;
     line-height: 2em;
-    background-color: orange;
+    background-color: rgb(45, 150, 233);
     /* border: 1px solid red; */
     border-radius: 5px;
 }
@@ -273,7 +273,7 @@ p{
 }
 
 .backtoTop:hover{
-    background-color: rgb(255, 193, 78);
+    background-color: rgb(129, 192, 242);
 }
 
 .contact_box
