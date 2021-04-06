@@ -134,8 +134,23 @@ p{
 
 .sub_item_list{
     /* margin-bottom: 50px; */
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 0;
+    /* padding-bottom: 20px; */
+}
+
+.interval_u20px{
+    width: 100%;
+    height: 20px;
+    /* background-color: red; */
+}
+.interval_d20px{
+    width: 100%;
+    height: 20px;
+    /* background-color: green; */
+}
+
+.sub_item_list:hover{
+    cursor: pointer;
 }
 
 .sub_item{
