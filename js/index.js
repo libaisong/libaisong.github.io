@@ -1,5 +1,5 @@
 window.onload = function(){
-    var subitems = document.querySelectorAll('.sub_item');
+    var subitems = document.querySelectorAll('.sub_item_list');
     for(var i=0;i<subitems.length;i++)
     {
         var text = subitems[i].querySelector('a').querySelector('h1').innerHTML;
