@@ -19,7 +19,7 @@ window.onload = function(){
         // console.log(window.pageYOffset);
         var boot = document.querySelector('.backtoTop');
         // console.log(boot);
-        if(window.pageYOffset < 10)
+        if(window.pageYOffset < 300)
         {boot.style.display = 'none';}
         else
         {boot.style.display = 'block';
