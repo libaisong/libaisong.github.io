@@ -132,6 +132,12 @@ p{
     background-color: purple;
 } */
 
+.sub_item_list{
+    /* margin-bottom: 50px; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 .sub_item{
     /* margin-bottom: 50px; */
     padding-top: 20px;
@@ -157,26 +163,29 @@ p{
     margin-top: 0em;
 }
 
-.item_continue{
+.item_detail{
+    margin-top: 0em;
+}
+
+.item_return{
     margin-top: 0px;
     text-align: right;
 }
 
-.item_continue>a{
+.item_return>a{
     display: inline-block;
     margin-left: 1em;
     padding: 0 1em;
-    color: #888;
+    color: white;
     height: 2em;
     line-height: 2em;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: orange;
     /* border: 1px solid red; */
     border-radius: 5px;
 }
 
-.item_continue>a:hover{
+.item_return>a:hover{
     background-color: rgb(255, 193, 78);
-    color:white;
 }
 
 .item_img
