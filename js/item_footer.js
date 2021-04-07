@@ -1,0 +1,13 @@
+document.writeln("        <div class=\'footer\'>");
+document.writeln("            李柏松制作，2021");
+document.writeln("        </div>");
+document.writeln("");
+document.writeln("        <div class=\'nav_bar\'>");
+document.writeln("            <div id=\'nav_menu\'>");
+document.writeln("                <div class=\'nav_item icon-home\'></div>");
+document.writeln("                <div class=\'nav_item icon-forward\'></div>");
+document.writeln("                <div class=\'nav_item icon-back\'></div>");
+document.writeln("                <div class=\'nav_item icon-menu\'></div> ");
+document.writeln("            </div>");
+document.writeln("            <div class=\'nav_item icon-top\'></div> ");
+document.writeln("        </div>");
