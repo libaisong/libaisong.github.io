@@ -1,4 +1,12 @@
 window.onload= function(){
+    var subitems = document.querySelectorAll('.sub_item_list');
+    for(var i=0;i<subitems.length;i++)
+    {
+        var text = subitems[i].querySelector('a').querySelector('h1').innerHTML;
+        // console.log(text);
+        subitems[i].querySelector('a').querySelector('h1').innerHTML += "<span class='titlecount'>("+(subitems.length-i)+'/'+(subitems.length)+")</span>";
+    }
+
     var menu = document.querySelector('.icon-menu');
     var back = document.querySelector('.icon-back');
     var forward = document.querySelector('.icon-forward');
