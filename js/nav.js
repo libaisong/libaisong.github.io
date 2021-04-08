@@ -7,6 +7,7 @@ window.onload= function(){
         subitems[i].querySelector('a').querySelector('h1').innerHTML += "<span class='titlecount'>("+(subitems.length-i)+'/'+(subitems.length)+")</span>";
     }
 
+    // var all = document.querySelector('html');
     var menu = document.querySelector('.icon-menu');
     var back = document.querySelector('.icon-back');
     var forward = document.querySelector('.icon-forward');
@@ -20,7 +21,11 @@ window.onload= function(){
     nav_bar.style.right = parseFloat(bodyStyle.marginRight)+20+'px';
 
     nav_menu.onmouseenter = function(){menuopen()};
-    nav_menu.onclick = function(){menuopen()};
+    // nav_menu.onclick = function(){menuopen()};
+    nav_menu.ontouchstart = function(e){
+        e.preventDefault();//可以阻止后面事件的触发，特别是click
+        menuopen()
+    };
     function menuopen(){
         home.style.display = "block";
         back.style.display = "block";
@@ -28,7 +33,32 @@ window.onload= function(){
         menu.style.display = "none";
     }
 
-    nav_menu.onmouseleave = function(){
+    // body.ontouchstart =  function(e){
+    //     console.log(e.composedPath()[2].ClassList);
+    //     menuclose();}
+    
+    window.ontouchstart =  function(e){
+        var tmp = 1;
+        e.composedPath().forEach(
+            function(element)
+            {
+                console.log(element.id);
+                if(element.id==="nav_menu")//点击nav_menu之外时将其收缩
+                {
+                    tmp = 0;
+                }
+            }
+        )
+        if(tmp===1)
+        {
+            menuclose();
+        }
+    }
+
+    nav_menu.onmouseleave = function(){menuclose();}
+
+    function menuclose()
+    {
         home.style.display = "none";
         back.style.display = "none";
         forward.style.display = "none";
@@ -56,7 +86,11 @@ window.onload= function(){
 
     };
 
-    home.onclick=function(){
+    home.onclick=function(){tohome()};
+    home.ontouchstart=function(e){e.preventDefault();tohome()};
+
+    function tohome()
+    {
         if(window.location.href.indexOf('items')===-1)//判断是否在items文件夹中
         {
             window.open("index.html","_self");
@@ -65,14 +99,19 @@ window.onload= function(){
         {
             window.open("../index.html","_self");
         }
-        
     }
 
-    back.onclick=function(){
+    back.onclick=function(){toback()};
+    back.ontouchstart=function(e){e.preventDefault();toback()};
+
+    function toback(){
         history.back();
     }
 
-    forward.onclick=function(){
+    forward.onclick=function(){toforward()};
+    forward.ontouchstart=function(e){e.preventDefault();toforward()};
+
+    function toforward(){
         history.forward();
     }
 
