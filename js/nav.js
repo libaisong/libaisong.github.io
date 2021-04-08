@@ -17,7 +17,8 @@ window.onload= function(){
     var nav_menu = document.querySelector('#nav_menu');
     var bodyStyle = getComputedStyle(document.body, null);
 
-    menu.style.display = "block";
+    nav_menu.style.display = "inline-block";
+    menu.style.display = "inline-block";
     nav_bar.style.right = parseFloat(bodyStyle.marginRight)+20+'px';
 
     nav_menu.onmouseenter = function(){menuopen()};
@@ -27,9 +28,9 @@ window.onload= function(){
         menuopen()
     };
     function menuopen(){
-        home.style.display = "block";
-        back.style.display = "block";
-        forward.style.display = "block";
+        home.style.display = "inline-block";
+        back.style.display = "inline-block";
+        forward.style.display = "inline-block";
         menu.style.display = "none";
     }
 
@@ -62,7 +63,7 @@ window.onload= function(){
         home.style.display = "none";
         back.style.display = "none";
         forward.style.display = "none";
-        menu.style.display = "block";
+        menu.style.display = "inline-block";
     }
 
     document.onscroll = function(){start()};
@@ -81,7 +82,7 @@ window.onload= function(){
         if(window.pageYOffset < 300)
         {top.style.display = 'none';}
         else
-        {top.style.display = 'block';
+        {top.style.display = 'inline-block';
         }
 
     };
