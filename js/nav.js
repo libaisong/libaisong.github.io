@@ -116,7 +116,9 @@ window.onload= function(){
     }
 
     top.onclick=function(){
-        window.open("#","_self");
+        // window.open("#","_self");
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
     }
 }
 
