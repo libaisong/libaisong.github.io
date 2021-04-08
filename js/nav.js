@@ -43,7 +43,7 @@ window.onload= function(){
         e.composedPath().forEach(
             function(element)
             {
-                console.log(element.id);
+                // console.log(element.id);
                 if(element.id==="nav_menu")//点击nav_menu之外时将其收缩
                 {
                     tmp = 0;
