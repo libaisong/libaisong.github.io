@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:mobile="http://www.baidu.com/schemas/sitemap-mobile/1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <!-- Created By http://www.zhetao.com/sitemapcreator,  URLs: 42 Generated at: 2021-05-07 15:02:39 -->
+
+  <url>
+    <loc>https://libaisong.gitee.io/</loc>
+    <priority>1.00</priority>
+  </url>
+
+  <url>
+    <loc>https://libaisong.gitee.io/index.html</loc>
+    <priority>1.00</priority>
+  </url>
+
+  <url>
+    <loc>https://libaisong.gitee.io/project.html</loc>
+    <priority>1.00</priority>
+  </url>
+
+  <url>
+    <loc>https://libaisong.gitee.io/young.html</loc>
+    <priority>1.00</priority>
+  </url>
+
+  <url>
+    <loc>https://libaisong.gitee.io/other.html</loc>
+    <priority>1.00</priority>
+  </url>
+
+  <url>
+    <loc>https://libaisong.gitee.io/items/item_20210227_recent.html</loc>
+    <priority>1.00</priority>
+  </url>
+
+  <url>
+    <loc>https://libaisong.gitee.io/items/item_20210404_Contact_Me.html</loc>
+    <priority>1.00</priority>
+  </url>
+
+  <url>
+    <loc>https://libaisong.gitee.io/items/item_20210327_SSCS.html</loc>
+    <priority>1.00</priority>
+  </url>
+
+  <url>
+    <loc>https://libaisong.gitee.io/items/item_20210227_GVF.html</loc>
+    <priority>1.00</priority>
+  </url>
+
+  <url>
+    <loc>https://libaisong.gitee.io/items/item_20210403_Inverter.html</loc>
+    <priority>0.71</priority>
+  </url>
+
+  <url>
+    <loc>https://libaisong.gitee.io/items/item_20210402_DTC.html</loc>
+    <priority>0.71</priority>
+  </url>
+
+  <url>
+    <loc>https://libaisong.gitee.io/items/item_20210403_MTPA.html</loc>
+    <priority>0.71</priority>
+  </url>
+
+  <url>
+    <loc>https://libaisong.gitee.io/items/item_20210403_MTPV.html</loc>
+    <priority>0.71</priority>
+  </url>
+
+  <url>
+    <loc>https://libaisong.gitee.io/items/item_20210403_MotorAutoTune.html</loc>
+    <priority>0.71</priority>
+  </url>
+
+  <url>
+    <loc>https://libaisong.gitee.io/items/item_20210403_StatorFluxOrientedVC.html</loc>
+    <priority>0.71</priority>
+  </url>
+
+  <url>
+    <loc>https://libaisong.gitee.io/items/item_20210402_AntiRollback.html</loc>
+    <priority>0.71</priority>
+  </url>
+
+  <url>
+    <loc>https://libaisong.gitee.io/items/item_20210402_FluxWeaken.html</loc>
+    <priority>0.71</priority>
+  </url>
+
+  <url>
+    <loc>https://libaisong.gitee.io/items/item_20210402_SynRM_SVC.html</loc>
+    <priority>0.71</priority>
+  </url>
+
+  <url>
+    <loc>https://libaisong.gitee.io/items/item_20210403_PM_HF_Inj.html</loc>
+    <priority>0.71</priority>
+  </url>
+
+  <url>
+    <loc>https://libaisong.gitee.io/items/item_20210402_PM_SVC.html</loc>
+    <priority>0.51</priority>
+  </url>
+
+  <url>
+    <loc>https://libaisong.gitee.io/items/item_20210331_PmInitAnglewithEncoder.html</loc>
+    <priority>0.51</priority>
+  </url>
+
+  <url>
+    <loc>https://libaisong.gitee.io/items/item_20210330_PmInitAngle.html</loc>
+    <priority>0.51</priority>
+  </url>
+
+  <url>
+    <loc>https://libaisong.gitee.io/items/item_20210330_PMshortbrake.html</loc>
+    <priority>0.51</priority>
+  </url>
+
+  <url>
+    <loc>https://libaisong.gitee.io/items/item_20210401_IM_SVC.html</loc>
+    <priority>0.51</priority>
+  </url>
+
+  <url>
+    <loc>https://libaisong.gitee.io/items/item_20210331_ImSlipcalibration.html</loc>
+    <priority>0.51</priority>
+  </url>
+
+  <url>
+    <loc>https://libaisong.gitee.io/items/item_20210331_ImSlipCalc.html</loc>
+    <priority>0.51</priority>
+  </url>
+
+  <url>
+    <loc>https://libaisong.gitee.io/items/item_20210331_BLDCsensorless.html</loc>
+    <priority>0.51</priority>
+  </url>
+
+  <url>
+    <loc>https://libaisong.gitee.io/items/item_20210331_BLDChall.html</loc>
+    <priority>0.51</priority>
+  </url>
+
+  <url>
+    <loc>https://libaisong.gitee.io/items/item_20210330_currentController.html</loc>
+    <priority>0.51</priority>
+  </url>
+
+  <url>
+    <loc>https://libaisong.gitee.io/items/item_20210330_encoder.html</loc>
+    <priority>0.51</priority>
+  </url>
+
+  <url>
+    <loc>https://libaisong.gitee.io/items/item_20210330_phaselack.html</loc>
+    <priority>0.51</priority>
+  </url>
+
+  <url>
+    <loc>https://libaisong.gitee.io/items/item_20210330_loadtorque.html</loc>
+    <priority>0.51</priority>
+  </url>
+
+  <url>
+    <loc>https://libaisong.gitee.io/items/item_20210330_spline.html</loc>
+    <priority>0.51</priority>
+  </url>
+
+  <url>
+    <loc>https://libaisong.gitee.io/items/item_20210329_digitalfilters.html</loc>
+    <priority>0.51</priority>
+  </url>
+
+  <url>
+    <loc>https://libaisong.gitee.io/items/item_20210403_VibrationSuppression.html</loc>
+    <priority>0.51</priority>
+  </url>
+
+  <url>
+    <loc>https://libaisong.gitee.io/items/item_20210403_PR.html</loc>
+    <priority>0.51</priority>
+  </url>
+
+  <url>
+    <loc>https://libaisong.gitee.io/items/item_20210329_harmonicsuppression.html</loc>
+    <priority>0.51</priority>
+  </url>
+
+  <url>
+    <loc>https://libaisong.gitee.io/items/item_20210329_deadtimecomp.html</loc>
+    <priority>0.51</priority>
+  </url>
+
+  <url>
+    <loc>https://libaisong.gitee.io/items/item_20210329_activepower.html</loc>
+    <priority>0.51</priority>
+  </url>
+
+  <url>
+    <loc>https://libaisong.gitee.io/items/item_20210329_randompwm.html</loc>
+    <priority>0.51</priority>
+  </url>
+
+  <url>
+    <loc>https://libaisong.gitee.io/items/item_20210329_overmodulation.html</loc>
+    <priority>0.51</priority>
+  </url>
+
+  <url>
+    <loc>https://libaisong.gitee.io/items/item_20210227_springfestivalstory.html</loc>
+    <priority>0.51</priority>
+  </url>
+
+</urlset>
