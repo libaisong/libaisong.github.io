@@ -11,11 +11,19 @@
             position: relative;
         }
 
-        .re_logo{
+        @media screen and (min-width:360px) {
+            .re_logo{
             position:absolute;
-            top: -50px;
+            top: -30px;
             right: 20px;
         }
+        }
+        @media screen and (max-width:359px) {
+            .re_logo{
+            display: block;
+        }
+        }
+
         .re_div{
             height: 1.5em;
             /* background-color: #ddd; */
@@ -130,26 +138,16 @@
            
                 <!-- 算法开发 -->
                 <div class="re_div"></div>
-                <h3 class="re_item">算法开发</h3>
+                <h3 class="re_item">算法开发情况</h3>
 
                 <div class="re_group_patent">1.电机控制算法：</div>
                 <div class="re_patent">永磁同步电机SVC；异步电机SVC；同步磁阻电机控制算法；通用矢量控制算法；永磁同步电机高频注入法；定子磁链定向矢量控制；直接转矩控制；无刷直流电机无传感器控制算法；无刷直流电机控制算法(带霍尔)等</div>
 
-                <div class="re_group_patent">2.电机控制算法模块：</div>
-                <div class="re_patent">死区补偿算法；异步电机转差计算方法；异步电机转差修正方法；负载转矩前馈；永磁同步电机初始角自学习(动态+静态)；带编码器的永磁电机初始磁极判断；输出缺相(运行中判断)；电机输出缺相判断(启动时判断)；永磁同步电机短接制动；电机参数辨识；电压闭环弱磁控制方法；谐波抑制算法；一种比例谐振调节器；一种母线电压补偿方法；VF电流限制功能；单电阻电流采样算法；MTPV控制算法；MTPA控制算法(离线+在线)；一种改进的电流控制方法(PI+前馈)；机械振动抑制等</div>
+                <div class="re_group_patent">2.算法模块：</div>
+                <div class="re_patent">死区补偿算法；异步电机转差计算方法；异步电机转差修正方法；负载转矩前馈；永磁同步电机初始角自学习(动态+静态)；带编码器的永磁电机初始磁极判断；输出缺相(运行中判断)；电机输出缺相判断(启动时判断)；永磁同步电机短接制动；电机参数辨识；电压闭环弱磁控制方法；谐波抑制算法；一种比例谐振调节器；一种母线电压补偿方法；VF电流限制功能；单电阻电流采样算法；MTPV控制算法；MTPA控制算法(离线+在线)；一种改进的电流控制方法(PI+前馈)；机械振动抑制；过调制算法；随机PWM算法；电压重构、有功功率计算；样条插值；数字滤波器；高精度增量式编码器速度采样；SinCos编码器校正；FFT；电梯防倒溜功能；门机速度曲线与路径规划；编码器故障判断等</div>
 
-                <div class="re_group_patent">3.电机控制相关算法：</div>
-                <div class="re_patent">过调制算法；随机PWM算法；电压重构、有功功率计算；样条插值；数字滤波器；高精度增量式编码器速度采样；SinCos编码器校正；FFT等</div>
-                
-                <div class="re_group_patent">4.部分应用算法：</div>
-                <div class="re_patent">电梯防倒溜功能；门机速度曲线与路径规划；编码器故障判断等</div>
-
-                <div class="re_group_patent">5.软件架构设计：</div>
-                <div class="re_patent">变频器软件模块化设计等</div>
-                
-
-                <div class="re_group_patent">6.其它算法：</div>
-                <div class="re_patent">双向DC-DC变换器等</div>
+                <div class="re_group_patent">3.其它内容：</div>
+                <div class="re_patent">变频器软件模块化设计；双向DC-DC变换器控制等</div>
                 
                 <!-- 专利申请情况 -->
                 <div class="re_div"></div>
