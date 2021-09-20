@@ -97,6 +97,9 @@
             padding-left: 2em;
             text-indent: 2em;
         }
+        .re_patent_node{
+            color: #aaa;
+        }
         .re_patent2{
             font-size: 0.5em;
             padding-left: 2em;
@@ -167,14 +170,75 @@
                 <h3 class="re_item">算法开发情况</h3>
 
                 <div class="re_group_patent">1.电机控制算法：</div>
-                <div class="re_patent">永磁同步电机SVC；异步电机SVC；同步磁阻电机控制算法；通用矢量控制算法；永磁同步电机高频注入法；定子磁链定向矢量控制；直接转矩控制；无刷直流电机无传感器控制算法；无刷直流电机控制算法(带霍尔)等</div>
+                <div class="re_patent">
+                    <span class="re_patent_node">■</span>转子磁链定向控制（异步电机、永磁同步电机、同步磁阻电机的闭环和开环控制，同步电机的开环控制包含模型法和高频注入法）
+                    <span class="re_patent_node">■</span>通用矢量控制算法（一种算法同时支持多种电机控制）
+                    <span class="re_patent_node">■</span>定子磁链定向控制（优先用于异步电机控制）
+                    <span class="re_patent_node">■</span>直接转矩控制（支持异步电机、永磁同步电机和同步磁阻电机）
+                    <span class="re_patent_node">■</span>无刷直流电机控制算法（方波，开环+闭环）
+                    <span class="re_patent_node">■</span>单相异步电机开环控制
+                </div>
 
-                <div class="re_group_patent">2.算法模块：</div>
-                <div class="re_patent">死区补偿算法；异步电机转差计算方法；异步电机转差修正方法；负载转矩前馈；永磁同步电机初始角自学习(动态+静态)；带编码器的永磁电机初始磁极判断；输出缺相(运行中判断)；电机输出缺相判断(启动时判断)；永磁同步电机短接制动；电机参数辨识；电压闭环弱磁控制方法；谐波抑制算法；一种比例谐振调节器；一种母线电压补偿方法；VF电流限制功能；单电阻电流采样算法；MTPV控制算法；MTPA控制算法(离线+在线)；一种改进的电流控制方法；机械振动抑制；过调制算法；随机PWM算法；电压重构、有功功率计算；样条插值；数字滤波器；高精度增量式编码器速度采样；SinCos编码器校正；FFT；电梯防倒溜功能；门机速度曲线与路径规划；编码器故障判断等</div>
+                <div class="re_group_patent">2.电机参数辨识：</div>
+                <div class="re_patent">
+                    <span class="re_patent_node">■</span>电机定子电阻辨识
+                    <span class="re_patent_node">■</span>异步电机漏感辨识
+                    <span class="re_patent_node">■</span>异步电机互感辨识
+                    <span class="re_patent_node">■</span>异步电机转子时间常数辨识
+                    <span class="re_patent_node">■</span>异步电机转差辨识与在线修正
+                    <span class="re_patent_node">■</span>永磁同步电机和同步磁阻电机dq轴电感辨识
+                    <span class="re_patent_node">■</span>永磁同步电机反电势辨识
+                    <span class="re_patent_node">■</span>永磁同步电机和同步磁阻电机初始磁极辨识（动态+静态，以及带编码器的特殊解决方案）
+                </div>
 
-                <div class="re_group_patent">3.其它内容：</div>
-                <div class="re_patent">变频器软件模块化设计；双向DC-DC变换器控制等</div>
-                <div class="re_group_patent re_note">注：以上为本人独立或以本人为主开发的算法</div>
+                <div class="re_group_patent">3.电机控制相关算法：</div>
+                <div class="re_patent">
+                    <span class="re_patent_node">■</span>死区补偿算法
+                    <span class="re_patent_node">■</span>负载转矩观测
+                    <span class="re_patent_node">■</span>弱磁控制算法
+                    <span class="re_patent_node">■</span>MTPA控制算法(离线+在线)
+                    <span class="re_patent_node">■</span>MTPV控制算法
+                    <span class="re_patent_node">■</span>一种改进的电流控制方法
+                    <span class="re_patent_node">■</span>SVPWM过调制算法
+                    <span class="re_patent_node">■</span>母线电压预测与补偿
+                    <span class="re_patent_node">■</span>谐波抑制算法
+                    <span class="re_patent_node">■</span>振动抑制算法
+                </div>
+
+                <div class="re_group_patent">4.部分功能算法：</div>
+                <div class="re_patent">
+                    <span class="re_patent_node">■</span>随机PWM算法
+                    <span class="re_patent_node">■</span>永磁同步电机短接制动
+                    <span class="re_patent_node">■</span>电梯防倒溜功能
+                    <span class="re_patent_node">■</span>VF电流限制功能
+                    <span class="re_patent_node">■</span>电压有效值、有功功率计算
+                </div>   
+                
+                <div class="re_group_patent">5.采样相关算法：</div>
+                <div class="re_patent">
+                    <span class="re_patent_node">■</span>单电阻电流采样算法
+                    <span class="re_patent_node">■</span>高精度增量式编码器速度采样
+                    <span class="re_patent_node">■</span>SinCos编码器信号校正
+                </div> 
+                
+                <div class="re_group_patent">6.故障判断与保护：</div>
+                <div class="re_patent">
+                    <span class="re_patent_node">■</span>运行中输出缺相快速判断
+                    <span class="re_patent_node">■</span>启动时输出缺相判断
+                    <span class="re_patent_node">■</span>编码器故障判断
+                </div>                 
+
+                <div class="re_group_patent">7.其它内容：</div>
+                <div class="re_patent">
+                    <span class="re_patent_node">■</span>变频器软件模块化设计
+                    <span class="re_patent_node">■</span>双向DC-DC变换器控制
+                    <span class="re_patent_node">■</span>样条插值算法
+                    <span class="re_patent_node">■</span>数字滤波器设计
+                    <span class="re_patent_node">■</span>FFT
+                    <span class="re_patent_node">■</span>比例谐振调节器
+                    <span class="re_patent_node">■</span>速度曲线与路径规划（门机）
+                </div>
+                <div class="re_group_patent re_note">注：以上均为本人独立或以本人为主开发的算法</div>
                 
                 <!-- 专利申请情况 -->
                 <div class="re_div"></div>
@@ -188,10 +252,10 @@
                 <div class="re_patent2">7. 《电机的电流谐波抑制方法》（201510349263.8，已授权并拿到证书）</div>
                 <div class="re_patent2">8. 《永磁同步电机初始磁极的自学习方法》（201610818044.4，已授权并拿到证书）</div>
                 <div class="re_patent2">9. 《一种三相电机的缺相检测方法及系统》（201610743815.8，无权）</div>
-                <div class="re_patent2">10.《一种三相电机的缺相检测方法及系统》（201610844466.9，无权）</div>
+                <div class="re_patent2">10.《一种三相电机的缺相检测方法及系统》（201610844466.9，实审中）</div>
                 <div class="re_patent2">11.《永磁同步电机磁极初始位置自学习方法》（201910240055.2，已授权并拿到证书）</div>
                 <div class="re_patent2">12.《异步电机的转差修正方法及其装置》（201910245834.1，已授权并拿到证书）</div>
-                <div class="re_patent2">13.《一种变频器母线电压修正方法、装置、电子设备及存储介质》（201911396786.2，已发授权通知书）</div>
+                <div class="re_patent2">13.《一种变频器母线电压修正方法、装置、电子设备及存储介质》（201911396786.2，已授权并拿到证书）</div>
                 <div class="re_patent2">14.《基于信号注入的电机最大转矩电流比控制方法及其装置》（202010251775.1，等待实审）</div>
                 <div class="re_patent2">15.《三相电机电流限制方法及其装置》（202010957020.3，等待实审）</div>
                 <div class="re_patent2">16.《VF控制三相电机的振动抑制方法及其装置》（202110076818.1，等待实审）</div>
@@ -205,7 +269,7 @@
                 <div class="re_patent2">[2]李柏松, 金辛海, 胡志涛. 一种无刷直流电机霍耳信号与定子绕组关系自学习方法[J]. 电气传动, 2016, 46(5):78-80.</div>
                 <div class="re_patent2">[3] Jin X, Li B, Xu D. A current harmonics suppression method for permanent magnet synchronous motor drives[C]. IEEE Transportation Electrification Conference and Expo, Asia-Pacific. IEEE, 2017:1-6.</div>
                 <div class="re_patent2">[4] Chen W, Li B , Xu D, et al. A Dead-Time Compensation Method for Voltage Source Inverters[C]. 2019 22nd International Conference on Electrical Machines and Systems (ICEMS). IEEE, 2019.</div>
-                <div class="re_patent2">[5] Li B. A Novel Signal Injection Based Maximum Torque Per Ampere Control of Permanent Magnet Synchronous Motor. Transactions on Industrial Electronics. Under Review.</div>
+                <!-- <div class="re_patent2">[5] Li B. A Novel Signal Injection Based Maximum Torque Per Ampere Control of Permanent Magnet Synchronous Motor. Transactions on Industrial Electronics. Under Review.</div> -->
 
                 <!-- 其它 -->
                 <div class="re_div"></div>
