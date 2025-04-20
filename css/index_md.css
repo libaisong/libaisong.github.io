@@ -1,0 +1,292 @@
+/* 原先文件里面p、H1、ul等标签要删掉，不然会和Markdown冲突 */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    color: #333;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
+    font-size: 18px;
+    line-height: 1.388888;
+}
+
+body{
+    margin: 0 auto;
+    width: 100%;
+    min-width: 200px;
+    max-width: 980px;
+    /* font-weight: 200; */
+    /* background-color: skyblue; */
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+
+
+.logo{
+    margin-top: 2em;
+    margin-left: 3em;
+    margin-bottom: 1.33em;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border: 50px solid transparent;
+    border-radius: 50%;
+    background-color:#999;
+    /* background: center center url(../images/logo.png) no-repeat;
+    background-size:  auto 80px; */
+}
+
+.logoimg{
+    height: 100px;
+    z-index: 1;
+    transform: translate(-50px,-50px);
+    border: 1px solid transparent;
+    border-radius: 50%;
+    background-color: #999;
+}
+
+.logoimg:hover{
+    height: 120px;
+    z-index: 1;
+    transform: translate(-60px,-60px);
+}
+
+.subtitle{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.sub_on{
+    display: inline-block;
+    margin: 0 20px;
+    /* float: left; */
+    /* width: 33.33%; */
+    text-align: center;
+    border-bottom: 3px solid orange;
+}
+
+.sub_off{
+    display: inline-block;
+    margin: 0 20px;
+    /* float: left; */
+    /* width: 33.33%; */
+    text-align: center;
+    /* border-bottom: 3px solid black; */
+}
+
+/* .recent{
+    margin-top: 10px;
+    height: 100px;
+    background-color: pink;
+}
+
+.project{
+    margin-top: 10px;
+    height: 100px;
+    background-color: skyblue;
+}
+
+.other{
+    margin-top: 10px;
+    height: 100px;
+    background-color: purple;
+} */
+
+.sub_item_list{
+    /* margin-bottom: 50px; */
+    padding-top: 0;
+    /* padding-bottom: 20px; */
+}
+
+.interval_u20px{
+    width: 100%;
+    height: 20px;
+    /* background-color: red; */
+}
+.interval_d20px{
+    width: 100%;
+    height: 20px;
+    /* background-color: green; */
+}
+
+.sub_item_list:hover{
+    cursor: pointer;
+}
+
+.sub_item{
+    /* margin-bottom: 50px; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.item_title{
+    margin-bottom: 5px;
+    font-size: 1.5em;
+}
+
+.item_title:nth-child(1){
+    margin-top: 10px;
+}
+
+.item_time{
+    margin: 0.5em 0 1em;
+    color: #888;
+    font-size: 0.7em;
+}
+
+.item_intro{
+    margin-top: 0em;
+}
+
+.item_detail{
+    margin-top: 0em;
+}
+
+/* .item_return{
+    margin-top: 0px;
+    text-align: right;
+}
+
+.item_return>a{
+    display: inline-block;
+    margin-left: 1em;
+    padding: 0 1em;
+    color: white;
+    height: 2em;
+    line-height: 2em;
+    background-color: orange;
+    border-radius: 5px;
+}
+
+.item_return>a:hover{
+    background-color: rgb(255, 193, 78);
+} */
+
+.item_img
+{
+    margin: 1em 0;
+    text-align: center;
+}
+
+.item_img>img{
+    /* align-content: center; */
+    width: 70%;
+    min-width: 200px;
+}
+.item_img>.img10p{
+    /* align-content: center; */
+    width: 10%;
+    min-width: 200px;
+}
+.item_img>.img20p{
+    /* align-content: center; */
+    width: 20%;
+    min-width: 200px;
+}
+.item_img>.img30p{
+    /* align-content: center; */
+    width: 30%;
+    min-width: 200px;
+}
+.item_img>.img40p{
+    /* align-content: center; */
+    width: 40%;
+    min-width: 200px;
+}
+.item_img>.img50p{
+    /* align-content: center; */
+    width: 50%;
+    min-width: 200px;
+}
+.item_img>.img60p{
+    /* align-content: center; */
+    width: 60%;
+    min-width: 200px;
+}
+.item_img>.img80p{
+    /* align-content: center; */
+    width: 80%;
+    min-width: 200px;
+}
+.item_img>.img90p{
+    /* align-content: center; */
+    width: 90%;
+    min-width: 200px;
+}
+.item_img>.img100p{
+    /* align-content: center; */
+    width: 100%;
+    min-width: 200px;
+}
+
+.wechat{
+    /* align-content: center; */
+    width: 50%;
+    min-width: 100px;
+    vertical-align:top;
+}
+
+.footer{
+    margin: 2em 0 5em;
+    text-align: center;
+    color: #888;
+    font-size: 0.7em;
+}
+
+
+
+.titlecount{
+    margin: 5em 0 2em!important;
+    text-align: center!important;
+    color: #888!important;
+    font-size: 0.5em!important;
+}
+
+.contact_box
+{
+    margin: 20px auto 0;
+    width: 100%;
+    max-width: 310px;
+    font-size: 0.8em;
+}
+.contact{
+    text-indent: 0;
+}
+.contact_item{
+    text-indent: 0;
+    display:inline-block;
+    width: 20%;
+    min-width: 6em;
+}
+
+.contact_content{
+    word-wrap:break-word;
+}
+
+.nav_bar{
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+}
+
+.nav_item{
+    display: none;
+    width: 2em;
+    /* height: 1.5em; */
+    margin: 5px 0;
+    /* display: inline-block; */
+    padding: 0.5em 0;
+    font-size: 1em;
+    text-align: center;
+    border: 1px solid #ddd;
+    color:orange;
+    background-color: white;
+}
+
+.nav_item:hover{
+    border: 1px solid white;
+    color:white;
+    background-color: orange;
+}
