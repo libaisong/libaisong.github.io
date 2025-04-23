@@ -94,8 +94,10 @@
       .then(markdownText => {
         // const converter = new showdown.Converter();
         // const html = converter.makeHtml(markdownText);
-        markdownContent.innerHTML = marked.parse(markdownText);
+        markdownContent.innerHTML = markdownText;
         MathJax.typesetPromise(); // 让 MathJax 重新渲染页面上的数学公式
+        markdownContent.innerHTML = marked.parse(markdownContent.innerHTML);
+        
         
         // 手动渲染 Mermaid 图表
         mermaid.run({
