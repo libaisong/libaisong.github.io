@@ -92,13 +92,20 @@ window.onload= function(){
 
     function tohome()
     {
-        if(window.location.href.indexOf('items')===-1)//判断是否在items文件夹中
+        if(window.location.href.indexOf('Markdown')===-1)//判断是否在Markdown文件夹中
         {
-            window.open("index.html","_self");
+            if(window.location.href.indexOf('items')===-1)//判断是否在items文件夹中
+            {
+                window.open("index.html","_self");
+            }
+            else
+            {
+                window.open("../index.html","_self");
+            }
         }
         else
         {
-            window.open("../index.html","_self");
+            window.open("../../index.html","_self");
         }
     }
 
