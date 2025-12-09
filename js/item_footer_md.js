@@ -1,5 +1,5 @@
 document.writeln("        <div class=\'footer\'>");
-document.writeln("            李柏松制作，2025");
+document.writeln("            李柏松制作，2025， Powered by Markdown");
 document.writeln("        </div>");
 document.writeln("");
 document.writeln("        <div class=\'nav_bar\'>");
