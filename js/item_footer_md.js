@@ -1,0 +1,28 @@
+document.writeln("        <div class=\'footer\'>");
+document.writeln("            李柏松制作，2025， Powered by Markdown");
+document.writeln("        </div>");
+document.writeln("");
+document.writeln("        <div class=\'nav_bar\'>");
+document.writeln("            <div id=\'nav_menu\'>");
+document.writeln("                <div class=\'nav_item icon-home\'></div>");
+document.writeln("                <div class=\'nav_item icon-forward\'></div>");
+document.writeln("                <div class=\'nav_item icon-back\'></div>");
+document.writeln("                <div class=\'nav_item icon-menu\'></div> ");
+document.writeln("            </div>");
+document.writeln("            <div class=\'nav_item icon-top\'></div> ");
+document.writeln("        </div>");
+// 添加百度自动推送代码
+document.writeln("<script>");
+document.writeln("(function(){");
+document.writeln("    var bp = document.createElement(\'script\');");
+document.writeln("    var curProtocol = window.location.protocol.split(\':\')[0];");
+document.writeln("    if (curProtocol === \'https\'){");
+document.writeln("   bp.src = \'https://zz.bdstatic.com/linksubmit/push.js\';");
+document.writeln("  }");
+document.writeln("  else{");
+document.writeln("  bp.src = \'http://push.zhanzhang.baidu.com/push.js\';");
+document.writeln("  }");
+document.writeln("    var s = document.getElementsByTagName(\'script\')[0];");
+document.writeln("    s.parentNode.insertBefore(bp, s);");
+document.writeln("})();");
+document.writeln("</script>");
