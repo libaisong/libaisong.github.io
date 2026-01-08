@@ -70,6 +70,9 @@
 
     const markdownUrl = '驱动器SIL仿真.md';
     const markdownContentDiv = document.getElementById('markdownContent');
+    markdownContent.innerHTML = "如果看到了本段文字，请耐心等待或刷新页面重试，谢谢~";
+
+  document.addEventListener("DOMContentLoaded", function () {
 
         // 初始化 Mermaid（可选配置）
         mermaid.initialize({ 
@@ -102,8 +105,7 @@
             suppressErrors: true
         });
       });
-
-
+    });
   </script>
 
   <!-- 版权以及导航栏显示 -->

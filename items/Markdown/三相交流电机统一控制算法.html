@@ -18,7 +18,8 @@
   </script>
 
   <script src="js/marked/marked.min.js"></script>
-  <script src="js/mathjax/3.2.0/es5/tex-mml-chtml.js"></script>
+  <script src="js/mathjax/3.2.0/es5/tex-mml-chtml.js" async></script>
+  <!-- <script id="mathjax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script> -->
   <script src="js/mermaid/dist/mermaid.min.js"></script>
   <script src="../../js/item_header_md.js?v=20210423"></script>
   <link rel="stylesheet" href="css/github-markdown-css/5.1.0/github-markdown-light.min.css">
@@ -70,6 +71,9 @@
 
     const markdownUrl = '三相交流电机统一控制算法.md';
     const markdownContentDiv = document.getElementById('markdownContent');
+    markdownContent.innerHTML = "如果看到了本段文字，请耐心等待或刷新页面重试，谢谢~";
+
+  document.addEventListener("DOMContentLoaded", function () {
 
         // 初始化 Mermaid（可选配置）
         mermaid.initialize({ 
@@ -102,8 +106,7 @@
             suppressErrors: true
         });
       });
-
-
+    });
   </script>
 
   <!-- 版权以及导航栏显示 -->
