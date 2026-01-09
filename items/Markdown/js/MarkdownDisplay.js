@@ -1,24 +1,27 @@
 function MardownDisplay(markdownContent, MarkdownFileName) {
   const markdownUrl = MarkdownFileName;
-  const markdownContentDiv = document.getElementById('markdownContent');
   markdownContent.innerHTML = "如果看到了本段文字，请耐心等待或刷新页面重试，谢谢~";
-
-  // 自定义 Marked 渲染器
-  const renderer = {
-    code: function (code) {
-      if (code.lang == 'mermaid') return `<pre class="mermaid">${code.text}</pre>`;
-      return `<pre>${code.text}</pre>`;
-    }
-  }
-  marked.use({ renderer });
 
   fetch(markdownUrl)
     .then(response => response.text())
     .then(markdownText => {
-      // const converter = new showdown.Converter();
-      // const html = converter.makeHtml(markdownText);
-      markdownContent.innerHTML = markdownText;
-      markdownContent.innerHTML = marked.parse(markdownContent.innerHTML);
+
+      try {
+        // 自定义 Marked 渲染器
+        const renderer = {
+          code: function (code) {
+            if (code.lang == 'mermaid') return `<pre class="mermaid">${code.text}</pre>`;
+            return `<pre>${code.text}</pre>`;
+          }
+        }
+        marked.use({ renderer });
+
+        markdownContent.innerHTML = markdownText;
+        markdownContent.innerHTML = marked.parse(markdownContent.innerHTML);
+      }
+      catch (error) {
+        markdownContent.innerHTML = "<br>文档显示出错，请刷新页面重试，谢谢~";
+      }
       tmp = markdownContent.innerHTML;
 
       try {
@@ -28,6 +31,7 @@ function MardownDisplay(markdownContent, MarkdownFileName) {
       }
       catch (error) {
         markdownContent.innerHTML = tmp + "<br>公式渲染出错，请刷新页面重试，谢谢~";
+        tmp = markdownContent.innerHTML;
       }
 
       try {
@@ -44,6 +48,7 @@ function MardownDisplay(markdownContent, MarkdownFileName) {
       }
       catch (error) {
         markdownContent.innerHTML = tmp + "<br>图表渲染出错，请刷新页面重试，谢谢~";
+        tmp = markdownContent.innerHTML;
       }
 
     })
