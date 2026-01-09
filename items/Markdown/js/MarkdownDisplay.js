@@ -1,6 +1,6 @@
 function MardownDisplay(markdownContent, MarkdownFileName) {
   const markdownUrl = MarkdownFileName;
-  markdownContent.innerHTML = "如果看到了本段文字，请耐心等待或刷新页面重试，谢谢~";
+  markdownContent.innerHTML = "加载中，请耐心等待或刷新页面重试，谢谢~";
 
   fetch(markdownUrl)
     .then(response => response.text())
