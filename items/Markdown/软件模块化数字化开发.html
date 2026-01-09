@@ -13,7 +13,11 @@
     MathJax = {
       tex: {
         inlineMath: [['$', '$'], ['\\(', '\\)']]
-      }
+      },
+      loader: {
+        load: ['input/tex', 'output/chtml'], // 按需加载核心模块
+        delayStartupUntil: 'configured'     // 延迟启动至配置完成
+      },
     };
   </script>
 
