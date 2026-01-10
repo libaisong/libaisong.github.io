@@ -36,12 +36,14 @@ function MardownDisplay(markdownContent, MarkdownFileName) {
       };
 
       // 加载mathjax渲染公式
-      loadScript("js/mathjax/3.2.0/es5/tex-mml-chtml.js")
+      // loadScript("js/mathjax/3.2.0/es5/tex-mml-chtml.js")
+      loadScript('https://cdn.staticfile.org/mathjax/3.2.0/es5/tex-mml-chtml.js')
         .then(() => {
           MathjaxRun(markdownContent, markdownText);
 
           // 加载mermaid渲染图表
-          loadScript("js/mermaid/dist/mermaid.min.js")
+          // loadScript("js/mermaid/dist/mermaid.min.js")
+          loadScript('https://cdn.staticfile.org/mermaid/10.7.0/mermaid.min.js')
             .then(() => {
               MermaidRun();
             })
