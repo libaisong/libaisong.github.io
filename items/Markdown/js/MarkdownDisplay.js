@@ -67,11 +67,13 @@ function MardownDisplay(markdownContent, MarkdownFileName, RawHtmlUrl) {
                   MermaidRun();
                 })
                 .catch(error => {
-                  markdownContent.innerHTML = tmp;
+                  // markdownContent.innerHTML = tmp;
+                  ReadRawHtml(markdownContent, RawHtmlUrl);
                 });
             })
             .catch(error => {
-              markdownContent.innerHTML = tmp;
+              // markdownContent.innerHTML = tmp;
+              ReadRawHtml(markdownContent, RawHtmlUrl);
             });
 
         })
