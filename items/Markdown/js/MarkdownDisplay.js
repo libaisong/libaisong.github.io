@@ -10,9 +10,9 @@ function MardownDisplay(markdownContent, MarkdownFileName) {
       tmp = markdownContent.innerHTML;
       
       // loadScript("js/marked/marked.min.js")
-      // loadScript('https://cdn.staticfile.net/marked/11.1.1/marked.min.js')
-      // loadScript('https://cdn.staticfile.net/marked/8.0.1/marked.min.js')
-      loadScript('https://cdn.staticfile.net/marked/5.0.0/marked.min.js')
+      loadScript('https://cdn.staticfile.net/marked/11.1.1/marked.min.js')
+      loadScript('https://cdn.staticfile.net/marked/8.0.1/marked.min.js')
+      // loadScript('https://cdn.staticfile.net/marked/5.0.0/marked.min.js')
         .then(() => {
           try {
             // 自定义 Marked 渲染器
