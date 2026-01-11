@@ -1,4 +1,4 @@
-function MardownDisplay(markdownContent, MarkdownFileName) {
+function MardownDisplay(markdownContent, MarkdownFileName, RawHtmlUrl) {
   const markdownUrl = MarkdownFileName;
   markdownContent.innerHTML = "加载中，请耐心等待或刷新页面重试，谢谢~";
 
@@ -75,12 +75,14 @@ function MardownDisplay(markdownContent, MarkdownFileName) {
 
         })
         .catch(error => {
-          markdownContent.innerHTML = tmp +  "<br>文档渲染脚本加载异常，请刷新页面重试，谢谢~";
+          // markdownContent.innerHTML = tmp +  "<br>文档渲染脚本加载异常，请刷新页面重试，谢谢~";
+          ReadRawHtml(markdownContent, RawHtmlUrl);
         });
 
     })
     .catch(error => {
-      markdownContent.innerHTML = "加载文件时出错，请刷新页面重试，谢谢~";
+      // markdownContent.innerHTML = "加载文件时出错，请刷新页面重试，谢谢~";
+      ReadRawHtml(markdownContent, RawHtmlUrl);
     })
 }
 
@@ -127,4 +129,15 @@ function MermaidRun() {
     tmp = markdownContent.innerHTML;
     // console.log("Mermaid渲染失败")
   }
+}
+
+function ReadRawHtml(markdownContent, RawHtmlUrl) {
+  fetch(RawHtmlUrl)
+    .then(response => response.text())
+    .then(RawHtml => {
+      markdownContent.innerHTML = RawHtml;
+    })
+    .catch(error => {
+      markdownContent.innerHTML = "加载文件时出错，请刷新页面重试，谢谢~";
+    })
 }
