@@ -11,11 +11,12 @@ function MardownDisplay(markdownContent, MarkdownFileName) {
       
       // loadScript("js/marked/marked.min.js")
       // loadScript('https://cdn.staticfile.net/marked/11.1.1/marked.min.js')
-      loadScript('https://cdn.staticfile.net/marked/8.0.1/marked.min.js')
+      // loadScript('https://cdn.staticfile.net/marked/8.0.1/marked.min.js')
+      loadScript('https://cdn.staticfile.net/marked/5.0.0/marked.min.js')
         .then(() => {
           try {
             // 自定义 Marked 渲染器
-            // v11.1.1版和v8.0.1版用这个
+            // v11.1.1版, v8.0.1版和v5.0.0版用这个, v5.0.0版以下表格显示异常
             const renderer = {
               code: function (code, type) {
                 if (type === 'mermaid') return `<pre class="mermaid">${code}</pre>`;
