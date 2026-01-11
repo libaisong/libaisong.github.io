@@ -40,36 +40,36 @@ function MardownDisplay(markdownContent, MarkdownFileName) {
           }
           tmp = markdownContent.innerHTML;
 
-          // // 用于显示行内公式
-          // MathJax = {
-          //   tex: {
-          //     inlineMath: [['$', '$'], ['\\(', '\\)']]
-          //   },
-          //   loader: {
-          //     load: ['input/tex', 'output/chtml'], // 按需加载核心模块
-          //     delayStartupUntil: 'configured'     // 延迟启动至配置完成
-          //   },
-          // };
+          // 用于显示行内公式
+          MathJax = {
+            tex: {
+              inlineMath: [['$', '$'], ['\\(', '\\)']]
+            },
+            loader: {
+              load: ['input/tex', 'output/chtml'], // 按需加载核心模块
+              delayStartupUntil: 'configured'     // 延迟启动至配置完成
+            },
+          };
 
-          // // 加载mathjax渲染公式
-          // // loadScript("js/mathjax/3.2.0/es5/tex-mml-chtml.js")
-          // loadScript('https://cdn.staticfile.org/mathjax/3.2.0/es5/tex-mml-chtml.js')
-          //   .then(() => {
-          //     MathjaxRun(markdownContent, markdownText);
+          // 加载mathjax渲染公式
+          // loadScript("js/mathjax/3.2.0/es5/tex-mml-chtml.js")
+          loadScript('https://cdn.staticfile.org/mathjax/3.2.0/es5/tex-mml-chtml.js')
+            .then(() => {
+              MathjaxRun(markdownContent, markdownText);
 
-          //     // 加载mermaid渲染图表
-          //     // loadScript("js/mermaid/dist/mermaid.min.js")
-          //     loadScript('https://cdn.staticfile.org/mermaid/10.7.0/mermaid.min.js')
-          //       .then(() => {
-          //         MermaidRun();
-          //       })
-          //       .catch(error => {
-          //         markdownContent.innerHTML = tmp;
-          //       });
-          //   })
-          //   .catch(error => {
-          //     markdownContent.innerHTML = tmp;
-          //   });
+              // 加载mermaid渲染图表
+              // loadScript("js/mermaid/dist/mermaid.min.js")
+              loadScript('https://cdn.staticfile.org/mermaid/10.7.0/mermaid.min.js')
+                .then(() => {
+                  MermaidRun();
+                })
+                .catch(error => {
+                  markdownContent.innerHTML = tmp;
+                });
+            })
+            .catch(error => {
+              markdownContent.innerHTML = tmp;
+            });
 
         })
         .catch(error => {
