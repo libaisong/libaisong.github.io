@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width initial-scale=1">
+
+  <script src="../../js/item_header_md.js?v=20210423"></script>
+  <link rel="stylesheet" href="css/github-markdown-css/5.1.0/github-markdown-light.min.css">
+  <style>
+    .markdown-body {
+      box-sizing: border-box;
+      min-width: 200px;
+      max-width: 980px;
+      margin: 0 auto;
+      /* padding: 45px; */
+      /* 上下的padding调小，显得紧凑一些 */
+      padding: 15px 45px 15px 45px;
+    }
+
+    @media (max-width: 767px) {
+      .markdown-body {
+        padding: 15px;
+      }
+    }
+
+    .mermaid {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+  </style>
+  <title>直线电机控制</title>
+</head>
+
+<body>
+
+  <!-- 头像显示 -->
+  <div>
+    <a href="../../../index.html">
+        <div class="logo">
+            <img class="logoimg" src="../../../images/logo.png" alt="">
+        </div>
+    </a>
+  </div>
+
+  <article class="markdown-body">
+    <div id="markdownContent"></div>
+  </article>
+
+
+  <script src="js/MarkdownDisplay.js"></script>
+  <script>
+    MardownDisplay(markdownContent, '直线电机控制.md', '直线电机控制.html')
+  </script>
+
+  <!-- 版权以及导航栏显示 -->
+  <script src="../../js/item_footer_md.js"></script>
+</body>
+
+</html>
+
+<!-- 先这样设置 -->
+<!-- python -m http.server 8000 -->
+
+<!-- 然后在这个地址下面打开 -->
+<!-- http://localhost:8000/ -->
