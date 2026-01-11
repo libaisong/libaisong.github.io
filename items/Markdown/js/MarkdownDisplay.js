@@ -7,7 +7,8 @@ function MardownDisplay(markdownContent, MarkdownFileName) {
     .then(markdownText => {
 
       markdownContent.innerHTML = markdownText;
-
+      tmp = markdownContent.innerHTML;
+      
       // loadScript("js/marked/marked.min.js")
       loadScript('https://cdn.staticfile.net/marked/11.1.1/marked.min.js')
         .then(() => {
@@ -20,7 +21,7 @@ function MardownDisplay(markdownContent, MarkdownFileName) {
                 return `<pre>${code.text}</pre>`;
               }
             }
-            
+
             // v15.0.8版用这个, 对应"js/marked/marked.min.js"
             // const renderer = {
             //   code: function (code) {
@@ -72,7 +73,7 @@ function MardownDisplay(markdownContent, MarkdownFileName) {
 
         })
         .catch(error => {
-          markdownContent.innerHTML = "<br>文档渲染脚本加载异常，请刷新页面重试，谢谢~";
+          markdownContent.innerHTML = tmp +  "<br>文档渲染脚本加载异常，请刷新页面重试，谢谢~";
         });
 
     })
