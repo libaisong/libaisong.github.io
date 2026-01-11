@@ -10,11 +10,12 @@ function MardownDisplay(markdownContent, MarkdownFileName) {
       tmp = markdownContent.innerHTML;
       
       // loadScript("js/marked/marked.min.js")
-      loadScript('https://cdn.staticfile.net/marked/11.1.1/marked.min.js')
+      // loadScript('https://cdn.staticfile.net/marked/11.1.1/marked.min.js')
+      loadScript('https://cdn.staticfile.net/marked/8.0.1/marked.min.js')
         .then(() => {
           try {
             // 自定义 Marked 渲染器
-            // v11.1.1版用这个
+            // v11.1.1版和v8.0.1版用这个
             const renderer = {
               code: function (code, type) {
                 if (type === 'mermaid') return `<pre class="mermaid">${code}</pre>`;
