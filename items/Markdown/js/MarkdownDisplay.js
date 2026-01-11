@@ -14,8 +14,8 @@ function MardownDisplay(markdownContent, MarkdownFileName) {
           try {
             // 自定义 Marked 渲染器
             const renderer = {
-              code: function (code) {
-                if (code.lang == 'mermaid') return `<pre class="mermaid">${code.text}</pre>`;
+              code: function (code, type) {
+                if (type === 'mermaid') return `<pre class="mermaid">${code}</pre>`;
                 return `<pre>${code.text}</pre>`;
               }
             }
