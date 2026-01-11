@@ -21,11 +21,11 @@ function MardownDisplay(markdownContent, MarkdownFileName) {
             }
             marked.use({ renderer });
             markdownContent.innerHTML = marked.parse(markdownContent.innerHTML);
-            console.log("mark1")
+            // console.log("Marked.js渲染成功")
           }
           catch (error) {
             markdownContent.innerHTML = "<br>文档显示出错，请刷新页面重试，谢谢~";
-            console.log("mark2")
+            // console.log("Marked.js渲染失败")
           }
           tmp = markdownContent.innerHTML;
 
@@ -86,12 +86,12 @@ function MathjaxRun(markdownContent, markdownText) {
     markdownContent.innerHTML = markdownText;
     MathJax.typesetPromise(); // 让 MathJax 重新渲染页面上的数学公式
     markdownContent.innerHTML = marked.parse(markdownContent.innerHTML);
-    console.log("rrr1")
+    // console.log("MathJax渲染成功")
   }
   catch (error) {
     markdownContent.innerHTML = tmp + "<br>公式渲染出错，请刷新页面重试，谢谢~";
     tmp = markdownContent.innerHTML;
-    console.log("rrr2")
+    // console.log("MathJax渲染失败")
   }
 }
 
@@ -107,11 +107,11 @@ function MermaidRun() {
       querySelector: '.mermaid',
       suppressErrors: true
     });
-    console.log("m1")
+    // console.log("Mermaid渲染成功")
   }
   catch (error) {
     markdownContent.innerHTML = tmp + "<br>图表渲染出错，请刷新页面重试，谢谢~";
     tmp = markdownContent.innerHTML;
-    console.log("m2")
+    // console.log("Mermaid渲染失败")
   }
 }
