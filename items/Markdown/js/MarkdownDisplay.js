@@ -37,7 +37,8 @@ function MardownDisplay(markdownContent, MarkdownFileName, RawHtmlUrl) {
             // console.log("Marked.js渲染成功")
           }
           catch (error) {
-            markdownContent.innerHTML = "<br>文档显示出错，请刷新页面重试，谢谢~";
+            // markdownContent.innerHTML = "<br>文档显示出错，请刷新页面重试，谢谢~";
+            ReadRawHtml(markdownContent, RawHtmlUrl);
             // console.log("Marked.js渲染失败")
           }
           tmp = markdownContent.innerHTML;
@@ -104,7 +105,8 @@ function MathjaxRun(markdownContent, markdownText) {
     // console.log("MathJax渲染成功")
   }
   catch (error) {
-    markdownContent.innerHTML = tmp + "<br>公式渲染出错，请刷新页面重试，谢谢~";
+    // markdownContent.innerHTML = tmp + "<br>公式渲染出错，请刷新页面重试，谢谢~";
+    ReadRawHtml(markdownContent, RawHtmlUrl);
     tmp = markdownContent.innerHTML;
     // console.log("MathJax渲染失败")
   }
@@ -125,7 +127,8 @@ function MermaidRun() {
     // console.log("Mermaid渲染成功")
   }
   catch (error) {
-    markdownContent.innerHTML = tmp + "<br>图表渲染出错，请刷新页面重试，谢谢~";
+    // markdownContent.innerHTML = tmp + "<br>图表渲染出错，请刷新页面重试，谢谢~";
+    ReadRawHtml(markdownContent, RawHtmlUrl);
     tmp = markdownContent.innerHTML;
     // console.log("Mermaid渲染失败")
   }
