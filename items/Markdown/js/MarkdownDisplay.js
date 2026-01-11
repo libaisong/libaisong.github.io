@@ -13,12 +13,22 @@ function MardownDisplay(markdownContent, MarkdownFileName) {
         .then(() => {
           try {
             // 自定义 Marked 渲染器
+            // v11.1.1版用这个
             const renderer = {
               code: function (code, type) {
                 if (type === 'mermaid') return `<pre class="mermaid">${code}</pre>`;
                 return `<pre>${code.text}</pre>`;
               }
             }
+            
+            // v15.0.8版用这个, 对应"js/marked/marked.min.js"
+            // const renderer = {
+            //   code: function (code) {
+            //     if (code.lang == 'mermaid') return `<pre class="mermaid">${code.text}</pre>`;
+            //     return `<pre>${code.text}</pre>`;
+            //   }
+            // }
+
             marked.use({ renderer });
             markdownContent.innerHTML = marked.parse(markdownContent.innerHTML);
             // console.log("Marked.js渲染成功")
