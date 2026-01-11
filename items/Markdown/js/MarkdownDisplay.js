@@ -136,13 +136,18 @@ function MermaidRun() {
   }
 }
 
-function ReadRawHtml(markdownContent, RawHtmlUrl) {
-  fetch(RawHtmlUrl)
-    .then(response => response.text())
-    .then(RawHtml => {
-      markdownContent.innerHTML = RawHtml;
-    })
-    .catch(error => {
-      markdownContent.innerHTML = "加载文件时出错，请刷新页面重试，谢谢~";
-    })
+function ReadRawHtml(markdownContent, RawHtmlUrl = "") {
+  if (RawHtmlUrl == "") {
+    markdownContent.innerHTML = "加载文件时出错，请刷新页面重试，谢谢~";
+  }
+  else {
+    fetch(RawHtmlUrl)
+      .then(response => response.text())
+      .then(RawHtml => {
+        markdownContent.innerHTML = RawHtml;
+      })
+      .catch(error => {
+        markdownContent.innerHTML = "加载文件时出错，请刷新页面重试，谢谢~";
+      })
+  }
 }
