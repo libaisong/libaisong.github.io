@@ -12,7 +12,7 @@
       box-sizing: border-box;
       min-width: 200px;
       max-width: 980px;
-      margin: 0 auto;
+      margin: 0 0;
       /* padding: 45px; */
       /* 上下的padding调小，显得紧凑一些 */
       padding: 15px 45px 15px 45px;
@@ -49,9 +49,16 @@
     <div id="markdownContent"></div>
   </article>
 
-  <script src="js/MarkdownDisplay.js"></script>
   <script>
-    MardownDisplay(markdownContent, '软件自动化测试.md', '软件自动化测试.html')
+      fetch('软件自动化测试.html')
+          .then(response => response.text())
+          .then(markdownText => {
+            console.log("markdownText")
+            markdownContent.innerHTML = markdownText;
+          })
+          .catch(error => {
+            markdownContent.innerHTML = "加载文件时出错，请刷新页面重试，谢谢~";
+          })
   </script>
 
   <!-- 版权以及导航栏显示 -->
