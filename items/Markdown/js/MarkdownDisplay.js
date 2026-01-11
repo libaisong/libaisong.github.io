@@ -35,7 +35,7 @@ function MardownDisplay(markdownContent, MarkdownFileName) {
             // console.log("Marked.js渲染成功")
           }
           catch (error) {
-            markdownContent.innerHTML = tmp + "<br>文档渲染失败，请刷新页面重试，谢谢~";
+            markdownContent.innerHTML = "<br>文档显示出错，请刷新页面重试，谢谢~";
             // console.log("Marked.js渲染失败")
           }
           tmp = markdownContent.innerHTML;
@@ -73,7 +73,7 @@ function MardownDisplay(markdownContent, MarkdownFileName) {
 
         })
         .catch(error => {
-          markdownContent.innerHTML = tmp +  "<br>文档未能正常显示，请刷新页面重试，谢谢~";
+          markdownContent.innerHTML = tmp +  "<br>文档渲染脚本加载异常，请刷新页面重试，谢谢~";
         });
 
     })
@@ -94,10 +94,9 @@ function loadScript(url) {
 
 function MathjaxRun(markdownContent, markdownText) {
   try {
-    markdownContent.innerHTML = markdownText + "<br>文档渲染成功";
+    markdownContent.innerHTML = markdownText;
     MathJax.typesetPromise(); // 让 MathJax 重新渲染页面上的数学公式
     markdownContent.innerHTML = marked.parse(markdownContent.innerHTML);
-    markdownContent.innerHTML = markdownContent.innerHTML + "<br>公式渲染成功";
     // console.log("MathJax渲染成功")
   }
   catch (error) {
