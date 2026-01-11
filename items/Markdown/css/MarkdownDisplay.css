@@ -1,0 +1,34 @@
+    .markdown-body {
+        box-sizing: border-box;
+        min-width: 200px;
+        max-width: 980px;
+        margin: 0 auto;
+        /* padding: 45px; */
+        /* 上下的padding调小，显得紧凑一些 */
+        padding: 15px 45px 15px 45px;
+    }
+
+    @media (max-width: 767px) {
+        .markdown-body {
+            padding: 15px;
+        }
+    }
+
+    .mermaid {
+        background-color: #f9f9f9;
+        padding: 20px;
+        margin: 10px 0;
+        border-radius: 5px;
+    }
+
+    .page-switch {
+        margin-bottom: 5px;
+        padding: 15px 45px 15px 45px;
+        font-size: 0.8em;
+        text-align: right;
+        color: #888888;
+    }
+
+    .page-switch-a {
+        text-decoration-line: none;
+    }
