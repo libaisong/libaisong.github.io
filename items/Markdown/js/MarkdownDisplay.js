@@ -137,7 +137,7 @@ function MermaidRun() {
 }
 
 function ReadRawHtml(markdownContent, RawHtmlUrl = "") {
-  if (RawHtmlUrl == "") {
+  if (RawHtmlUrl === "") {
     markdownContent.innerHTML = "加载文件时出错，请刷新页面重试，谢谢~";
   }
   else {
