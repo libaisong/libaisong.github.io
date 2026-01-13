@@ -10,9 +10,9 @@ function MardownDisplay(markdownContent, MarkdownFileName, RawHtmlUrl) {
       tmp = markdownContent.innerHTML;
       
       // loadScript("js/marked/marked.min.js")
-      loadScript('https://cdn.staticfile.net/marked/11.1.1/marked.min.js')
-      // loadScript('https://cdn.staticfile.net/marked/8.0.1/marked.min.js')
-      // loadScript('https://cdn.staticfile.net/marked/5.0.0/marked.min.js')
+      loadScript('https://cdn.jsdmirror.com/npm/marked@11.1.1/marked.min.js')
+      // loadScript('https://cdn.jsdmirror.com/npm/marked@8.0.1/marked.min.js')
+      // loadScript('https://cdn.jsdmirror.com/npm/marked@5.0.0/marked.min.js')
         .then(() => {
           try {
             // 自定义 Marked 渲染器
@@ -56,13 +56,13 @@ function MardownDisplay(markdownContent, MarkdownFileName, RawHtmlUrl) {
 
           // 加载mathjax渲染公式
           // loadScript("js/mathjax/3.2.0/es5/tex-mml-chtml.js")
-          loadScript('https://cdn.staticfile.org/mathjax/3.2.0/es5/tex-mml-chtml.js')
+          loadScript('https://cdn.jsdmirror.com/npm/mathjax@3.2.0/es5/tex-mml-chtml.js')
             .then(() => {
               MathjaxRun(markdownContent, markdownText);
 
               // 加载mermaid渲染图表
               // loadScript("js/mermaid/dist/mermaid.min.js")
-              loadScript('https://cdn.staticfile.org/mermaid/10.7.0/mermaid.min.js')
+              loadScript('https://cdn.jsdmirror.com/npm/mermaid@10.7.0/dist/mermaid.min.js')
                 .then(() => {
                   MermaidRun();
                 })
