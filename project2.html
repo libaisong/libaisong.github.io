@@ -45,209 +45,82 @@
         </div>  
         <div class="interval_d20px"></div>  
 
-    <!-- 开环力矩控制 -->
     <script>
         MarkdownAddItem('开环力矩控制',
-            '创建于2026-1-25<br>该项目完成于2025，原创',
+            '<!-- 创建于2026-1-25<br> -->该项目完成于2025，原创',
             '力矩控制是一种常用的控制模式，如果电机与负载不是直接连接，而是通过减速器进行连接，为了保证力矩精度，一种方案是在输出端安装力矩传感器，然后实现力矩闭环控制，但这样会增加系统成本，没有力矩传感器的情况下如何实现高精度的开环力矩控制，是一个值得研究的方向...'
         )
+
+        MarkdownAddItem('摩擦力补偿',
+            '<!-- 创建于2026-1-25<br> -->该项目完成于2025，原创',
+            '理想情况下，当空轴的电机输出一定转矩时，转子就会旋转起来。但实际情况是，如果转矩比较小，转子会一动不动，只有转矩达到一定程度时，转子才会转动。造成这种现象的“罪魁祸首”，就是摩擦力。如果能够知道摩擦力的大小，并对其进行补偿，就可以做到只要有转矩输出，转子就可以动起来的效果...'
+        )
+
+        MarkdownAddItem('使用PC控制EtherCAT设备',
+            '<!-- 创建于2026-1-25<br> -->该项目完成于2025，原创',
+            'EtherCAT（Ethernet for Control Automation Technology）总线是工控领域常用的总线技术，传输速度快、拓扑灵活、实时性好，在工业机器人、精密制造等诸多行业中有着广泛应用。近年来，人形机器人行业发展迅猛，EtherCAT凭借其优异性能成为人形机器人通讯方案中的首选...'
+        )
+
+        MarkdownAddItem('嵌入式软件运行环境模拟方法',
+            '<!-- 创建于2026-1-25<br> -->该项目完成于2022，原创',
+            '嵌入式软件运行在嵌入式设备的主控芯片中，如MCU、MPU等，如果要在PC上进行软件在环（Software In the Loop, SIL）仿真，需要模拟一个嵌入式软件的运行环境，以保证仿真结果和实际运行的结果一致。嵌入式软件运行环境模拟的重点在于如何在PC中产生主控芯片的各个中断...'
+        )
+
+        MarkdownAddItem('窄脉冲抑制',
+            '<!-- 创建于2026-1-25<br> -->该项目完成于2023，原创',
+            '脉宽调制（Pulse width modulation， PWM）技术是工控领域中的一种常用技术，PWM信号可以作为驱动信号用于控制功率开关器件的通断。如果PWM信号中包含窄脉冲，可能会出现开关器件未完全开通就立刻关断，或者还未完全关断又再次开通的情况...'
+        )
+
+        MarkdownAddItem('一种通用SVPWM过调制方法',
+            '<!-- 创建于2026-1-25<br> -->该项目完成于2024-08，原创',
+            '空间矢量调制（Space Vector Pulse Width Modulation, SVPWM）是三相桥式电路控制中的常用技术。当输出电压较小时，三相桥式电路工作在线性区，此时输出电压与期望电压保持一致；当输出电压增大到一定程度后，三相桥式电路就进入过调制区，...'
+        )
+
+        MarkdownAddItem('一种三相电机有功功率计算方法',
+            '<!-- 创建于2026-1-6<br> -->该项目完成于2023-08，原创',
+            '在对三相电机进行控制时，常需要计算电机的有功功率，比如三相异步电机VF控制中需要根据电机有功功率来抑制振动。电机有功功率可以根据三相电机的三相电压和三相电流计算得到，考虑到计算得到的电机有功功率中通常包含噪声...'
+        )
+
+        MarkdownAddItem('高精度PWM信号采样方法',
+            '<!-- 创建于2026-1-6<br> -->该项目完成于2023-08，原创',
+            '脉宽调制（PWM，Pulse Width Modulation）是工控领域常用技术，某些应用场景下，需要获取精确的PWM信号，以对输出电压进行分析，比如示波器、硬件在环（HIL， Hardware In the Loop）设备等...'
+        )
+
+        MarkdownAddItem('软件自动化测试',
+            '<!-- 创建于2026-1-1<br> -->该项目完成于2024-07，原创',
+            '软件测试是一项繁琐的工作，人工测试耗时长、效率低而且容易出错，如果能够实现自动化测试，就可以提高测试效率，从而提高软件质量...'
+        )
+
+        MarkdownAddItem('三相交流电机统一控制算法',
+            '<!-- 创建于2026-1-1<br> -->该项目完成于2024-07，原创',
+            '三相交流电机的应用非常广泛，家庭、工厂、交通等场景均存在大量的三相交流电机。三相交流电机有多种类型，如感应电机、永磁同步电机、同步磁阻电机等，不同电机的数学模型有所差异，因此其控制算法也有不同...'
+        )
+
+        MarkdownAddItem('驱动器SIL仿真',
+            '<!-- 创建于2026-1-1<br> -->该项目完成于2024-07，原创',
+            '驱动器开发过程中，能否脱离硬件，直接进行软件功能或算法的开发？答案肯定是可行的。将嵌入式软件工程硬件相关接口进行模拟，建立用于仿真的硬件抽象层，就可以实现驱动器软件的仿真...'
+        )
+
+        MarkdownAddItem('低成本HIL方案开发',
+            '<!-- 创建于2026-1-1<br> -->该项目完成于2022-07，原创',
+            'HIL设备通常价格昂贵，一台通常需要数十万人民币，因此很难做到每个工程师配备一台，如果能够开发低成本的HIL方案，实现工程师人手一台，可以大大提高工作效率。...'
+        )
+
+        MarkdownAddItem('直线电机控制',
+            '<!-- 创建于2026-1-1<br> -->该项目完成于2025-04，原创',
+            '在一些需要直线运动的场合，相对于旋转电机加丝杠的方案，使用直线电机可以获得更好地控制性能。龙门、磁悬浮、电磁弹射等都属于直线电机的应用领域。直线电机的原理与旋转电机一样，...'
+        )
+
+        MarkdownAddItem('软件模块化数字化开发',
+            '<!-- 创建于2025-12-9<br> -->该项目完成于2024-03，原创',
+            '简要介绍软件模块化、数字化开发要点，概括一下就是模块化开发、数字化验证。采用了V开发模型，汽车行业运用最广的软件开发模型。其实很多公司的软件开发流程都是类似的形式。...'
+        )
+
+        MarkdownAddItem('驱动器过载曲线',
+            '<!-- 创建于2025-12-9<br> -->该项目完成于2024-12，原创',
+            '驱动器如果长时间工作在额定范围外，可能会因为过热而损坏，因此检测到过载后，应及时停机。通常使用过载曲线对驱动器过载能力进行描述，如驱动器输出150%额定电流时，可以工作60s...'
+        )
     </script>
-
-        <!-- 摩擦力补偿 -->
-        <div class="interval_u20px"></div>
-        <div class="sub_item_list" onclick="window.open('items/Markdown/摩擦力补偿3.html','_self')">
-            <a href="items/Markdown/摩擦力补偿3.html"><h1 class="item_title">摩擦力补偿</h1></a>
-            <div class="item_time">
-                <!-- 创建于2026-1-25<br> -->
-                该项目完成于2025，原创
-            </div>
-            <div class="item_intro">
-                <p>理想情况下，当空轴的电机输出一定转矩时，转子就会旋转起来。但实际情况是，如果转矩比较小，转子会一动不动，只有转矩达到一定程度时，转子才会转动。造成这种现象的“罪魁祸首”，就是摩擦力。如果能够知道摩擦力的大小，并对其进行补偿，就可以做到只要有转矩输出，转子就可以动起来的效果...</p>
-            </div>
-        </div>  
-        <div class="interval_d20px"></div>  
-
-        <!-- 使用PC控制EtherCAT设备 -->
-        <div class="interval_u20px"></div>
-        <div class="sub_item_list" onclick="window.open('items/Markdown/使用PC控制EtherCAT设备3.html','_self')">
-            <a href="items/Markdown/使用PC控制EtherCAT设备3.html"><h1 class="item_title">使用PC控制EtherCAT设备</h1></a>
-            <div class="item_time">
-                <!-- 创建于2026-1-25<br> -->
-                该项目完成于2025，原创
-            </div>
-            <div class="item_intro">
-                <p>EtherCAT（Ethernet for Control Automation Technology）总线是工控领域常用的总线技术，传输速度快、拓扑灵活、实时性好，在工业机器人、精密制造等诸多行业中有着广泛应用。近年来，人形机器人行业发展迅猛，EtherCAT凭借其优异性能成为人形机器人通讯方案中的首选...</p>
-            </div>
-        </div>  
-        <div class="interval_d20px"></div>  
-
-        <!-- 嵌入式软件运行环境模拟方法 -->
-        <div class="interval_u20px"></div>
-        <div class="sub_item_list" onclick="window.open('items/Markdown/嵌入式软件运行环境模拟方法3.html','_self')">
-            <a href="items/Markdown/嵌入式软件运行环境模拟方法3.html"><h1 class="item_title">嵌入式软件运行环境模拟方法</h1></a>
-            <div class="item_time">
-                <!-- 创建于2026-1-25<br> -->
-                该项目完成于2022，原创
-            </div>
-            <div class="item_intro">
-                <p>嵌入式软件运行在嵌入式设备的主控芯片中，如MCU、MPU等，如果要在PC上进行软件在环（Software In the Loop, SIL）仿真，需要模拟一个嵌入式软件的运行环境，以保证仿真结果和实际运行的结果一致。嵌入式软件运行环境模拟的重点在于如何在PC中产生主控芯片的各个中断...</p>
-            </div>
-        </div>  
-        <div class="interval_d20px"></div>  
-
-        <!-- 窄脉冲抑制 -->
-        <div class="interval_u20px"></div>
-        <div class="sub_item_list" onclick="window.open('items/Markdown/窄脉冲抑制3.html','_self')">
-            <a href="items/Markdown/窄脉冲抑制3.html"><h1 class="item_title">窄脉冲抑制</h1></a>
-            <div class="item_time">
-                <!-- 创建于2026-1-25<br> -->
-                该项目完成于2023，原创
-            </div>
-            <div class="item_intro">
-                <p>脉宽调制（Pulse width modulation， PWM）技术是工控领域中的一种常用技术，PWM信号可以作为驱动信号用于控制功率开关器件的通断。如果PWM信号中包含窄脉冲，可能会出现开关器件未完全开通就立刻关断，或者还未完全关断又再次开通的情况...</p>
-            </div>
-        </div>  
-        <div class="interval_d20px"></div>  
-
-        <!-- 一种通用SVPWM过调制方法 -->
-        <div class="interval_u20px"></div>
-        <div class="sub_item_list" onclick="window.open('items/Markdown/一种通用SVPWM过调制方法3.html','_self')">
-            <a href="items/Markdown/一种通用SVPWM过调制方法3.html"><h1 class="item_title">一种通用SVPWM过调制方法</h1></a>
-            <div class="item_time">
-                <!-- 创建于2026-1-25<br> -->
-                该项目完成于2024-08，原创
-            </div>
-            <div class="item_intro">
-                <p>空间矢量调制（Space Vector Pulse Width Modulation, SVPWM）是三相桥式电路控制中的常用技术。当输出电压较小时，三相桥式电路工作在线性区，此时输出电压与期望电压保持一致；当输出电压增大到一定程度后，三相桥式电路就进入过调制区，...</p>
-            </div>
-        </div>  
-        <div class="interval_d20px"></div>  
-
-        <!-- 一种三相电机有功功率计算方法 -->
-        <div class="interval_u20px"></div>
-        <div class="sub_item_list" onclick="window.open('items/Markdown/一种三相电机有功功率计算方法3.html','_self')">
-            <a href="items/Markdown/一种三相电机有功功率计算方法3.html"><h1 class="item_title">一种三相电机有功功率计算方法</h1></a>
-            <div class="item_time">
-                <!-- 创建于2026-1-6<br> -->
-                该项目完成于2023-08，原创
-            </div>
-            <div class="item_intro">
-                <p>在对三相电机进行控制时，常需要计算电机的有功功率，比如三相异步电机VF控制中需要根据电机有功功率来抑制振动。电机有功功率可以根据三相电机的三相电压和三相电流计算得到，考虑到计算得到的电机有功功率中通常包含噪声...</p>
-            </div>
-        </div>  
-        <div class="interval_d20px"></div>  
-
-        <!-- 高精度PWM信号采样方法 -->
-        <div class="interval_u20px"></div>
-        <div class="sub_item_list" onclick="window.open('items/Markdown/高精度PWM信号采样方法3.html','_self')">
-            <a href="items/Markdown/高精度PWM信号采样方法3.html"><h1 class="item_title">高精度PWM信号采样方法</h1></a>
-            <div class="item_time">
-                <!-- 创建于2026-1-6<br> -->
-                该项目完成于2023-08，原创
-            </div>
-            <div class="item_intro">
-                <p>脉宽调制（PWM，Pulse Width Modulation）是工控领域常用技术，某些应用场景下，需要获取精确的PWM信号，以对输出电压进行分析，比如示波器、硬件在环（HIL， Hardware In the Loop）设备等...</p>
-            </div>
-        </div>  
-        <div class="interval_d20px"></div>  
-
-        <!-- 软件自动化测试 -->
-        <div class="interval_u20px"></div>
-        <div class="sub_item_list" onclick="window.open('items/Markdown/软件自动化测试3.html','_self')">
-            <a href="items/Markdown/软件自动化测试3.html"><h1 class="item_title">软件自动化测试</h1></a>
-            <div class="item_time">
-                <!-- 创建于2026-1-1<br> -->
-                该项目完成于2024-07，原创
-            </div>
-            <div class="item_intro">
-                <p>软件测试是一项繁琐的工作，人工测试耗时长、效率低而且容易出错，如果能够实现自动化测试，就可以提高测试效率，从而提高软件质量...</p>
-            </div>
-        </div>  
-        <div class="interval_d20px"></div>  
-
-        <!-- 三相交流电机统一控制算法 -->
-        <div class="interval_u20px"></div>
-        <div class="sub_item_list" onclick="window.open('items/Markdown/三相交流电机统一控制算法3.html','_self')">
-            <a href="items/Markdown/三相交流电机统一控制算法3.html"><h1 class="item_title">三相交流电机统一控制算法</h1></a>
-            <div class="item_time">
-                <!-- 创建于2026-1-1<br> -->
-                该项目完成于2024-07，原创
-            </div>
-            <div class="item_intro">
-                <p>三相交流电机的应用非常广泛，家庭、工厂、交通等场景均存在大量的三相交流电机。三相交流电机有多种类型，如感应电机、永磁同步电机、同步磁阻电机等，不同电机的数学模型有所差异，因此其控制算法也有不同...</p>
-            </div>
-        </div>  
-        <div class="interval_d20px"></div>  
-
-        <!-- 驱动器SIL仿真 -->
-        <div class="interval_u20px"></div>
-        <div class="sub_item_list" onclick="window.open('items/Markdown/驱动器SIL仿真3.html','_self')">
-            <a href="items/Markdown/驱动器SIL仿真3.html"><h1 class="item_title">驱动器SIL仿真</h1></a>
-            <div class="item_time">
-                <!-- 创建于2026-1-1<br> -->
-                该项目完成于2024-07，原创
-            </div>
-            <div class="item_intro">
-                <p>驱动器开发过程中，能否脱离硬件，直接进行软件功能或算法的开发？答案肯定是可行的。将嵌入式软件工程硬件相关接口进行模拟，建立用于仿真的硬件抽象层，就可以实现驱动器软件的仿真...</p>
-            </div>
-        </div>  
-        <div class="interval_d20px"></div>  
-
-        <!-- 低成本HIL方案开发 -->
-        <div class="interval_u20px"></div>
-        <div class="sub_item_list" onclick="window.open('items/Markdown/低成本HIL方案开发3.html','_self')">
-            <a href="items/Markdown/低成本HIL方案开发3.html"><h1 class="item_title">低成本HIL方案开发</h1></a>
-            <div class="item_time">
-                <!-- 创建于2026-1-1<br> -->
-                该项目完成于2022-07，原创
-            </div>
-            <div class="item_intro">
-                <p>HIL设备通常价格昂贵，一台通常需要数十万人民币，因此很难做到每个工程师配备一台，如果能够开发低成本的HIL方案，实现工程师人手一台，可以大大提高工作效率。...</p>
-            </div>
-        </div>  
-        <div class="interval_d20px"></div>  
-
-        <!-- 直线电机控制 -->
-        <div class="interval_u20px"></div>
-        <div class="sub_item_list" onclick="window.open('items/Markdown/直线电机控制3.html','_self')">
-            <a href="items/Markdown/直线电机控制3.html"><h1 class="item_title">直线电机控制</h1></a>
-            <div class="item_time">
-                <!-- 创建于2026-1-1<br> -->
-                该项目完成于2025-04，原创
-            </div>
-            <div class="item_intro">
-                <p>在一些需要直线运动的场合，相对于旋转电机加丝杠的方案，使用直线电机可以获得更好地控制性能。龙门、磁悬浮、电磁弹射等都属于直线电机的应用领域。直线电机的原理与旋转电机一样，...</p>
-            </div>
-        </div>  
-        <div class="interval_d20px"></div>  
-
-        <!-- 软件模块化数字化开发 -->
-        <div class="interval_u20px"></div>
-        <div class="sub_item_list" onclick="window.open('items/Markdown/软件模块化数字化开发3.html','_self')">
-            <a href="items/Markdown/软件模块化数字化开发3.html"><h1 class="item_title">软件模块化数字化开发</h1></a>
-            <div class="item_time">
-                <!-- 创建于2025-12-9<br> -->
-                该项目完成于2024-03，原创
-            </div>
-            <div class="item_intro">
-                <p>简要介绍软件模块化、数字化开发要点，概括一下就是模块化开发、数字化验证。采用了V开发模型，汽车行业运用最广的软件开发模型。其实很多公司的软件开发流程都是类似的形式。...</p>
-            </div>
-        </div>  
-        <div class="interval_d20px"></div>  
-
-        <!-- 驱动器过载曲线 -->
-        <div class="interval_u20px"></div>
-        <div class="sub_item_list" onclick="window.open('items/Markdown/驱动器过载曲线3.html','_self')">
-            <a href="items/Markdown/驱动器过载曲线3.html"><h1 class="item_title">驱动器过载曲线</h1></a>
-            <div class="item_time">
-                <!-- 创建于2025-12-9<br> -->
-                该项目完成于2024-12，原创
-            </div>
-            <div class="item_intro">
-                <p>驱动器如果长时间工作在额定范围外，可能会因为过热而损坏，因此检测到过载后，应及时停机。通常使用过载曲线对驱动器过载能力进行描述，如驱动器输出150%额定电流时，可以工作60s...</p>
-            </div>
-        </div>  
-        <div class="interval_d20px"></div>  
 
         <!-- 一种三相逆变器驱动单相电机方法 -->
         <div class="interval_u20px"></div>
