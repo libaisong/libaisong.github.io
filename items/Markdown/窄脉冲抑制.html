@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html data-darkreader-mode="dynamic" data-darkreader-scheme="dark"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head><body for="html-export">
+    
+    
+      <div class="crossnote markdown-preview  ">
+      
+<h1 id="窄脉冲抑制">窄脉冲抑制 </h1>
+<p>脉宽调制（Pulse width modulation， PWM）技术是工控领域中的一种常用技术，PWM信号可以作为驱动信号用于控制功率开关器件的通断。如果PWM信号中包含窄脉冲，可能会出现开关器件未完全开通就立刻关断，或者还未完全关断又再次开通的情况，这种情况会造成功率开关器件的损耗增大，严重时甚至会影响功率开关器件的使用寿命，因此有必要消除PWM信号中的窄脉冲。</p>
+<h2 id="1-窄脉冲定义">1. 窄脉冲定义 </h2>
+<p>可以根据器件特性确定窄脉冲时间，即为<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>T</mi><mrow><mi>m</mi><mi>i</mi><mi>n</mi></mrow></msub></mrow><annotation encoding="application/x-tex">T_{min}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.13889em;">T</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3117em;"><span style="top:-2.55em;margin-left:-0.1389em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">min</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>，一种简单也较为常用的方法是将死区时间定为窄脉冲时间。如果器件连续导通时间或者关断时间小于窄脉冲时间，就认为该脉冲为窄脉冲。下面依次为正常PWM信号、导通时间过短的窄脉冲和关断时间过短的窄脉冲示意图。</p>
+<p><img src="窄脉冲抑制-正常PWM信号.svg" alt="正常PWM信号"></p>
+<p><img src="窄脉冲抑制-导通时间过短.svg" alt="导通时间过短"></p>
+<p><img src="窄脉冲抑制-关断时间过短.svg" alt="关断时间过短"></p>
+<h2 id="2-窄脉冲抑制">2. 窄脉冲抑制 </h2>
+<p>当出现窄脉冲时，需要调整PWM信号以消除窄脉冲。对于导通时间过短的窄脉冲，可以将导通时间设置为窄脉冲时间<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>T</mi><mrow><mi>m</mi><mi>i</mi><mi>n</mi></mrow></msub></mrow><annotation encoding="application/x-tex">T_{min}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.13889em;">T</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3117em;"><span style="top:-2.55em;margin-left:-0.1389em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">min</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>，或者将导通时间设置为零（也就是器件不导通），以消除该窄脉冲，如下图所示。</p>
+<p><img src="窄脉冲抑制-调整1.svg" alt="导通时间过短的抑制"></p>
+<p>对于关断时间过短的窄脉冲，可以将关断时间设置为窄脉冲时间<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>T</mi><mrow><mi>m</mi><mi>i</mi><mi>n</mi></mrow></msub></mrow><annotation encoding="application/x-tex">T_{min}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.13889em;">T</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3117em;"><span style="top:-2.55em;margin-left:-0.1389em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">min</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>，或者将关断时间设置为零（也就是器件不关断），就可以消除该窄脉冲，如下图所示。</p>
+<p><img src="窄脉冲抑制-调整2.svg" alt="关断时间过短的抑制"></p>
+<p>考虑到经过窄脉冲抑制处理后，PWM信号发生了变化，输出电压与期望电压不再一致，可能会导致控制性能下降，为了解决这个问题，可以对输出电压进行一定的补偿，这里不再展开介绍。</p>
+
+      </div>
+      
+  </body></html>
