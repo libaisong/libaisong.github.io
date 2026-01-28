@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width initial-scale=1">
+
+  <script src="../../js/item_header_md.js?v=20210423"></script>
+  <link rel="stylesheet" href="css/github-markdown-css/5.1.0/github-markdown-light.min.css">
+  <link rel="stylesheet" href="css/MarkdownDisplay.css">
+
+  <title>上位机软件开发</title>
+</head>
+
+<body>
+
+  <!-- 头像显示 -->
+  <div>
+    <a href="../../../index.html">
+        <div class="logo">
+            <img class="logoimg" src="../../../images/logo.png" alt="">
+        </div>
+    </a>
+  </div>
+
+  <article class="markdown-body">
+    <div id="markdownContent"></div>
+  </article>
+
+  <script>
+      fetch('上位机软件开发.html')
+          .then(response => response.text())
+          .then(markdownText => {
+            console.log("markdownText")
+            markdownContent.innerHTML = markdownText;
+          })
+          .catch(error => {
+            markdownContent.innerHTML = "加载文件时出错，请刷新页面重试，谢谢~";
+          })
+  </script>
+
+  <div class="page-switch">
+    <a href="上位机软件开发2.html" class="page-switch-a">
+        查看动态渲染版
+    </a>
+  </div>
+
+  <!-- 版权以及导航栏显示 -->
+  <script src="../../js/item_footer_md.js"></script>
+</body>
+
+</html>
+
+<!-- 先这样设置 -->
+<!-- python -m http.server 8000 -->
+
+<!-- 然后在这个地址下面打开 -->
+<!-- http://localhost:8000/ -->
